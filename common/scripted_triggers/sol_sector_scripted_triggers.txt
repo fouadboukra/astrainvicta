@@ -1,0 +1,83 @@
+ss_spawns_in_sol = {
+	OR = {
+		has_civic = civic_spawns_in_sol
+		has_country_flag = cf_ss_spawns_in_sol
+	}
+}
+
+ss_spawns_in_alpha_centauri = {
+	OR = {
+		has_civic = civic_spawns_in_alpha_centauri
+		has_country_flag = cf_ss_spawns_in_alpha_centauri
+	}
+}
+
+ss_spawns_in_luytens_star = {
+	OR = {
+		has_civic = civic_spawns_in_luytens_star
+		has_country_flag = cf_ss_spawns_in_luytens_star
+	}
+}
+
+ss_spawns_in_eta_cassiopeiae = {
+	OR = {
+		has_civic = civic_spawns_in_eta_cassiopeiae
+		has_country_flag = cf_ss_spawns_in_eta_cassiopeiae
+	}
+}
+
+ss_spawns_in_tau_ceti = {
+	OR = {
+		has_civic = civic_spawns_in_tau_ceti
+		has_country_flag = cf_ss_spawns_in_tau_ceti
+	}
+}
+
+ss_spawns_in_beta_comae_berenices = {
+	OR = {
+		has_civic = civic_spawns_in_beta_comae_berenices
+		has_country_flag = cf_ss_spawns_in_beta_comae_berenices
+	}
+}
+
+ss_spawns_in_gliese_667 = {
+	OR = {
+		has_civic = civic_spawns_in_gliese_667
+		has_country_flag = cf_ss_spawns_in_gliese_667
+	}
+}
+
+# ss_spawns_in_82_g_eridani = {
+# 	OR = {
+# 		has_civic = civic_spawns_in_82_g_eridani
+# 		has_country_flag = cf_ss_spawns_in_82_g_eridani
+# 	}
+# }
+
+# ss_spawns_in_delta_pavonis = {
+# 	OR = {
+# 		has_civic = civic_spawns_in_delta_pavonis
+# 		has_country_flag = cf_ss_spawns_in_delta_pavonis
+# 	}
+# }
+
+# ss_spawns_in_teegardens_star = {
+# 	OR = {
+# 		has_civic = civic_spawns_in_teegardens_star
+# 		has_country_flag = cf_ss_spawns_in_teegarden_star
+# 	}
+# }
+
+# ss_spawns_in_wolf_1061 = {
+# 	OR = {
+# 		has_civic = civic_spawns_in_teegardens_star
+# 		has_country_flag = cf_ss_spawns_in_teegarden_star
+# 	}
+# }
+
+# ss_spawns_in_ross_128 = {
+# 	OR = {
+# 		has_civic = civic_spawns_in_ross_128
+# 		has_country_flag = cf_ss_spawns_in_ross_128
+# 	}
+# }

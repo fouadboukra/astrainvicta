@@ -1,0 +1,924 @@
+### Meridian Directorate
+### Name List for Stellaris
+### Based on the Directorate lore document
+### Constituent nations: China (anchor), Iran, Turkey, North Africa, Pakistan, Indonesia,
+### unified Korea, Vietnam, East African Cooperative, Egypt, Nigeria, Bangladesh,
+### Russia/Central Asia (margins), and others.
+### Three shared languages: Mandarin, Arabic, English
+
+MERDIR = {
+	category = "Humanoid"
+	randomized = no
+
+	ship_names = {
+
+		### CORVETTES: Small/medium cities from constituent nations, Moon, Mars, and Caldera
+		### The most numerous class — named after the places the colonists remember
+		corvette = {
+			# Chinese small/medium cities
+			"Suzhou" "Hangzhou" "Kunming" "Xiamen" "Guilin" "Nanning" "Wuxi" "Jinan" "Dalian" "Qingdao"
+			"Fuzhou" "Nanchang" "Guiyang" "Lanzhou" "Yinchuan" "Hohhot" "Luoyang" "Kaifeng" "Shaoxing"
+			"Zhuhai" "Foshan" "Dongguan" "Changzhou" "Wenzhou" "Quanzhou" "Zunyi" "Liuzhou" "Haikou"
+			"Tai'an" "Huangshan" "Baoding" "Tangshan" "Anshan" "Dandong" "Yichang" "Zibo" "Weifang"
+			"Putian" "Mianyang" "Jingdezhen" "Dunhuang" "Turpan" "Kashgar" "Lhasa" "Dali" "Lijiang"
+			# Arabic / North African small/medium cities
+			"Tangier" "Fez" "Marrakech" "Oran" "Constantine" "Sfax" "Sousse" "Aswan" "Luxor" "Port Said"
+			"Sidon" "Tyre" "Byblos" "Annaba" "Tlemcen" "Oujda" "Agadir" "Meknes" "Monastir"
+			"El Oued" "Bechar" "Ghardaia" "Derna" "Tobruk" "Misurata" "Ismailia" "Mansoura" "Tanta"
+			# Turkish small/medium cities
+			"Bursa" "Antalya" "Konya" "Trabzon" "Eskişehir" "Kayseri" "Samsun" "Denizli" "Mersin"
+			"Malatya" "Erzurum" "Van" "Edirne" "Çanakkale" "Sinop" "Amasya" "Mardin" "Şanlıurfa"
+			# Iranian small/medium cities
+			"Tabriz" "Shiraz" "Yazd" "Kerman" "Hamadan" "Qom" "Rasht" "Arak" "Ahvaz"
+			"Kashan" "Birjand" "Gorgan" "Bandar Abbas" "Bushehr" "Sari" "Semnan" "Sanandaj"
+			# Korean small/medium cities
+			"Gwangju" "Daejeon" "Suwon" "Changwon" "Jeonju" "Cheongju" "Chuncheon" "Andong"
+			"Gyeongju" "Jinju" "Mokpo" "Gimhae" "Gangneung" "Sokcho" "Tongyeong" "Pohang"
+			# Russian / Central Asian small/medium cities
+			"Kazan" "Samara" "Omsk" "Chelyabinsk" "Ufa" "Perm" "Krasnoyarsk" "Irkutsk"
+			"Samarkand" "Bukhara" "Khiva" "Almaty" "Bishkek" "Dushanbe" "Merv"
+			"Khabarovsk" "Vladivostok" "Tomsk" "Tyumen" "Orenburg" "Barnaul" "Baku"
+			# West/East African small/medium cities
+			"Mombasa" "Arusha" "Zanzibar" "Timbuktu" "Kano" "Ibadan" "Kumasi" "Tamale"
+			"Lamu" "Malindi" "Kisumu" "Nakuru" "Enugu" "Calabar" "Jos" "Kaduna" "Zaria" "Sokoto"
+			# Southeast Asian small/medium cities
+			"Da Nang" "Hue" "Haiphong" "Surabaya" "Bandung" "Yogyakarta" "Semarang"
+			"Hoi An" "Nha Trang" "Can Tho" "Malang" "Makassar" "Manado" "Balikpapan" "Medan"
+			# Pakistani / Bangladeshi small/medium cities
+			"Multan" "Peshawar" "Quetta" "Sialkot" "Gujranwala" "Hyderabad" "Bahawalpur"
+			"Sylhet" "Khulna" "Rajshahi" "Comilla" "Rangpur" "Mymensingh"
+			# Moon settlements (fictional, from Vanguard-era bases)
+			"Tiangong" "Yutu" "Chang'e" "Guanghan" "Taiyin" "Qamar" "Hilal"
+			# Mars settlements (Chinese-led Elysium Planitia base)
+			"Elysium Base" "Huoxing" "Zhurong" "Tianwen" "Hongsha"
+			# Calderan settlements
+			"Hanul" "Safi Settlement" "Okafor Station" "Tier-7" "Deepwall" "Thermalvent"
+			"Icereach" "Stonefall" "Windcut" "Rimtown" "Lowgate" "Dustmouth"
+		}
+
+		### DESTROYERS: Large cities from constituent nations
+		### The great metropolitan centers of the coalition
+		destroyer = {
+			# Chinese large cities
+			"Shanghai" "Guangzhou" "Shenzhen" "Chengdu" "Wuhan" "Chongqing" "Tianjin" "Xi'an"
+			"Nanjing" "Changsha" "Harbin" "Shenyang" "Zhengzhou" "Hefei" "Qingdao" "Dalian"
+			"Urumqi" "Kunming" "Hangzhou" "Fuzhou" "Xiamen" "Dongguan" "Foshan" "Suzhou"
+			# Arabic / North African large cities
+			"Cairo" "Alexandria" "Algiers" "Casablanca" "Tunis" "Tripoli" "Khartoum" "Rabat"
+			"Jeddah" "Riyadh" "Baghdad" "Damascus" "Amman" "Beirut" "Aleppo" "Mosul"
+			"Benghazi" "Fez" "Marrakech" "Oran" "Basra" "Sana'a" "Muscat" "Doha"
+			# Turkish large cities
+			"Istanbul" "Ankara" "Izmir" "Antalya" "Bursa" "Adana" "Gaziantep" "Konya"
+			"Trabzon" "Diyarbakır" "Kayseri" "Mersin" "Eskişehir" "Samsun"
+			# Iranian large cities
+			"Tehran" "Isfahan" "Mashhad" "Tabriz" "Shiraz" "Ahvaz" "Qom" "Kerman" "Rasht"
+			# Korean large cities
+			"Seoul" "Busan" "Incheon" "Daegu" "Daejeon" "Gwangju" "Ulsan" "Suwon"
+			# Russian / Central Asian large cities
+			"Moscow" "Novosibirsk" "Yekaterinburg" "Tashkent" "Astana" "Baku"
+			"Volgograd" "St. Petersburg" "Tbilisi" "Almaty" "Minsk" "Kazan"
+			# West/East African large cities
+			"Lagos" "Nairobi" "Dar es Salaam" "Addis Ababa" "Kampala" "Accra" "Abuja"
+			"Kinshasa" "Luanda" "Mombasa" "Kano" "Ibadan" "Douala" "Yaoundé"
+			# Southeast Asian large cities
+			"Hanoi" "Ho Chi Minh" "Jakarta" "Surabaya" "Bandung" "Phnom Penh"
+			"Yangon" "Mandalay" "Kuala Lumpur" "Manila" "Cebu"
+			# Pakistani / Bangladeshi large cities
+			"Karachi" "Lahore" "Islamabad" "Rawalpindi" "Faisalabad" "Peshawar"
+			"Dhaka" "Chittagong" "Khulna" "Sylhet"
+			# Fictional future cities (constituent nations, 2025-2198)
+			"Jinghai" "Xiongan" "Nuakchott al-Jadida" "Yeni Şehir" "Novograd"
+			"Hallyu" "Sejong" "Nusantara" "Qamar City" "Zhurong" "Vostochny"
+		}
+
+		### CRUISERS: Capital cities from constituent nations + Caldera capitals
+		### The seats of power, old and new
+		cruiser = {
+			# Earth capitals of constituent nations
+			"Beijing" "Ankara" "Tehran" "Cairo" "Islamabad" "Jakarta" "Pyongyang" "Hanoi"
+			"Abuja" "Nairobi" "Dhaka" "Moscow" "Tashkent" "Astana" "Baku" "Tbilisi"
+			"Algiers" "Tunis" "Tripoli" "Rabat" "Khartoum" "Addis Ababa" "Kampala"
+			"Baghdad" "Damascus" "Riyadh" "Muscat" "Doha" "Phnom Penh" "Kuala Lumpur"
+			"Bishkek" "Dushanbe" "Ashgabat" "Minsk"
+			# Unified Korea capital
+			"Kaesong" "Pyongyang-Seoul"
+			# Moon and Mars capitals
+			"Guanghan" "Tiangong" "Elysium" "Zhurong City"
+			# Caldera capitals and major settlements
+			"Meridian City" "Kunlun" "Al-Hajar" "Kilimanjaro Deep" "Medina Gorge"
+			"Tariq" "Sinai Settlement" "Samarkand" "Darya Station"
+			# Named after the twelve surviving ships
+			"Meridian" "Kunlun" "Kilimanjaro" "Medina" "Tariq" "Sinai"
+			"Samarkand" "Hallyu" "Nusantara" "Tigris" "Mekong" "Uhuru"
+		}
+
+		### BATTLESHIPS: Regions from Earth, Moon, Mars, and Caldera
+		### In the languages of the constituent nations
+		battleship = {
+			# Chinese regions/historical territories
+			"Zhongyuan" "Jiangnan" "Lingnan" "Bashu" "Guanzhong" "Dongbei" "Zhili"
+			"Hexi" "Xiyu" "Tianshan" "Shenzhou" "Zhonghua" "Tianxia" "Huaxia"
+			# Arabic/North African regions
+			"Maghreb" "Mashriq" "Sham" "Misr" "Nubia" "Hejaz" "Najd" "Jazira"
+			"Ifriqiya" "Bilad al-Rafidayn" "Khorasan" "Cyrenaica" "Fezzan"
+			# Turkish/Central Asian regions
+			"Anatolia" "Rumelia" "Turkestan" "Transoxiana" "Mawarannahr" "Cappadocia"
+			"Thrace" "Pontus"
+			# Iranian regions
+			"Khorasan" "Fars" "Azerbaijan" "Khuzestan" "Mazandaran" "Gilan"
+			# Korean regions
+			"Joseon" "Goryeo" "Baekje" "Silla" "Goguryeo" "Gaya"
+			# Russian / Central Asian regions
+			"Siberia" "Ural" "Kamchatka" "Sakhalin" "Altai" "Baikal" "Stepnoy" "Taiga"
+			"Fergana" "Kyzylkum" "Karakum"
+			# African regions
+			"Sahel" "Savanna" "Serengeti" "Kilimanjaro" "Rift Valley" "Zanzibar"
+			"Kalahari" "Nile Delta" "Horn"
+			# Southeast Asian regions
+			"Mekong" "Irrawaddy" "Nusantara" "Champa" "Indochina" "Sunda" "Moluccas"
+			# Mars regions (from the Vanguard-era Chinese program)
+			"Elysium Planitia" "Utopia Planitia" "Tharsis" "Amazonis" "Arcadia"
+			"Hellas" "Chryse" "Isidis" "Cimmeria" "Noachis" "Meridiani"
+			# Moon regions
+			"Mare Imbrium" "Mare Tranquillitatis" "Mare Serenitatis" "Oceanus Procellarum"
+			"Mare Nectaris" "Sinus Medii"
+			# Caldera regions (canyon systems and geological zones)
+			"Deepcanyon" "Thermal Basin" "Northern Rift" "Southern Caldera"
+			"Obsidian Shelf" "Basalt Reach" "Geothermal Belt" "The Shallows"
+			"Iron Canyon" "Eastern Rift" "Amber Steppe" "Rimwall"
+		}
+
+		### TITANS: National heroes — founders, historical figures, 20th-22nd century heroes
+		### The greatest names from every constituent civilization
+		titan = {
+			# Directorate founders
+			"Zhang Wenying" "Liu Wei" "Hamid Safi" "Chen Huiling" "Adaeze Okafor" "Yoon Jae-won"
+			# Chinese heroes
+			"Zheng He" "Sun Yat-sen" "Qin Shi Huang" "Wu Zetian"
+			# Islamic/Arab heroes
+			"Saladin" "Tariq ibn Ziyad" "Ibn Battuta" "Khalid ibn al-Walid"
+			# Turkish heroes
+			"Atatürk" "Süleyman" "Alp Arslan"
+			# Iranian heroes
+			"Cyrus" "Darius" "Rostam" "Ferdowsi"
+			# Korean heroes
+			"Yi Sun-sin" "Sejong" "Gwon Yul"
+			# African heroes
+			"Sundiata" "Mansa Musa" "Shaka Zulu" "Nkrumah"
+			# Russian / Central Asian heroes
+			"Timur" "Babur" "Gagarin" "Suvorov"
+			# Southeast Asian heroes
+			"Trưng Sisters" "Lê Lợi" "Gajah Mada"
+			# Pakistani/South Asian heroes
+			"Jinnah" "Iqbal" "Abdus Salam"
+		}
+
+		### COLOSSUS: National heroes — the very greatest
+		colossus = {
+			"Zhang Wenying" "Zheng He" "Saladin" "Cyrus" "Atatürk" "Mansa Musa"
+		}
+
+		### JUGGERNAUT: National heroes — civilizational founders
+		juggernaut = {
+			"Qin Shi Huang" "Timur" "Süleyman" "Sundiata" "Darius"
+		}
+
+		### CONSTRUCTORS: Geological formations from Earth, Moon, Mars, and Caldera
+		### The builders name themselves after the bones of worlds
+		constructor = {
+			# Earth geological formations (constituent nations)
+			"Kunlun Shan" "Tien Shan" "Pamir" "Zagros" "Karakoram" "Hindu Kush" "Altai"
+			"Atlas Range" "Drakensberg" "Rif" "Elbrus" "Caucasus" "Ural"
+			"Great Rift" "Deccan Traps" "Taklamakan" "Gobi" "Dasht-e Kavir"
+			# Moon geological formations
+			"Aitken Basin" "Tycho" "Copernicus" "Aristarchus" "Clavius" "Tsiolkovsky"
+			"Imbrium" "Serenitatis" "Tranquillitatis"
+			# Mars geological formations
+			"Olympus Mons" "Valles Marineris" "Hellas Basin" "Tharsis Bulge"
+			"Noctis Labyrinthus" "Pavonis Mons" "Arsia Mons" "Ascraeus Mons"
+			"Jezero" "Gale" "Gusev" "Isidis Planitia"
+			# Caldera geological formations
+			"The Caldera" "Northern Rift" "Deepwall Formation" "Obsidian Shelf"
+			"Thermal Vents" "Al-Hajar Belt" "Basalt Strata" "Iron Ridge" "Scar Anomaly"
+		}
+
+		### COLONIZERS: Words for "home" and "shelter" in coalition languages
+		### Not paradise — just home. Survival IS the aspiration.
+		colonizer = {
+			"Watan" "Jiā" "Gohyang" "Vatan" "Yurt" "Ev" "Rumah" "Nhà"
+			"Dar al-Salam" "Zhōngxīn" "Beit" "Dom" "Heim"
+			"Hearth" "Refuge" "Shelter" "Haven" "Sanctuary"
+			"Aman" "Salama" "Ping'an" "Huzur" "Pyeonghwa"
+			"Kibou" "Nozomi" "Ümit" "Omid" "Tumaini" "Harapan"
+		}
+
+		### SPONSORED COLONIZERS: Bureau-designated functional names
+		sponsored_colonizer = {
+			"Bureau Provision I" "Bureau Provision II" "Bureau Provision III"
+			"Settlement Asset Alpha" "Settlement Asset Beta" "Settlement Asset Gamma"
+			"Colonial Allocation 1" "Colonial Allocation 2" "Colonial Allocation 3"
+			"Bureau of Industry" "Bureau of Agriculture" "Bureau of Population"
+			"Compass Directive" "Charter Mandate" "Vanguard Legacy"
+		}
+
+		### SCIENCE SHIPS: Islamic Golden Age astronomical names + Chinese astronomical names
+		### The stars as named by the civilizations that first catalogued them
+		science = {
+			# Arabic-origin star names (Islamic Golden Age tradition)
+			"Altair" "Aldebaran" "Algol" "Betelgeuse" "Deneb" "Fomalhaut" "Rigel"
+			"Achernar" "Thuban" "Zubenelgenubi" "Zubeneschamali" "Markab" "Schedar"
+			"Mintaka" "Alnitak" "Alnilam" "Mizar" "Alcor" "Vega" "Rasalhague"
+			"Albireo" "Suhail" "Hamal" "Mirfak" "Wezen" "Adhara" "Shaula" "Lesath"
+			"Denebola" "Algenib" "Alpheratz" "Scheat" "Enif" "Nashira" "Dabih"
+			"Sadalmelik" "Sadalsuud" "Alrescha" "Furud" "Keid" "Yed Prior" "Yed Posterior"
+			"Unukalhai" "Ras Elased" "Acrab" "Dschubba" "Graffias" "Alnair" "Ankaa"
+			"Azha" "Baten Kaitos" "Caph" "Diphda" "Elnath" "Menkib" "Mothallah"
+			"Naos" "Phact" "Rana" "Sabik" "Tarf" "Wasat" "Zaurak" "Ain"
+			# Chinese astronomical names
+			"Tiānlàng" "Běijí" "Tiānquán" "Tiānshū" "Tiānxuán" "Tiānjī" "Yùhéng"
+			"Kāiyáng" "Yáoguāng" "Zhīnǚ" "Niúláng" "Wěixiù" "Bìxiù" "Jǐxiù"
+			# Arabic astronomical/navigational terms
+			"Nadir" "Zenith" "Azimuth" "Qibla" "Samt" "Suhayl" "Kaukab"
+			# Calderan-specific
+			"Vesper's Eye" "Scarpoint" "Amber Light" "Canyon Star"
+		}
+
+		### TRANSPORTS: Mountains and ridges from constituent nations, Moon, Mars, Caldera
+		### The great peaks of every civilization in the coalition
+		transport = {
+			# Chinese mountains
+			"Kunlun" "Taishan" "Huashan" "Emeishan" "Songshan" "Hengshan" "Wutaishan"
+			# Arab/North African mountains
+			"Jebel Toubkal" "Jebel Akhdar" "Jebel Musa" "Jebel Sahro"
+			# Turkish mountains
+			"Ararat" "Erciyes" "Suphan" "Kaçkar" "Uludağ"
+			# Iranian mountains
+			"Damavand" "Sabalan" "Sahand" "Alvand" "Dena"
+			# Korean mountains
+			"Hallasan" "Seoraksan" "Jirisan" "Bukhansan" "Geumgangsan"
+			# Russian / Central Asian mountains
+			"Elbrus" "Belukha" "Khan Tengri" "Ismoil Somoni" "Communism Peak"
+			# African mountains
+			"Kilimanjaro" "Kenya" "Cameroon" "Elgon" "Rwenzori" "Meru" "Ras Dashen"
+			# Southeast Asian mountains
+			"Fansipan" "Rinjani" "Semeru" "Bromo" "Kerinci"
+			# Pakistani mountains
+			"K2" "Nanga Parbat" "Gasherbrum" "Broad Peak" "Rakaposhi"
+			# Mars mountains
+			"Olympus Mons" "Pavonis Mons" "Arsia Mons" "Ascraeus Mons" "Elysium Mons"
+			# Moon ridges
+			"Montes Apenninus" "Montes Caucasus" "Montes Taurus"
+			# Caldera ridges
+			"Deepwall Ridge" "Iron Ridge" "Basalt Crest" "Northern Rim" "Canyon Spine"
+		}
+
+		### MILITARY STATIONS: Frontier posts and watchtowers in coalition languages
+		military_station_small = {
+			# Arabic fortification terms
+			"Burj" "Ribat" "Qasr" "Qal'a" "Husn" "Thaghr" "Rabita" "Khandaq"
+			# Chinese fortification terms
+			"Guan" "Sài" "Bǎo" "Wèi" "Tái" "Lóu" "Zhài"
+			# Turkish fortification terms
+			"Kale" "Hisar" "Burç" "Tabya" "Karakol"
+			# Persian fortification terms
+			"Dej" "Arg" "Borj" "Baru" "Kohandej"
+			# Korean fortification terms
+			"Sanseong" "Jangseong" "Seongjae"
+			# Russian fortification terms
+			"Krepost" "Ostrog" "Zaseka" "Redut" "Bastion"
+			# Functional names
+			"Scarwatch" "Deepguard" "Rimwatch" "Canyongate" "Thermalguard"
+			"Outerpost" "Waystation" "Signal Point" "Relay" "Listening Post"
+			# Named stations
+			"Station Zuhara" "Station Darya" "Station Khamsa" "Station Al-Hajar"
+			"Shams Relay" "Vesper Watch" "Scar Buoy"
+		}
+
+		### ION CANNONS: Natural disasters and geological violence in native languages
+		ion_cannon = {
+			"Zelzele" "Yanardağ" "Lavina" "Tufan" "Baran" "Sahiq"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Calderan Flotilla" "Vanguard Expeditionary Flotilla" "Scar Patrol Flotilla"
+			"Shams Extraction Flotilla" "Outer System Flotilla" "Al-Hajar Mining Flotilla"
+			"Darya Station Flotilla" "Deep Space Flotilla" "Canyon Defense Flotilla"
+			"Khamsa Flotilla" "Vesper Watch Flotilla" "Transit Memorial Flotilla"
+			"Xiānfēng Strike Flotilla" "Directorate First Flotilla" "Directorate Second Flotilla"
+			"Directorate Third Flotilla" "Charter Guard Flotilla" "Bureau of Defense Flotilla"
+			"People's Advance Flotilla" "Iron Canyon Flotilla"
+		}
+		sequential_name = MERDIR_FLEET_SEQUENTIAL
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = MERDIR_ARMY_GENERIC
+		}
+
+		machine_defense = {
+			sequential_name = MERDIR_ARMY_MACHINE_DEFENSE
+		}
+
+		machine_assault_1 = {
+			sequential_name = MERDIR_ARMY_MACHINE_ASSAULT_1
+		}
+
+		machine_assault_2 = {
+			sequential_name = MERDIR_ARMY_MACHINE_ASSAULT_2
+		}
+
+		machine_assault_3 = {
+			sequential_name = MERDIR_ARMY_MACHINE_ASSAULT_3
+		}
+
+		defense_army = {
+			random_names = {
+				"Caldera Home Guard" "Canyon Guard"
+				"Rim Garrison" "Deepwall Guard" "Thermal District Guard"
+				"People's Home Guard"
+			}
+			sequential_name = MERDIR_ARMY_DEFENSE_ARMY
+		}
+
+		assault_army = {
+			sequential_name = MERDIR_ARMY_ASSAULT_ARMY
+		}
+
+		slave_army = {
+			sequential_name = MERDIR_ARMY_SLAVE_ARMY
+		}
+
+		clone_army = {
+			sequential_name = MERDIR_ARMY_CLONE_ARMY
+		}
+
+		perfected_clone_army = {
+			sequential_name = MERDIR_ARMY_PERFECTED_CLONE_ARMY
+		}
+
+		undead_army = {
+			sequential_name = MERDIR_ARMY_UNDEAD_ARMY
+		}
+
+		robotic_army = {
+			sequential_name = MERDIR_ARMY_ROBOTIC_ARMY
+		}
+
+		robotic_defense_army = {
+			sequential_name = MERDIR_ARMY_ROBOTIC_DEFENSE_ARMY
+		}
+
+		psionic_army = {
+			sequential_name = MERDIR_ARMY_PSIONIC_ARMY
+		}
+
+		xenomorph_army = {
+			sequential_name = MERDIR_ARMY_XENOMORPH_ARMY
+		}
+
+		gene_warrior_army = {
+			random_names = {
+				"Rostam Guard" "Guan Yu Guard" "Khalid Guard" "Mwindo Guard"
+				"Yi Sun-sin Guard" "Timur's Guard" "Zheng He Guard"
+				"Saladin Guard" "Sundiata Guard" "Trưng Sisters Guard"
+			}
+			sequential_name = MERDIR_ARMY_GENE_WARRIOR_ARMY
+		}
+
+		occupation_army = {
+			sequential_name = MERDIR_ARMY_OCCUPATION_ARMY
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = MERDIR_ARMY_INDIVIDUAL_MACHINE_OCCUPATION_ARMY
+		}
+
+		robotic_occupation_army = {
+			random_names = {
+				"Compass Automated Occupation Platform" "ICARS Administrative Garrison"
+				"Bureau of Systems Pacification Grid"
+			}
+			sequential_name = MERDIR_ARMY_ROBOTIC_OCCUPATION_ARMY
+		}
+
+		primitive_army = {
+			sequential_name = MERDIR_ARMY_PRIMITIVE_ARMY
+		}
+
+		industrial_army = {
+			sequential_name = MERDIR_ARMY_INDUSTRIAL_ARMY
+		}
+
+		postatomic_army = {
+			sequential_name = MERDIR_ARMY_POSTATOMIC_ARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		ember_legion = {
+			sequential_name = seq_ember_legion
+		}
+
+		lm_imbued_army = {
+			sequential_name = seq_lm_imbued_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	planet_names = {
+
+		### Planet names use CONCEPTS in constituent languages — not place names from Earth
+		generic = {
+			names = {
+				# Mandarin concepts
+				"Héxié" "Ānníng" "Chéngshí" "Zhìxù" "Jiānyì" "Tuánjié" "Xīnjiā"
+				# Arabic concepts
+				"Watan" "Salama" "Aman" "Istiqrar" "Hayat" "Nur" "Barakah" "Karama" "Hurriya"
+				# Turkish concepts
+				"Barış" "Umut" "Birlik" "Vatan" "Huzur"
+				# Farsi concepts
+				"Omid" "Azadi" "Sabz" "Bahar" "Roshan"
+				# Korean concepts
+				"Pyeonghwa" "Huimang" "Hana" "Baram" "Hanul"
+				# Swahili concepts
+				"Amani" "Tumaini" "Uhuru" "Umoja" "Ujamaa"
+				# Indonesian concepts
+				"Damai" "Harapan" "Sejahtera" "Bersatu"
+				# Russian concepts
+				"Nadezhda" "Mir" "Zarya" "Soyuz" "Rodina"
+				# Vietnamese concepts
+				"Hòa Bình" "Tự Do" "Hy Vọng"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Rub al-Khali" "Dasht" "Erg" "Hamada" "Serir" "Taklamakan" "Lut"
+				"Kavir" "Thar" "Gobi" "Nafud" "Dehna" "Reg" "Shamal"
+				"Samum" "Khamsin" "Simoom" "Jafaf" "Qahd" "Sukun"
+				"Shamo" "Huangtǔ" "Huāngmò"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Samarkand" "Bukhara" "Kashgar" "Merv" "Palmyra" "Dunhuang"
+				"Waha" "Nakhla" "Qanat" "Karez" "Suyu" "Çeşme"
+				"Oasis" "Vaheh" "Gānquán" "Chashma"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Rimba" "Hutan" "Rừng" "Sēnlín" "Ghaba" "Orman"
+				"Mưa" "Hujan" "Yǔ" "Matar" "Yağmur"
+				"Sungai" "Sông" "Hé" "Nahr" "Nehir"
+				"Subur" "Fecund" "Màowò"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Zhongyuan" "Tianxia" "Shenzhou" "Jiangnan"
+				"Rumelia" "Anatolia" "Khorasan" "Fars"
+				"Bilad" "Ard" "Toprak" "Zameen" "Bumi" "Đất"
+				"Joseon" "Goryeo" "Silla"
+				"Jamhuriya" "Ummah" "Millat"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Jannah" "Firdaws" "Penglai" "Tian" "Kunlun"
+				"Dar al-Salam" "Cennet" "Behesht" "Sukhavati"
+				"Tiāntáng" "Nirvana" "Cheonha"
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Bahr" "Laut" "Samudra" "Hǎi" "Deniz" "Darya" "Bahari"
+				"Muhit" "Dàyáng" "Okyanus" "Okean"
+				"Gelombang" "Sóng" "Cháo" "Dalga"
+				"Mercan" "Shanhu" "Karang"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Buz" "Bīng" "Jalid" "Eol-eum" "Băng" "Es"
+				"Soğuk" "Hán" "Barid" "Chuwi" "Lạnh"
+				"Tundra" "Tayga" "Qış" "Dongji" "Kış" "Zimstoyan"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Qutub" "Beiji" "Bukgeuk" "Cực" "Kutub"
+				"Kar" "Xuě" "Thalj" "Nun" "Tuyết" "Sneg"
+				"Buzul" "Bīngchuān" "Jalidiya" "Băng Hà" "Lednik"
+				"Permafrost" "Siling" "Tundra" "Dong" "Moroz"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		### Chinese
+		### Dominant founding group — designed the Compass, built the ships, led the Necessity Session
+		names1 = {
+			weight = 25
+			first_names_male = {
+				"Wei" "Jun" "Hao" "Lei" "Cheng" "Tao" "Ming" "Feng" "Gang" "Jian"
+				"Bo" "Peng" "Qiang" "Long" "Yong" "Kai" "Dong" "Xiang" "Liang" "Hui"
+				"Zhiyuan" "Haoran" "Zixuan" "Yichen" "Junhao" "Minghao" "Haoyu" "Zihao"
+				"An" "Bao" "Cai" "De" "Guo" "Hu" "Jie" "Kang" "Li" "Meng"
+				"Ning" "Shi" "Song" "Tian" "Wu" "Xiong" "Yi" "You"
+			}
+			first_names_female = {
+				"Mei" "Ling" "Xia" "Yan" "Fang" "Hong" "Hua" "Jiao" "Juan" "Lan"
+				"Lian" "Lin" "Na" "Ni" "Qian" "Qiao" "Qing" "Shan" "Shu" "Ting"
+				"Wen" "Xian" "Xiang" "Xiu" "Xue" "Ying" "Yu" "Yuan" "Yun" "Zhen"
+				"Zhi" "Zhu" "Zi" "Ai" "Bi" "Cui" "Chan" "Dai" "Dan" "Huan"
+				"Ju" "Minzhi" "Ruoxi" "Siyu" "Yutong" "Xinyi"
+			}
+			second_names = {
+				"Wang" "Li" "Zhang" "Liu" "Chen" "Yang" "Zhao" "Huang" "Zhou" "Wu"
+				"Xu" "Sun" "Hu" "Zhu" "Gao" "Lin" "He" "Guo" "Ma" "Luo"
+				"Liang" "Song" "Zheng" "Xie" "Han" "Tang" "Feng" "Deng" "Cao" "Peng"
+				"Sima" "Zhuge" "Ouyang" "Situ" "Xiao" "Cui" "Pan" "Wan" "Kong" "Shen"
+				"Tan" "Cheng" "Mao" "Kuang" "Lu"
+			}
+			regnal_first_names_male = {
+				"Wei" "Jun" "Hao" "Ming" "Feng" "Zhiyuan" "Yong" "Tian"
+			}
+			regnal_first_names_female = {
+				"Mei" "Ling" "Xia" "Yan" "Ying" "Yu" "Zhen" "Hua"
+			}
+			regnal_second_names = {
+				"Zhang" "Liu" "Chen" "Yang" "Zhao" "Wang" "Huang"
+			}
+		}
+
+		### Arabic / North African
+		### Second-largest cultural contingent — Islamic world's contribution
+		names2 = {
+			weight = 13
+			first_names_male = {
+				"Abdullah" "Ahmad" "Ali" "Ammar" "Hamza" "Hassan" "Ibrahim" "Jamal"
+				"Kareem" "Khalid" "Khalil" "Malik" "Mohamed" "Nasir" "Omar" "Rashid"
+				"Samir" "Tariq" "Yusuf" "Barak" "Hussain" "Farid" "Nabil" "Idris"
+				"Mustafa" "Bilal" "Zaid" "Riyad" "Walid" "Kamal" "Adel" "Hamed"
+				"Amin" "Othman" "Saleh" "Mansour" "Anwar" "Mazen" "Faisal" "Hakim"
+			}
+			first_names_female = {
+				"Amira" "Aisha" "Fatima" "Hala" "Hana" "Leila" "Maryam" "Noor"
+				"Salma" "Zahra" "Samira" "Naima" "Sanaa" "Malak" "Layan" "Aya"
+				"Rania" "Dina" "Huda" "Layla" "Lubna" "Muna" "Nadia" "Rasha"
+				"Safiya" "Suha" "Wafa" "Yasmin" "Zeinab" "Khadija" "Amal" "Bushra"
+			}
+			second_names = {
+				"Al-Rashidi" "Al-Mansouri" "Al-Farsi" "Al-Hashimi" "Al-Jazari" "Al-Samarrai"
+				"Al-Dimashqi" "Al-Bariqi" "Al-Asiri" "Al-Atrash" "Al-Mubarak" "Barakat"
+				"Abbas" "Abdel Nour" "Abboud" "Bakir" "El-Baz" "Ismail" "Hassan" "Bilal"
+				"Nadir" "Hamidi" "Salman" "Qasim" "Madani" "Ibrahim" "Khalil"
+				"Amari" "Boumediene" "Benali" "Belkacem" "Zerhouni" "Mehenni" "Bouzid" "Bounif" "Hamed" "Alaoui"
+			}
+			regnal_first_names_male = {
+				"Khalid" "Sultan" "Faisal" "Mansour" "Rashid" "Abdullah" "Malik" "Hakim"
+			}
+			regnal_first_names_female = {
+				"Fatima" "Noor" "Zahra" "Amira" "Khadija" "Salma" "Maryam" "Safiya"
+			}
+			regnal_second_names = {
+				"Al-Rashidi" "Al-Hashimi" "Al-Mansouri" "Barakat" "Abbas" "Amari"
+			}
+		}
+
+		### Turkish
+		### Major coalition partner — military officers, engineers
+		names3 = {
+			weight = 7
+			first_names_male = {
+				"Mehmet" "Mustafa" "Ahmet" "Ali" "Hüseyin" "Hasan" "İbrahim" "Ömer"
+				"Yusuf" "Murat" "İsmail" "Osman" "Halil" "Cemal" "Kemal" "Burak"
+				"Emre" "Serkan" "Tolga" "Barış" "Cem" "Deniz" "Efe" "Kaan"
+				"Berk" "Alp" "Onur" "Selim" "Volkan" "Sinan"
+			}
+			first_names_female = {
+				"Fatma" "Ayşe" "Emine" "Hatice" "Zeynep" "Elif" "Merve" "Büşra"
+				"Esra" "Derya" "Gül" "Selin" "Naz" "Cansu" "İrem" "Ebru"
+				"Pınar" "Nur" "Defne" "Yasemin" "Aslı" "Burcu" "Ceren" "Dilara"
+			}
+			second_names = {
+				"Yılmaz" "Kaya" "Demir" "Çelik" "Şahin" "Yıldız" "Yıldırım" "Öztürk"
+				"Aydın" "Özdemir" "Arslan" "Doğan" "Kılıç" "Aslan" "Çetin" "Kara"
+				"Koç" "Kurt" "Özkan" "Polat" "Ateş" "Karadağ" "Erdoğan" "Güneş"
+			}
+			regnal_first_names_male = {
+				"Mehmet" "Selim" "Kemal" "Sinan" "Alp" "Kaan"
+			}
+			regnal_first_names_female = {
+				"Elif" "Zeynep" "Defne" "Naz" "Selin" "Gül"
+			}
+			regnal_second_names = {
+				"Kaya" "Demir" "Arslan" "Karadağ" "Şahin" "Yıldırım"
+			}
+		}
+
+		### Persian / Iranian
+		### Major coalition partner — water systems, engineering, science
+		names4 = {
+			weight = 7
+			first_names_male = {
+				"Reza" "Mohammad" "Ali" "Hossein" "Amir" "Mehdi" "Saeed" "Hamid"
+				"Javad" "Behnam" "Dariush" "Farhad" "Arash" "Cyrus" "Kaveh" "Nima"
+				"Pouya" "Ramin" "Shahram" "Siavash" "Babak" "Kourosh" "Maziar" "Omid"
+				"Parviz" "Rostam" "Sohrab" "Ardeshir" "Bijan" "Kamran"
+			}
+			first_names_female = {
+				"Maryam" "Zahra" "Fatemeh" "Sara" "Narges" "Leila" "Niloufar" "Shirin"
+				"Azadeh" "Parisa" "Setareh" "Roya" "Nasrin" "Mahsa" "Yalda" "Bahar"
+				"Golnaz" "Mina" "Negar" "Sepideh" "Anahita" "Darya" "Elham" "Faranak"
+			}
+			second_names = {
+				"Ahmadi" "Hosseini" "Mohammadi" "Hashemi" "Mousavi" "Karimi" "Jafari"
+				"Rahimi" "Moradi" "Ghorbani" "Farrokhzad" "Sassani" "Turani" "Khadem"
+				"Jamshidi" "Tehrani" "Shirazi" "Isfahani" "Tabatabaei" "Bakhtiari"
+				"Rafsanjani" "Dastgheib" "Golestan" "Hedayat" "Khosravi" "Naderi"
+			}
+			regnal_first_names_male = {
+				"Cyrus" "Dariush" "Rostam" "Kaveh" "Ardeshir" "Kourosh"
+			}
+			regnal_first_names_female = {
+				"Anahita" "Shirin" "Setareh" "Azadeh" "Parisa" "Darya"
+			}
+			regnal_second_names = {
+				"Farrokhzad" "Sassani" "Bakhtiari" "Golestan" "Khosravi" "Hosseini"
+			}
+		}
+
+		### Korean
+		### Significant military and tech role — Yoon Jae-won named the stars
+		names5 = {
+			weight = 7
+			first_names_male = {
+				"Minjun" "Seojun" "Dohyun" "Hajun" "Jiho" "Juwon" "Junwoo" "Siwoo"
+				"Yejun" "Hyunwoo" "Taemin" "Donghyun" "Woobin" "Kyungho" "Sunwoo"
+				"Jaehyun" "Changmin" "Sungho" "Byeongho" "Jae-won" "Seung-ho" "Dae-jung"
+				"Sang-woo" "Young-ho" "Chul-soo" "Kwang-ho" "Tae-hyung" "Jong-il"
+			}
+			first_names_female = {
+				"Soyeon" "Jiwoo" "Seoyeon" "Chaeyoung" "Yuna" "Dahyun" "Hayoon" "Minji"
+				"Soeun" "Jiyeon" "Eunji" "Sumin" "Hyejin" "Nayeon" "Eunbi" "Yerin"
+				"Gayeon" "Soojin" "Haeun" "Seol-hi" "Min-jung" "Ji-yeon" "Soo-yeon"
+				"Eun-hye" "Yoo-jin" "Ha-na" "Bo-ra" "Sun-hee"
+			}
+			second_names = {
+				"Kim" "Lee" "Park" "Choi" "Jung" "Kang" "Cho" "Yoon" "Jang" "Lim"
+				"Han" "Oh" "Seo" "Shin" "Kwon" "Hwang" "Ahn" "Song" "Yoo" "Hong"
+				"Moon" "Bae" "Baek" "Ryu" "Noh" "Ha" "Woo" "Nam" "Byun" "Gu"
+			}
+			regnal_first_names_male = {
+				"Minjun" "Taemin" "Sunwoo" "Jiho" "Seojun" "Dae-jung"
+			}
+			regnal_first_names_female = {
+				"Soyeon" "Chaeyoung" "Minji" "Seol-hi" "Dahyun" "Jiwoo"
+			}
+			regnal_second_names = {
+				"Kim" "Lee" "Park" "Choi" "Jung" "Yoon"
+			}
+		}
+
+		### Russian / Central Asian
+		### Participated at margins but significant presence — includes Azerbaijani, Kazakh, Uzbek, Kyrgyz
+		names6 = {
+			weight = 10
+			first_names_male = {
+				"Ivan" "Nikolai" "Vladimir" "Pyotr" "Alexei" "Dmitri" "Sergei" "Viktor"
+				"Igor" "Mikhail" "Vasily" "Pavel" "Fyodor" "Leonid" "Yuri" "Oleg"
+				"Andrei" "Konstantin" "Artyom" "Bogdan" "Ilya" "Kirill" "Yegor" "Maxim"
+				"Tariq" "Ruslan" "Timur" "Bakyt" "Azamat" "Nurlan" "Marat" "Dastan"
+				"Erlan" "Aidar" "Bolat" "Zhanat" "Sayat" "Arsen" "Farid" "Elnur"
+			}
+			first_names_female = {
+				"Anna" "Yelena" "Olga" "Tatyana" "Svetlana" "Nadya" "Irina" "Galina"
+				"Anastasia" "Vera" "Polina" "Marina" "Darya" "Katya" "Natasha" "Sonia"
+				"Valentina" "Arina" "Aygul" "Dina" "Madina" "Aida" "Ainur" "Gulnara"
+				"Zarina" "Kamila" "Nargiza" "Dilnoza" "Malika" "Munira"
+			}
+			second_names_male = {
+				"Ivanov" "Petrov" "Volkov" "Sorokin" "Kozlov" "Novikov" "Morozov"
+				"Fedorov" "Komarov" "Vasiliev" "Romanov" "Antonov" "Makarov" "Titov"
+				"Hasanov" "Mammadov" "Aliyev" "Nazarbayev" "Tokayev" "Sultanov"
+				"Karimov" "Mirziyoyev" "Akhmetov" "Nurmagambetov" "Doszhanov"
+				"Turgunov" "Rakhimov" "Umarov" "Kurbanov" "Saidov"
+			}
+			second_names_female = {
+				"Ivanova" "Petrova" "Volkova" "Sorokina" "Kozlova" "Novikova" "Morozova"
+				"Fedorova" "Komarova" "Vasilyeva" "Romanova" "Antonova" "Makarova" "Titova"
+				"Hasanova" "Mammadova" "Aliyeva" "Sultanova" "Karimova" "Akhmetova"
+				"Nurmagambetova" "Turgunova" "Rakhimova" "Umarova" "Kurbanova" "Saidova"
+			}
+			regnal_first_names_male = {
+				"Vladimir" "Konstantin" "Timur" "Ruslan" "Azamat" "Nurlan"
+			}
+			regnal_first_names_female = {
+				"Anastasia" "Svetlana" "Valentina" "Gulnara" "Zarina" "Ainur"
+			}
+			regnal_second_names = {
+				"Hasanov" "Romanov" "Sultanov" "Akhmetov" "Volkov" "Makarov"
+			}
+		}
+
+		### Nigerian / West African
+		### Part of the East African Cooperative — agricultural engineers, scientists
+		names7 = {
+			weight = 6
+			first_names_male = {
+				"Chukwuemeka" "Adebayo" "Oluwaseun" "Babajide" "Ikechukwu" "Obiora"
+				"Nnamdi" "Obinna" "Emeka" "Chinonso" "Abiodun" "Femi" "Kayode"
+				"Tunde" "Segun" "Yinka" "Kofi" "Kwame" "Aminu" "Garba"
+				"Musa" "Bello" "Usman" "Isa" "Abdullahi" "Adamu" "Sanusi"
+			}
+			first_names_female = {
+				"Ngozi" "Chidinma" "Amara" "Adaeze" "Ifunanya" "Chiamaka" "Nneka"
+				"Oluwakemi" "Temitope" "Funmilayo" "Yetunde" "Titilayo" "Bukola"
+				"Adeola" "Jumoke" "Aisha" "Hauwa" "Halima" "Zainab" "Hadiza"
+			}
+			second_names = {
+				"Okafor" "Okonkwo" "Nwosu" "Adeyemi" "Ogundimu" "Adesanya" "Babangida"
+				"Okeke" "Amaechi" "Igwe" "Eze" "Nnamdi" "Uche" "Chukwuma"
+				"Bankole" "Tinibu" "Akinjide" "Gbadamosi" "Olanrewaju" "Sow"
+				"Ibrahim" "Bello" "Danjuma" "Mohammed" "Yakubu" "Suleiman"
+			}
+			regnal_first_names_male = {
+				"Chukwuemeka" "Adebayo" "Nnamdi" "Kwame" "Kofi" "Sanusi"
+			}
+			regnal_first_names_female = {
+				"Ngozi" "Amara" "Adaeze" "Funmilayo" "Aisha" "Chiamaka"
+			}
+			regnal_second_names = {
+				"Okafor" "Adeyemi" "Sow" "Nwosu" "Bankole" "Ibrahim"
+			}
+		}
+
+		### East African / Swahili
+		### Part of the East African Cooperative
+		names8 = {
+			weight = 5
+			first_names_male = {
+				"Jabari" "Bakari" "Faraji" "Jelani" "Mosi" "Sefu" "Simba" "Zuberi"
+				"Abasi" "Azizi" "Baraka" "Chuma" "Enzi" "Hamisi" "Juma" "Kibwe"
+				"Tendaji" "Rajabu" "Said" "Omari" "Hassan" "Rashid" "Salim" "Hamza"
+			}
+			first_names_female = {
+				"Amani" "Asha" "Eshe" "Furaha" "Imani" "Kamaria" "Nia" "Nuru"
+				"Sanaa" "Subira" "Zuri" "Rehema" "Akilah" "Dalila" "Faida" "Hadiya"
+				"Jamila" "Khadija" "Latifa" "Mariamu" "Neema" "Saida" "Tatu" "Zahara"
+			}
+			second_names = {
+				"Mwangi" "Kamau" "Odhiambo" "Otieno" "Kipchoge" "Wanjiku" "Ndungu"
+				"Karanja" "Maina" "Njoroge" "Kimani" "Gitonga" "Mugo" "Njenga"
+				"Abdallah" "Mohamed" "Ali" "Said" "Bakari" "Juma" "Hamisi"
+			}
+			regnal_first_names_male = {
+				"Jabari" "Faraji" "Jelani" "Simba" "Tendaji" "Baraka"
+			}
+			regnal_first_names_female = {
+				"Amani" "Asha" "Imani" "Zuri" "Nuru" "Kamaria"
+			}
+			regnal_second_names = {
+				"Mwangi" "Odhiambo" "Kipchoge" "Karanja" "Abdallah" "Bakari"
+			}
+		}
+
+		### Southeast Asian (Vietnamese, Indonesian, Filipino)
+		### Labor and engineering contingent — Trần Minh Đức built the shelters
+		names9 = {
+			weight = 6
+			first_names_male = {
+				"Minh" "Duc" "Huy" "Quang" "Thanh" "Tuan" "Khanh" "Hieu" "Phuc" "Long"
+				"Budi" "Agus" "Hendra" "Wahyu" "Adi" "Rizal" "Dimas" "Bagus" "Arief" "Fajar"
+				"Juan" "Jose" "Antonio" "Rafael" "Miguel" "Andres" "Carlo" "Marco"
+			}
+			first_names_female = {
+				"Mai" "Linh" "Huong" "Thao" "Ngoc" "Lan" "Hanh" "Trang" "Phuong" "An"
+				"Sari" "Dewi" "Putri" "Ayu" "Ratna" "Wati" "Yanti" "Siti" "Rina" "Dian"
+				"Maria" "Ana" "Teresa" "Luz" "Carmen" "Rosa" "Lita" "Cristina"
+			}
+			second_names = {
+				"Nguyen" "Tran" "Le" "Pham" "Hoang" "Vu" "Vo" "Dang" "Bui" "Do"
+				"Sukarno" "Suharto" "Widodo" "Hartono" "Santoso" "Wijaya" "Susanto" "Kurniawan"
+				"Suryadi" "Prasetyo" "Utomo" "Hidayat" "Nugraha" "Gunawan"
+				"Santos" "Cruz" "Reyes" "Ramos" "Gonzales" "Bautista" "Garcia" "Villanueva"
+			}
+			regnal_first_names_male = {
+				"Minh" "Duc" "Rizal" "Budi" "Juan" "Rafael"
+			}
+			regnal_first_names_female = {
+				"Mai" "Linh" "Dewi" "Sari" "Maria" "Teresa"
+			}
+			regnal_second_names = {
+				"Nguyen" "Tran" "Widodo" "Sukarno" "Santos" "Cruz"
+			}
+		}
+
+		### Pakistani / Bangladeshi
+		### South Asian coalition members — Hamid Safi drafted the Charter
+		names10 = {
+			weight = 5
+			first_names_male = {
+				"Hamid" "Tariq" "Imran" "Shahid" "Asif" "Waqar" "Junaid" "Fahad"
+				"Bilal" "Zafar" "Nawaz" "Kamal" "Arshad" "Raza" "Saleem" "Faizan"
+				"Rahim" "Jamal" "Irfan" "Wasim" "Masud" "Rashid" "Anwar" "Habib"
+				"Rafiq" "Shafiq" "Naeem" "Akram" "Iqbal" "Safi"
+			}
+			first_names_female = {
+				"Fatima" "Aisha" "Zara" "Sana" "Nadia" "Hina" "Ayesha" "Rabia"
+				"Sadia" "Noor" "Malaika" "Kiran" "Naila" "Rubina" "Samina" "Tahira"
+				"Farzana" "Shabana" "Nasreen" "Yasmin" "Amina" "Bushra" "Saima" "Zareen"
+			}
+			second_names = {
+				"Khan" "Ahmed" "Ali" "Hassan" "Hussain" "Sheikh" "Malik" "Chaudhry"
+				"Akhtar" "Qureshi" "Siddiqui" "Mirza" "Butt" "Bhatti" "Hashmi" "Rana"
+				"Safi" "Javed" "Raza" "Aslam" "Iqbal" "Mustafa" "Baig" "Afridi"
+				"Rahman" "Islam" "Hossain" "Chowdhury" "Miah" "Talukdar" "Bhuiyan"
+			}
+			regnal_first_names_male = {
+				"Hamid" "Tariq" "Imran" "Iqbal" "Safi" "Kamal"
+			}
+			regnal_first_names_female = {
+				"Fatima" "Aisha" "Noor" "Kiran" "Malaika" "Zareen"
+			}
+			regnal_second_names = {
+				"Khan" "Safi" "Malik" "Sheikh" "Qureshi" "Chaudhry"
+			}
+		}
+
+		### Mixed / Calderan
+		### After 100 years of intermarriage — hyphenated and blended surnames
+		names11 = {
+			weight = 9
+			first_names_male = {
+				"Wei" "Jun" "Ali" "Hamza" "Mehmet" "Reza" "Minjun" "Ivan" "Jabari" "Minh"
+				"Tariq" "Kai" "Hao" "Omar" "Selim" "Cyrus" "Jiho" "Dmitri" "Emeka" "Duc"
+				"Azamat" "Khalid" "Kemal" "Nima" "Taemin" "Sergei" "Femi" "Budi" "Iqbal" "Long"
+			}
+			first_names_female = {
+				"Mei" "Amira" "Elif" "Maryam" "Soyeon" "Svetlana" "Amani" "Linh" "Fatima" "Lan"
+				"Noor" "Ling" "Zeynep" "Darya" "Dahyun" "Natasha" "Zuri" "Sari" "Kiran" "Hong"
+				"Anastasia" "Leila" "Gül" "Setareh" "Minji" "Vera" "Asha" "Dewi" "Ayesha" "Xia"
+			}
+			second_names = {
+				"Zhang-Okafor" "Liu-Kaya" "Chen-Amari" "Kim-Safi" "Wang-Hasanov" "Nguyen-Demir"
+				"Li-Hosseini" "Park-Ibrahim" "Yang-Arslan" "Zhao-Karadağ" "Tran-Yılmaz"
+				"Wu-Bakari" "Zhou-Rahimi" "Huang-Sultanov" "Ma-Mwangi" "Lin-Choi"
+				"Gao-Farrokhzad" "Song-Khan" "He-Yoon" "Xu-Mohamed"
+				"Pham-Chen" "Hasanov-Liu" "Okafor-Zhang" "Safi-Wang" "Karadağ-Li"
+				"Yoon-Tran" "Ivanov-Huang" "Ahmed-Park" "Kaya-Wu" "Nguyen-Kim"
+				"Calderan" "Vanguardson" "Deepcanyon" "Rimwall" "Stonefall"
+				"Thermalborn" "Canyonside" "Vesperlight" "Amberstone"
+			}
+			regnal_first_names_male = {
+				"Wei" "Ali" "Tariq" "Kai" "Cyrus" "Minjun" "Azamat" "Jabari"
+			}
+			regnal_first_names_female = {
+				"Mei" "Noor" "Elif" "Darya" "Soyeon" "Amani" "Linh" "Fatima"
+			}
+			regnal_second_names = {
+				"Zhang-Okafor" "Chen-Amari" "Kim-Safi" "Hasanov-Liu" "Wang-Hasanov" "Calderan"
+			}
+		}
+	}
+}

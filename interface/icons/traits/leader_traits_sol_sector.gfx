@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_leader_trait_sol_sector"
+		texturefile = "gfx/interface/icons/traits/leader_trait_icons/sol_sector.dds"
+	}
+}

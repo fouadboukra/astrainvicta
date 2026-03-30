@@ -1,0 +1,861 @@
+### Promethean Commonwealth
+### Name List for Stellaris
+### Based on the Commonwealth lore document
+### Member nations: US, EU, UK, Japan, Australia, Canada, Israel, South Korea, UAE, Brazil, India
+
+PROMCOM = {
+	category = "Humanoid"
+	randomized = no
+
+	ship_names = {
+
+		### CORVETTES: Predators, swift creatures, mythological warriors, blades
+		### Small and fast — named after things that strike quickly
+		corvette = {
+			"Falcon" "Hawk" "Kestrel" "Osprey" "Eagle" "Sparrowhawk" "Merlin" "Peregrine" "Goshawk" "Harrier" "Condor"
+			"Wolf" "Coyote" "Lynx" "Jaguar" "Leopard" "Panther" "Cougar" "Ocelot" "Cheetah" "Fox" "Dingo" "Puma"
+			"Viper" "Cobra" "Asp" "Mamba" "Taipan" "Adder" "Rattlesnake" "Python"
+			"Shark" "Barracuda" "Piranha" "Stingray" "Swordfish" "Orca" "Marlin"
+			"Scorpion" "Hornet" "Wasp" "Dragonfly" "Firefly" "Mantis"
+			"Wolverine" "Badger" "Mongoose" "Ferret" "Wildcat" "Hellcat" "Bearcat" "Tomcat"
+			"Raven" "Shrike" "Nighthawk" "Cormorant" "Fulmar" "Skua" "Petrel"
+			"Greyhound" "Whippet" "Bloodhound" "Beagle"
+			"Kodiak" "Grizzly" "Sealion" "Walrus" "Narwhal"
+			"Gladius" "Falcata" "Kopis" "Makhaira" "Kukri" "Wakizashi" "Stiletto" "Dirk" "Claymore" "Tanto" "Jambiya"
+			"Katana" "Tachi" "Talwar" "Khanda" "Sabre" "Rapier" "Estoc" "Flamberge"
+			"Hoplite" "Legionnaire" "Cataphract" "Uhlan" "Hussar" "Lancer" "Dragoon" "Ranger" "Pathfinder"
+			"Ronin" "Shinobi" "Samurai" "Ashigaru"
+			"Gurkha" "Highlander" "Berserker" "Viking" "Janissary"
+			"Matador" "Gauchito" "Bandeirante"
+			"Kitsune" "Tengu" "Oni" "Raijin"
+			"Garuda" "Naga" "Rakshasa" "Abhay" "Akshay"
+			"Maccabee" "Golem"
+			"Arrowhead" "Firebrand" "Sentinel" "Vanguard" "Outrider" "Picket" "Prowler" "Stalker"
+			"Boyington" "Fonck" "Mannock" "Hartmann" "Nishizawa" "Sakai" "Iwamoto" "Yeager" "Bong" "Thach"
+			"Rickenbacker" "Baracca" "Clostermann" "Caldwell" "McCampbell" "O'Hare" "Doolittle"
+			"Tempest" "Squall" "Gale" "Cyclone" "Mistral" "Sirocco" "Chinook" "Monsoon" "Zephyr" "Typhoon"
+			"Sovra" "Haboob" "Derecho" "Torrent" "Whirlwind" "Maelstrom" "Riptide" "Undertow"
+			"Meteor" "Comet" "Bolide" "Pulsar" "Quasar" "Nova" "Flare"
+			"Resolute" "Relentless" "Daring" "Defiance" "Intrepid" "Gallant" "Stalwart" "Dauntless" "Tenacious" "Steadfast"
+			"Brazen" "Ardent" "Valorous" "Dogged" "Brisk" "Bold" "Redoubtable" "Indomitable"
+			"Cutlass" "Scimitar" "Halberd" "Glaive" "Partisan" "Naginata" "Tomahawk" "Battleaxe" "Pike" "Lance"
+			"Javelin" "Trident" "Chakram" "Khopesh" "Francisca" "Assegai" "Bolo" "Kama" "Sai" "Kunai"
+			"Hornet" "Yellowjacket" "Tarantula" "Centipede" "Viper" "Sidewinder" "Copperhead" "Fer-de-Lance" "Bushmaster"
+			"Mosquito" "Gadfly" "Cicada" "Cricket" "Locust" "Scarab" "Beetle"
+			"Sprite" "Banshee" "Wraith" "Spectre" "Phantom" "Shade" "Revenant"
+			"Puck" "Loki" "Coyote Spirit" "Anansi" "Hermes" "Reynard"
+			"Corvus" "Aquila" "Lupus" "Ursa" "Draco" "Hydra" "Serpens" "Cygnus" "Leo Minor"
+			"Mastiff" "Terrier" "Pointer" "Retriever" "Foxhound" "Staghound" "Deerhound" "Wolfhound"
+			"Flint" "Obsidian" "Granite" "Basalt" "Slate" "Onyx" "Iron" "Tungsten" "Cobalt"
+			"Buccaneer" "Corsair" "Privateer" "Raider" "Marauder" "Reaver" "Freebooter"
+			"Wren" "Swift" "Martin" "Albatross" "Tern" "Gannet" "Curlew" "Plover" "Sandpiper" "Lapwing"
+			"Musket" "Carbine" "Flintlock" "Matchlock" "Arquebus" "Culverin"
+			"Achilles' Spear" "Gungnir" "Gáe Bolg" "Amenonuhoko" "Vel" "Astra"
+		}
+
+		### DESTROYERS: Cities from Commonwealth member nations
+		### Named after the places the colonists came from — Earth heritage, no Chinese or Russian cities
+		destroyer = {
+			"New York" "Los Angeles" "Chicago" "Houston" "Phoenix" "San Francisco" "Seattle" "Boston" "Dallas" "Denver"
+			"Austin" "Atlanta" "Miami" "Detroit" "Minneapolis" "Portland" "Nashville" "San Diego" "Philadelphia"
+			"Pittsburgh" "Baltimore" "Cleveland" "Tampa" "Orlando" "Charlotte" "Indianapolis" "Sacramento" "Las Vegas"
+			"St. Louis" "Kansas City" "Louisville" "Milwaukee" "Honolulu" "Anchorage" "New Orleans" "Savannah" "Richmond"
+			"Salt Lake City" "Omaha" "Tucson" "Tulsa" "El Paso" "Wichita" "Hartford" "Springfield" "Jacksonville"
+			"London" "Edinburgh" "Birmingham" "Manchester" "Glasgow" "Liverpool" "Bristol" "Leeds" "Sheffield"
+			"Belfast" "Cardiff" "Newcastle" "Southampton" "Portsmouth" "Brighton" "Aberdeen" "Oxford" "Cambridge"
+			"York" "Exeter" "Norwich" "Coventry" "Nottingham" "Swansea" "Dundee" "Inverness"
+			"Berlin" "Munich" "Hamburg" "Frankfurt" "Stuttgart" "Dusseldorf" "Cologne" "Bremen" "Dresden" "Hannover"
+			"Nuremberg" "Bonn" "Mannheim" "Augsburg" "Freiburg" "Lubeck" "Mainz" "Potsdam" "Aachen"
+			"Paris" "Marseille" "Lyon" "Toulouse" "Nice" "Nantes" "Strasbourg" "Montpellier" "Bordeaux" "Lille"
+			"Grenoble" "Dijon" "Reims" "Metz" "Brest" "Rennes" "Toulon" "Le Havre"
+			"Rome" "Milan" "Naples" "Turin" "Florence" "Venice" "Genoa" "Palermo" "Bologna"
+			"Amsterdam" "Rotterdam" "The Hague" "Utrecht" "Antwerp" "Brussels"
+			"Madrid" "Barcelona" "Seville" "Valencia" "Granada"
+			"Copenhagen" "Stockholm" "Oslo" "Helsinki" "Gothenburg" "Malmo" "Reykjavik" "Trondheim"
+			"Vienna" "Zurich" "Geneva" "Bern" "Luxembourg" "Prague" "Bratislava" "Dublin" "Cork"
+			"Lisbon" "Porto" "Athens" "Thessaloniki" "Krakow" "Warsaw" "Bucharest"
+			"Tokyo" "Osaka" "Kyoto" "Yokohama" "Nagoya" "Sapporo" "Kobe" "Fukuoka" "Kawasaki" "Hiroshima" "Sendai"
+			"Sydney" "Melbourne" "Brisbane" "Perth" "Adelaide" "Canberra" "Auckland" "Wellington"
+			"Toronto" "Vancouver" "Montreal" "Calgary" "Ottawa" "Edmonton" "Winnipeg" "Halifax" "Quebec" "Hamilton"
+			"Jerusalem" "Tel Aviv" "Haifa" "Be'er Sheva"
+			"Seoul" "Busan" "Incheon" "Daegu"
+			"Dubai" "Abu Dhabi"
+			"São Paulo" "Rio de Janeiro" "Brasília" "Salvador" "Belo Horizonte" "Recife" "Curitiba"
+			"Mumbai" "Delhi" "Bangalore" "Hyderabad" "Chennai" "Kolkata" "Pune" "Ahmedabad" "Jaipur" "Lucknow" "Kochi"
+			"Singapore" "Taipei" "Kaohsiung"
+			"Neom" "Masdar" "Nusantara" "Songdo" "Sejong" "Tsukuba" "Putrajaya"
+			"Arcadia Bay" "Nova Houston" "Cascadia" "Pacifica" "New Anchorage" "Freedomport"
+			"Tycho" "Clavius" "Shackleton" "Artemis Base" "Peary" "Copernicus City"
+			"Ares City" "Olympus Town" "Valles" "Hellas" "Elysium Planitia" "Chryse" "Isidis"
+			"Port Armstrong" "Pavonis" "Ascraeus" "Tharsis" "Amazonis" "Meridiani"
+			"Bradbury" "Sagan City" "Clarke Station" "Musk Landing" "Jezero" "Gale"
+			"New Singapore" "Port Fortuna" "Gateway" "Lagrange City" "High Frontier"
+			"Nova Zurich" "New Geneva" "Port Adelaide" "Nova Firenze" "Stellenbosch" "Porto Alegre"
+			"Cybele" "Prosperitas" "Luminara" "Veridian" "Aethon" "Solace"
+		}
+
+		### CRUISERS: Military leaders, famous battles, historic warships
+		### The martial heritage of the Coalition — commanders, victories, and vessels of legend
+		cruiser = {
+			"Washington" "Lincoln" "Patton" "Eisenhower" "MacArthur" "Nimitz" "Farragut" "Pershing" "Grant" "Sherman"
+			"Roosevelt" "Marshall" "Halsey" "Doolittle" "Bradley" "Ridgway" "Schwarzkopf"
+			"Nelson" "Wellington" "Churchill" "Montgomery" "Marlborough" "Drake" "Raleigh" "Cromwell"
+			"Napoleon" "De Gaulle" "Clemenceau" "Richelieu" "Lafayette" "Foch" "Ney"
+			"Bismarck" "Rommel" "Guderian" "Moltke" "Frederick the Great" "Clausewitz"
+			"Garibaldi" "Cavour"
+			"Gustavus Adolphus" "Charles XII"
+			"Yamamoto" "Togo" "Takeda" "Oda" "Tokugawa" "Nobunaga"
+			"Dayan" "Rabin" "Sharon" "Bar Lev"
+			"Ashoka" "Vikramaditya" "Shivaji" "Chandragupta"
+			"Caxias" "Bolivar"
+			"Yi Sun-sin" "Gwon Yul"
+			"Khalid ibn al-Walid"
+			"Thermopylae" "Salamis" "Marathon" "Cannae" "Actium" "Agincourt" "Crécy" "Hastings" "Tours"
+			"Trafalgar" "Austerlitz" "Waterloo" "Gettysburg" "Midway" "Normandy" "El Alamein"
+			"Jutland" "Tsushima" "Verdun" "Kursk" "Stalingrad" "Guadalcanal" "Leyte Gulf" "Iwo Jima" "Inchon"
+			"Bannockburn" "Blenheim" "Ticonderoga" "Yorktown" "Bunker Hill" "Valley Forge" "Saratoga"
+			"Lepanto" "Sedan" "Tannenberg" "Somme" "Ypres" "Marne" "Bulge"
+			"Anzio" "Caen" "Bastogne" "Arnhem" "Okinawa"
+			"Masada" "Beersheba" "Latrun"
+			"Sekigahara" "Nagashino" "Tsushima"
+			"Lexington" "Constitution" "Bonhomme Richard" "Monitor" "Merrimac"
+			"Ark Royal" "Royal Oak" "Warspite" "Hood" "Temeraire" "Illustrious" "Intrepid"
+			"Juneau" "Essex" "Enterprise" "Hornet" "Kitty Hawk"
+			"Yamato" "Musashi" "Akagi" "Kaga" "Kongo"
+			"Jean Bart" "Richelieu" "Scharnhorst"
+			"Vikrant" "Viraat"
+			"Sirius" "Canopus" "Arcturus" "Capella" "Procyon" "Altair" "Betelgeuse"
+			"Vega" "Rigel" "Antares" "Aldebaran" "Pollux" "Deneb" "Regulus" "Polaris" "Spica"
+			"Taipei Strait" "Natuna Sea" "Hormuz" "Svalbard" "Barents" "South China Sea" "Senkaku"
+			"Kaliningrad" "Kherson" "Bakhmut" "Kyiv"
+			"Tycho Crater" "Shackleton Ridge" "Sea of Storms" "Tranquility" "Clavius Heights" "Lunar Farside"
+			"Olympus Mons" "Valles Marineris" "Hellas Basin" "Chryse" "Arcadia Breach" "Tharsis Line"
+			"Pavonis Gate" "Noctis Labyrinthus" "Isidis" "Jezero" "Gale Crater"
+			"High Orbit" "Kessler Point" "Lagrange" "Cislunar" "Gateway Station" "Graveyard Orbit"
+			"First Transit" "Proxima Gate"
+			"Ceres Station" "Vesta" "Pallas" "Hygiea"
+			"Deimos" "Phobos" "Charon Gate"
+			"Port Meridian" "Tethys Siege" "Ithaca" "Sovra Eirene" "Elysian Shore"
+		}
+
+		### BATTLESHIPS: Gods, mythological heroes, abstract virtues, legendary names
+		### The grandest names from the combined mythology of the Coalition
+		battleship = {
+			"Aegis" "Atlas" "Kusanagi" "Masamune" "Muramasa" "Excalibur" "Durandal" "Joyeuse" "Curtana"
+			"Mjolnir" "Gungnir" "Gjallarhorn"  "Labrys"
+			"Bhagavad Gita" "Mahabharata" "Ramayana"
+			"Apocalypse" "Revelation" "Reckoning" "Judgment" "Dominion" "Supremacy" "Hegemon"
+			"Leviathan" "Behemoth" "Kraken" "Typhon" "Fenrir" "Jormungandr"
+			"Sovereign" "Imperium" "Mandate" "Covenant" "Compact" "Commonwealth"
+			"Thermopylae" "Rubicon" "Alesia" "Masada" "Siege Perilous"
+			"Archon" "Strategos" "Autokrator" "Basileus" "Shogun" "Maharaja"
+			"Eternal" "Infinite" "Absolute" "Apex" "Zenith" "Meridian" "Apogee" "Perihelion"
+			"Acheron" "Icarus"
+			"Pax Promethea" "Gloria Mundi" "Sic Semper" "Novus Ordo"
+		}
+
+		### TITANS: Mythic, era-defining names — the largest warships ever built
+		titan = {
+			"Prometheus" "Hyperion" "Kronos" "Oceanus" "Iapetus" "Themis"
+			"Mnemosyne" "Rhea" "Phoebe" "Tethys" "Coeus" "Crius"
+			"Atlas" "Epimetheus" "Helios" "Selene" "Eos"
+		}
+
+		### COLOSSUS: World-shaping names
+		colossus = {
+			"Sol Invictus" "Deus Ex Machina" "Fatum" "Nemesis" "Apotheosis"
+			"Ragnarök" "Götterdämmerung" "Dies Irae" "Eschaton" "Omega"
+		}
+
+		### JUGGERNAUT: Unstoppable force names
+		juggernaut = {
+			"Tartarus" "Chaos" "Erebus" "Gaia" "Ouranos"
+		}
+
+		### CONSTRUCTORS: Rivers, oceans, geographic features from Commonwealth nations
+		### The builders name themselves after the land and water of Earth
+		constructor = {
+			"Atlantic" "Pacific" "Adriatic" "Mediterranean" "Baltic" "Aegean" "Coral Sea"
+			"Mississippi" "Colorado" "Potomac" "Columbia" "Rio Grande" "Amazon"
+			"Thames" "Rhine" "Danube" "Seine" "Loire" "Elbe" "Tiber"
+			"Ganges" "Indus" "Jordan" "Euphrates"
+			"Yukon" "Murray" "Shinano"
+			"Rubicon" "Merrimack" "Shenandoah" "Susquehanna"
+			"Olympus Mons" "Valles Marineris" "Hellas Planitia" "Tharsis" "Elysium Planitia"
+			"Arcadia Planitia" "Chryse" "Isidis" "Utopia Planitia" "Amazonis"
+			"Copernicus" "Tycho" "Aristarchus" "Clavius" "Kepler" "Imbrium" "Serenitatis" "Tranquilitatis"
+			"Noctis" "Pavonis" "Arsia" "Ascraeus" "Jezero" "Gusev"
+			"Shackleton" "Peary" "Tsiolkovsky" "Aitken Basin"
+			"Deimos" "Phobos" "Ceres" "Vesta"
+		}
+
+		### COLONIZERS: Paradise, promised land, utopia — the dream of a new home
+		### Names from every tradition that imagined a better place
+		colonizer = {
+			"Mayflower" "Abundance" "Felicity" "Hope" "Opportunity" "Serenity" "Destiny" "Unity" "Bountiful"
+			"Olympus" "Avalon" "Arcadia" "Camelot" "Valhalla" "Elysium" "El Dorado" "Shangri-La" "Shambhala"
+			"Persepolis" "Knossos" "Byzantium" "Caledonia" "Britannia" "Crystal Palace"
+			"Nozomi" "Akatsuki" "Kibou"
+			"Canaan" "Zion"
+			"Terra Nova" "Horizon" "New Dawn" "Genesis" "Concord"
+		}
+
+		sponsored_colonizer = {
+			"Venture" "Prospect" "Dividend" "Equity" "Enterprise" "Acquisition" "Asset"
+			"Manifest" "Provision" "Surplus" "Bounty" "Windfall" "Fortune" "Prosperity"
+			"Stakeholder" "Pioneer Fund" "First Light" "Market Maker" "Blue Chip"
+			"SpaceX Frontier" "Palantir Horizon" "Helion Dawn" "Bayer Harvest" "Apple Seed"
+			"Ascendant" "Meridian" "Apex" "Summit" "Pinnacle" "Vanguard" "Trailblazer"
+			"Golden Fleece" "Silk Road" "Spice Route" "Trade Wind" "Fair Wind" "Good Hope"
+		}
+
+		### SCIENCE SHIPS: Scientists, explorers, thinkers from Commonwealth nations
+		### No Chinese or Russian scientists — only from member nations
+		science = {
+			"Galileo" "Copernicus" "Newton" "Einstein" "Darwin" "Hubble" "Hawking" "Kepler"
+			"Tesla" "Edison" "Fermi" "Marconi" "Curie" "Pasteur" "Lavoisier"
+			"Armstrong" "Aldrin" "Gagarin" "Glenn" "Earhart" "Columbus" "Magellan" "Drake"
+			"Cook" "Raleigh" "Leif Ericson" "Marco Polo" "Vasco da Gama"
+			"Archimedes" "Pythagoras" "Ptolemy" "Euclid" "Hippocrates"
+			"Von Braun" "Goddard" "Sagan" "Clarke" "Asimov"
+			"Fibonacci" "Descartes" "Leibniz" "Euler" "Gauss" "Planck" "Heisenberg" "Bohr"
+			"Hayabusa" "Tomonaga" "Yukawa" "Noguchi"
+			"Raman" "Bose" "Srinivasa"
+			"Discovery" "Voyager" "Pioneer" "Explorer" "Endeavour" "Sojourner" "Pathfinder"
+			"Equinox" "Lagrange" "Kelvin" "Fahrenheit"
+			"Vasquez-Odera" "Tanaka Kenji" "Nwosu" "Delacroix" "Watanabe" "Cavalcanti"
+			"Andersson-Nakamura" "Okafor" "Santos" "Hale"
+			"Chandrasekhar" "Yamanaka" "Penrose" "Thorne" "Doudna" "Kariko" "Maldacena"
+			"Susskind" "Witten" "Verlinde" "Mirzakhani" "Tao" "Perelman"
+			"Kojima" "Mukherjee" "Venkatraman" "Ashtekar"
+			"Stellanova" "Astraeus" "Cosmonaut" "Peripatetic" "Empiricus"
+			"Aletheia" "Episteme" "Theoria" "Praxis" "Nous"
+			"Eureka" "Heuristic" "Paradigm" "Conjecture" "Theorem"
+		}
+
+		### TRANSPORTS: Famous military operations and amphibious landings
+		transport = {
+			"Overlord" "Market Garden" "Torch" "Dragoon" "Husky" "Avalanche"
+			"Cobra" "Varsity" "Plunder" "Neptune" "Galvanic"
+			"Chromite" "Iceberg" "Forager" "Detachment"
+			"Thunderbolt" "Iron Gate" "Crimson Tide" "Rolling Thunder" "Steel Rain" "Firestorm"
+			"Lunar Hammer" "Crater Run" "Tycho Drop" "Shackleton March" "Sea of Storms"
+			"Red Sands" "Olympus Push" "Tharsis Crossing" "Valles Sweep" "Hellas Breach"
+			"Chryse Landing" "Meridiani" "Jezero"
+			"High Guard" "Orbital Drop" "Kessler" "Cislunar" "Lagrange Sweep"
+			"Iron Harvest" "Black Ice" "Tempest" "Prairie Fire" "Sentinel"
+			"Phoenix" "Deliverance" "Exodus" "Passage"
+		}
+
+		### MILITARY STATIONS: Fortifications, naval harbors, mountains, and admirals
+		military_station_small = {
+			"Pharos" "Colossus" "Lighthouse" "Beacon" "Watchtower" "Spire" "Tower" "Pinnacle"
+			"Sentinel" "Guardian" "Warden" "Keeper" "Vigil" "Overwatch" "Highwatch" "Lookout"
+			"Cerberus" "Argus" "Heimdall" "Janus" "Terminus"
+			"North Star" "Polestar" "Lodestar" "Guidestar" "Daystar" "Evening Star"
+			"Crown" "Keystone" "Cornerstone" "Capstone" "Lodestone" "Hearthstone"
+			"Eyrie" "Aerie" "Nest" "Roost" "Perch" "Crow's Nest"
+			"Rampart" "Barbican" "Battlement" "Palisade" "Stockade" "Parapet"
+			"Outpost Alpha" "Outpost Bravo" "Outpost Sierra" "Outpost Tango" "Outpost Victor"
+			"Station Prometheus" "Station Atlas" "Station Icarus" "Station Acheron"
+			"Aegis Point" "Anvil" "Forge" "Crucible" "Bastion" "Redoubt"
+			"Olympus Watch" "Elysian Gate" "Tethys Gate" "Acheron Watch" "Atlas Station"
+		}
+
+		### ION CANNON: Siege weapons and artillery
+		ion_cannon = {
+			"Thunderbolt" "Lightning" "Fulmen" "Keraunos" "Vajra" "Raijin"
+			"Supernova" "Gamma Burst" "Solar Flare" "Corona" "Prominence"
+			"Smite" "Wrath" "Judgment" "Retribution" "Reckoning" "Perdition"
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Elysian Home Fleet" "Tethys Expeditionary Fleet" "Atlas Defense Fleet" "Icarus Defense Fleet" "Argos Fleet"
+			"Commonwealth First Fleet" "Commonwealth Second Fleet" "Commonwealth Third Fleet"
+			"Atlas Strike Group" "Elysian Strike Group" "Icarus Strike Group" "Acheron Strike Group"
+
+		}
+		sequential_name = PROMCOM_FLEET_SEQUENTIAL
+	}
+
+	army_names = {
+
+		generic = {
+			sequential_name = PROMCOM_ARMY_GENERIC
+		}
+
+		defense_army = {
+			sequential_name = PROMCOM_ARMY_DEFENSE_ARMY
+		}
+
+		assault_army = {
+			sequential_name = PROMCOM_ARMY_ASSAULT_ARMY
+		}
+
+		machine_defense = {
+			sequential_name = PROMCOM_ARMY_MACHINE_DEFENSE
+		}
+
+		robotic_defense_army = {
+			sequential_name = PROMCOM_ARMY_ROBOTIC_DEFENSE_ARMY
+		}
+
+		machine_assault_1 = {
+			sequential_name = PROMCOM_ARMY_MACHINE_ASSAULT_1
+		}
+
+		machine_assault_2 = {
+			sequential_name = PROMCOM_ARMY_MACHINE_ASSAULT_2
+		}
+
+		machine_assault_3 = {
+			sequential_name = PROMCOM_ARMY_MACHINE_ASSAULT_3
+		}
+
+		robotic_army = {
+			sequential_name = PROMCOM_ARMY_ROBOTIC_ARMY
+		}
+
+		slave_army = {
+			sequential_name = PROMCOM_ARMY_SLAVE_ARMY
+		}
+
+		clone_army = {
+			sequential_name = PROMCOM_ARMY_CLONE_ARMY
+		}
+
+		perfected_clone_army = {
+			sequential_name = PROMCOM_ARMY_PERFECTED_CLONE_ARMY
+		}
+
+		psionic_army = {
+			sequential_name = PROMCOM_ARMY_PSIONIC_ARMY
+		}
+
+		undead_army = {
+			sequential_name = PROMCOM_ARMY_UNDEAD_ARMY
+		}
+
+		xenomorph_army = {
+			sequential_name = PROMCOM_ARMY_XENOMORPH_ARMY
+		}
+
+		gene_warrior_army = {
+			random_names = {
+				"HERC-A 'Olympians'" "HERC-B 'Prometheans'" "HERC-C 'Argonauts'" "HERC-D 'Myrmidons'" "HERC-E 'Titans'"
+				"HERC-F 'Immortals'" "HERC-G 'Centurions'" "HERC-H 'Paladins'" "HERC-I 'Ronin'" "HERC-J 'Praetorians'"
+			}
+			sequential_name = PROMCOM_ARMY_GENE_WARRIOR_ARMY
+		}
+
+		occupation_army = {
+			sequential_name = PROMCOM_ARMY_OCCUPATION_ARMY
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = PROMCOM_ARMY_INDIVIDUAL_MACHINE_OCCUPATION_ARMY
+		}
+
+		robotic_occupation_army = {
+			sequential_name = PROMCOM_ARMY_ROBOTIC_OCCUPATION_ARMY
+		}
+
+		primitive_army = {
+			sequential_name = PROMCOM_ARMY_PRIMITIVE_ARMY
+		}
+
+		industrial_army = {
+			sequential_name = PROMCOM_ARMY_INDUSTRIAL_ARMY
+		}
+
+		postatomic_army = {
+			sequential_name = PROMCOM_ARMY_POSTATOMIC_ARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		ember_legion = {
+			sequential_name = seq_ember_legion
+		}
+
+		lm_imbued_army = {
+			sequential_name = seq_lm_imbued_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"New Thessaly" "Concord" "Anchor" "Avalon" "Olympia" "Serendipity" "Bounty" "Hope"
+				"New Coventry" "New Thessaloniki" "Arcadia" "Theia" "New Roanoke" "New Jamestown"
+				"Nozomi" "Akatsuki" "Kibou" "Hoshi" "Hikari"
+				"Porto Novo" "Las Veredas"
+				"Shalimar" "Dhanush" "Saket"
+				"Tikkun" "Kiryat Shalom"
+				"Sejong" "Hanseong"
+				"Port Harewood" "Odera Station" "St. Pomeroy"
+				"Athena"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Helios" "Pyre" "Crucible" "Furnace" "Scoria" "Cinder" "Ember" "Kiln"
+				"Ashland" "Solace" "Mirage" "Shimmer" "Desiccation" "Parched" "Aridus"
+				"Vulcan" "Forge" "Sunstone" "Dustbowl" "Flint"
+				"Negev" "Sinai" "Atacama" "Mojave" "Thar" "Namib"
+				"Khamsin" "Simoom" "Harmattan"
+				"Sere" "Torrid" "Calcine" "Bleach" "Salt Flat" "Hardpan"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Jericho" "Palmyra" "Petra"
+				"Cappadocia" "Sardis" "Ephesus" "Leptis" "Cyrene"
+				"Mesa" "Butte" "Chapparal" "Brush"
+				"Ochre" "Umber" "Sienna" "Dun"
+				"Zion" "Gilead" "Carmel" "Hermon"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Monsoon" "Amazonia" "Pantanal" "Deluge" "Verdure" "Canopy"
+				"Emerald" "Jade" "Viridian" "Lush" "Fecund" "Teeming"
+				"Bengal" "Sertão" "Cerrado" "Mata Atlântica"
+				"Equatoria" "Tropicus" "Pluvial" "Torrent" "Cascade"
+				"Orchid" "Lotus" "Bamboo" "Banyan" "Mangrove"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"Albion" "Arcadia" "Latium" "Hellas" "Hesperia"
+				"Avalon" "Camelot" "Lyonesse" "Logres" "Ithaca"
+				"Terra Nova" "Horizon" "Dawn" "Daybreak"
+				"Asgard" "Midgard" "Alfheim" "Vanaheim"
+				"Pangea" "Laurasia" "Gondwana"
+				"Tokugawa" "Yamato" "Rama" "Bharata" "Soma"
+				"New Thessaly"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Eden" "Elysium" "Cornucopia" "Utopia" "Shambhala" "Xanadu" "Shangri-La" "Arcadia" "Gan Eden"
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Atlantis" "Oceania" "Pacifica" "Atlantica" "Aegea" "Tyrrhenia" "Mediterranea"
+				"Euxina" "Hyrcania" "Adriatica" "Baltica" "Dagon" "Kraken" "Mare" "Erythraea"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Thule" "Scandza" "Utgard" "Vinland" "Caledonia" "Hyperborea"
+				"Tundra" "Steppe" "Taiga" "Rime" "Hoarfrost"
+				"Boreas" "Skadi" "Ullr" "Frost" "Bleak"
+				"Iron Winter" "Long Dark" "Polar" "Austral"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Niflheim" "Jotunheim" "Cocytus" "Stygia" "Gelida"
+				"Glacier" "Icecap" "Firn" "Crevasse" "Bergschrund"
+				"Zero" "Crystal" "Aurora" 
+				"Erebus" "Tartarus" "Frozen" "Shatter" "Fracture"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		### Anglo-American (includes British, Australian, Canadian, New Zealand)
+		### Dominant cultural group of the Commonwealth
+		names1 = {
+			weight = 50
+			first_names_male = {
+				"John" "Brian" "Peter" "Adam" "James" "William" "Jacob" "Christopher" "Joshua" "Michael"
+				"Ethan" "Joseph" "Matthew" "Anthony" "Daniel" "Ryan" "Samuel" "Kevin" "David" "Logan"
+				"Carter" "Benjamin" "Andrew" "Henry" "Nicholas" "Gavin" "Owen" "Jack" "Wyatt" "Charles"
+				"Edward" "George" "Thomas" "Robert" "Stephen" "Richard" "Mark" "Marcus" "Scott" "Duncan"
+				"Douglas" "Oliver" "Kenneth" "Patrick" "Harry" "Alan" "Martin" "Jonathan" "Harrison" "Connor"
+				"Sean" "Neil" "Jason" "Craig" "Malcolm" "Timothy" "Nathan" "Eric" "Albert" "Ian"
+				"Simon" "Morgan" "Clark" "Xavier" "Elliot" "Trevor" "Travis" "Lance" "Adrian" "Desmond"
+				"Brendan" "Kieran" "Finn" "Oscar" "Aaron" "Luke" "Miles" "Alexander" "Dominic" "Bradley"
+				"Liam" "Kyle" "Vance" "Wesley" "Grant" "Vincent" "Felix" "Julian" "Caleb" "Nolan"
+				"Spencer" "Reed" "Cole" "Declan" "Mason" "Blake" "Griffin" "Tristan" "Callum" "Rowan"
+			}
+			first_names_female = {
+				"Olivia" "Emily" "Sophie" "Jessica" "Alice" "Scarlett" "Emma" "Daisy" "Eve" "Phoebe"
+				"Anna" "Mary" "Megan" "Elizabeth" "Amelia" "Charlotte" "Isabella" "Ruby" "Abigail" "Julia"
+				"Samantha" "Ashley" "Natalie" "Chloe" "Lillian" "Eleanor" "Alexandra" "Sarah" "Rebecca" "Victoria"
+				"Gabriella" "Naomi" "Lauren" "Clara" "Laura" "Nicole" "Eliza" "Grace" "Evelyn" "Amber"
+				"Harriet" "Jasmine" "Madison" "Kate" "Patricia" "Jennifer" "Maria" "Susan" "Margaret" "Helen"
+				"Audrey" "Beatrice" "Caroline" "Cassandra" "Cordelia" "Daphne" "Fiona" "Imogen" "Iris" "Jane"
+				"Penelope" "Rosemary" "Sabrina" "Vanessa" "Vivian" "Willow" "Claire" "Danielle" "Rachel" "Miranda"
+				"Sienna" "Matilda" "Addison" "Brooklyn" "Hailey" "Lydia" "Meredith" "Paige" "Quinn" "Stella"
+				"Isla" "Freya" "Hazel" "Ivy" "Maeve" "Nora" "Aria" "Luna" "Aurora" "Zoe"
+			}
+			second_names = {
+				"Smith" "Jones" "Williams" "Taylor" "Brown" "Wilson" "Johnson" "Robinson" "Wright" "Thompson"
+				"Walker" "White" "Roberts" "Green" "Hall" "Wood" "Jackson" "Clark" "Lewis" "Mason"
+				"Mitchell" "Campbell" "Stewart" "Murphy" "Hamilton" "Moore" "Murray" "Martin" "Anderson" "Scott"
+				"Watson" "Morrison" "Harris" "Hughes" "Price" "Morgan" "Simpson" "Young" "Winters"
+				"Spencer" "Stevens" "Stone" "Sterling" "Sullivan" "Swift" "Turner" "Tyler" "Vincent" "Wade"
+				"Washington" "Parker" "Palmer" "Perry" "Phillips" "Reynolds" "Richardson" "Robbins" "Ryan"
+				"Bennett" "Cooper" "Dixon" "Drake" "Fisher" "Fleming" "Foster" "Fox" "Freeman"
+				"Gardner" "Gates" "Graham" "Grant" "Gray" "Griffin" "Hart" "Holmes" "Hunter"
+				"Kane" "Kelly" "Kennedy" "King" "Knight" "Lawrence" "Marshall" "Miller" "Montgomery"
+				"Nash" "Newman" "North" "Owens" "Pearson" "Porter" "Preston" "Reed" "Shepard" "Sherman"
+				"Sinclair" "Stark" "Sutherland" "Tucker" "Warner" "Wells" "Whitfield" "Archer" "Baldwin" "Burke"
+				"Carter" "Chase" "Collins" "Emerson" "Harrington" "Hayes" "Hendricks" "Holden" "Keeler" "Kinnear"
+				"Lockhart" "MacArthur" "MacKenzie" "Murdoch" "Nicholson" "Olsen" "Ramsey" "Sloan" "Stark"
+				"Stiles" "Townsend" "Ward" "Weyland" "Ashton" "Farnsworth" "Schofield" "Cochrane"
+				"Hale" "Rourke" "Harewood" "Odera"
+				"Andersson-Nakamura" "Vasquez-Odera" "Tanaka-Morrison" "Hale-Watanabe" "Cohen-Yamamoto"
+				"Nakamura-Wells" "Suzuki-Harris" "Fernandez-Clarke" "Da Silva-Cooper" "Santos-Mitchell"
+				"Kim-Parker" "Yamada-Green" "Sato-Williams" "Takahashi-Brown" "Hayashi-Turner"
+				"Patel-Scott" "Sharma-Bennett" "Gupta-Wallace" "Rao-Hamilton" "Nair-Campbell"
+				"Al-Rashid-Porter" "Ben-David-Murray" "Rossi-Stewart" "Ferrari-Morgan" "Bianchi-Ward"
+				"Moreau-Jackson" "Dupont-Taylor" "Laurent-King" "Leclerc-Young" "Bernard-Reid"
+				"Muller-Stone" "Schmidt-Hayes" "Hoffmann-Brooks" "Bauer-Fox" "Klein-Hart"
+				"Park-Sullivan" "Lee-Ashton" "Choi-Reed" "Jung-Cross" "Kang-Wells"
+				"Cavalcanti-Hale" "Oliveira-Nash" "Ribeiro-Grant" "Costa-Freeman" "Almeida-Drake"
+				"Lindqvist-Tanaka" "Eriksson-Patel" "Johansson-Kim" "Bergstrom-Sharma" "Nilsson-Park"
+				"Haleshi" "Nakashima-Hale" "Watanford" "Tanfield" "Morguchi" "Kimmura"
+				"Haramoto" "Satoshi" "Odersson" "Cohenaka" "Fernandes" "Silveira"
+				"Ashworth-Sato" "Clarkson-Ito" "Greenfield-Mori" "Whitaker-Abe"
+				"Newlands" "Stonebridge" "Brightwater" "Thornwell" "Ashmore" "Blackwell"
+				"Starling" "Templeton" "Fairfax" "Westbrook" "Northcote" "Southgate"
+				"Ridgeway" "Brookfield" "Clearwater" "Highmore" "Deepwell" "Stormfield"
+			}
+			regnal_first_names_male = {
+				"Alexander" "Tiberius" "Theobald" "Valerian" "Maximus" "Lucius" "Augustus" "Constantine"
+			}
+			regnal_first_names_female = {
+				"Theodora" "Miranda" "Cordelia" "Anastasia" "Valentina" "Henrietta" "Cassandra" "Victoria"
+			}
+			regnal_second_names = {
+				"Hale" "Rourke" "Harewood" "Windsor" "Mountbatten" "Nelson" "Wellington" "Odera"
+			}
+		}
+
+		### German / Scandinavian / Dutch
+		### European core of the EU contingent
+		names2 = {
+			weight = 8
+			first_names_male = {
+				"Karl" "Wilhelm" "Otto" "Heinrich" "Friedrich" "Hans" "Gustav" "Max" "Ernst" "Hermann"
+				"Walter" "Werner" "Wolfgang" "Helmuth" "Kurt" "Rolf" "Klaus" "Gerhard" "Manfred" "Jurgen"
+				"Dieter" "Andreas" "Stefan" "Lukas" "Felix" "Martin" "Fritz" "Johann" "Erich" "Arnold"
+				"Bruno" "Franz" "Rudolf" "Axel" "Emil" "Joachim" "Konrad" "Lothar" "Ludwig" "Matthias"
+				"Moritz" "Reinhard" "Ulrich" "Holger" "Lars" "Nils" "Sven" "Erik" "Henrik" "Magnus"
+				"Bjorn" "Leif" "Ragnar" "Torsten" "Pieter" "Dirk" "Joris" "Wouter" "Rutger"
+			}
+			first_names_female = {
+				"Anna" "Elsa" "Emma" "Helga" "Ursula" "Gisela" "Ingrid" "Ilse" "Sandra" "Stefanie"
+				"Andrea" "Anja" "Katrin" "Birgit" "Martina" "Sabine" "Erika" "Lena" "Lisa" "Katharina"
+				"Claudia" "Silvia" "Annike" "Renate" "Sara" "Julia" "Heidi" "Angelika" "Gretchen" "Hilde"
+				"Wilhelmina" "Johanna" "Anita" "Kerstin" "Lisbeth" "Astrid" "Sigrid" "Freya" "Solveig" "Dagny"
+				"Maja" "Ida" "Ellinor" "Inga" "Kirsten"
+			}
+			second_names = {
+				"Muller" "Schmidt" "Schneider" "Fischer" "Weber" "Meyer" "Wagner" "Schulz" "Becker" "Hoffmann"
+				"Bauer" "Dietrich" "Dreyer" "Wolf" "Klein" "Richter" "Braun" "Schwarz" "Kruger" "Stein"
+				"Keller" "Baumann" "Ziegler" "Brandt" "Sauer" "Bergmeister" "Neumann" "Schafer"
+				"von Gebser" "von Fritsch" "von Wrangel" "von Falkenstein"
+				"Lindqvist" "Eriksson" "Johansson" "Andersson" "Bergstrom" "Nilsson" "Larsson" "Svensson"
+				"Van Hoof" "Van Rijn" "De Vries" "Jansen" "Bakker" "Visser"
+			}
+			regnal_first_names_male = {
+				"Friedrich" "Wilhelm" "Ludwig" "Gustav" "Maximilian" "Leopold"
+			}
+			regnal_first_names_female = {
+				"Wilhelmina" "Freya" "Astrid" "Ingrid" "Katharina" "Elsa"
+			}
+			regnal_second_names = {
+				"von Gebser" "von Falkenstein" "Lindqvist" "Bergstrom" "Muller" "Hoffmann"
+			}
+		}
+
+		### French
+		### EU contingent — strong cultural presence
+		names3 = {
+			weight = 7
+			first_names_male = {
+				"Philippe" "Pierre" "Jean-Marie" "Marcel" "Francois" "Hubert" "Antoine" "Michel" "Henri" "Marc"
+				"Jean" "Maurice" "Rene" "Claude" "Yves" "Jacques" "Simon" "Olivier" "Joseph" "Robert"
+				"Georges" "Andre" "Raymond" "Gaston" "Charles" "Thierry" "Patrice" "Mathieu" "Lucien" "Jean-Paul"
+				"Daniel" "Thibault" "Luc" "Dominic" "Sebastien" "Hugo" "Julien" "Etienne" "Raphael" "Maxime"
+			}
+			first_names_female = {
+				"Chloe" "Ines" "Manon" "Camille" "Clara" "Juliette" "Clemence" "Jeanne" "Charlotte" "Marie"
+				"Nina" "Julia" "Elise" "Justine" "Elina" "Eleonore" "Clarisse" "Veronique" "Sophie" "Helena"
+				"Daphne" "Suzanne" "Melanie" "Bernadette" "Angeline" "Celine" "Pauline" "Viviane" "Jeanette"
+				"Margaux" "Aurelie" "Delphine" "Emilie" "Genevieve" "Laure" "Madeleine"
+			}
+			second_names = {
+				"Martin" "Bernard" "Dubois" "Durand" "Leroy" "Moreau" "Lambert" "Dupont" "Leclerc" "Laurent"
+				"Renard" "Tremblay" "Gagnon" "Bouchard" "Gauthier" "Morin" "Lavoie" "Fortin" "Duval"
+				"Le Gall" "Le Roux" "Deville" "Duchaine" "Bergeron" "Pelletier" "Remy" "Giroud" "Bosquet"
+				"de Castelnau" "de Montaignac" "Pellissier" "Deveraux" "Jauvin" "Delacroix"
+			}
+			regnal_first_names_male = {
+				"Philippe" "Charles" "Henri" "Louis" "Francois" "Gaston"
+			}
+			regnal_first_names_female = {
+				"Marie" "Juliette" "Genevieve" "Margaux" "Charlotte" "Clemence"
+			}
+			regnal_second_names = {
+				"de Castelnau" "de Montaignac" "Dupont" "Leclerc" "Moreau" "Delacroix"
+			}
+		}
+
+		### Italian
+		### EU contingent
+		names4 = {
+			weight = 5
+			first_names_male = {
+				"Mario" "Giovanni" "Giuseppe" "Antonio" "Roberto" "Andrea" "Stefano" "Marco" "Francesco" "Angelo"
+				"Vincenzo" "Pietro" "Salvatore" "Carlo" "Franco" "Bruno" "Giorgio" "Sergio" "Luciano" "Alessandro"
+				"Enrico" "Nicola" "Matteo" "Daniele" "Alberto" "Guido" "Lorenzo" "Tommaso" "Fabio" "Cesare"
+			}
+			first_names_female = {
+				"Maria" "Giuseppina" "Rosa" "Angela" "Giovanna" "Teresa" "Lucia" "Francesca" "Carla" "Elena"
+				"Rita" "Paola" "Vittoria" "Arianna" "Claudia" "Gabriella" "Isabella" "Valeria" "Stefania"
+				"Benedetta" "Lucrezia" "Chiara" "Alessia" "Eleonora" "Giulia"
+			}
+			second_names = {
+				"Rossi" "Russo" "Ferrari" "Bianchi" "Ricci" "Marino" "De Luca" "Costa" "Giordano" "Mancini"
+				"Rizzo" "Lombardi" "Moretti" "Conti" "Gallo" "Corsini" "D'Alessandro" "Marchetti" "Olivieri"
+				"Garibaldi" "Pallavicino" "Di Bella" "Fabbrini" "Galvani" "Pacini"
+			}
+			regnal_first_names_male = {
+				"Giovanni" "Enrico" "Cesare" "Lorenzo" "Alessandro" "Vittorio"
+			}
+			regnal_first_names_female = {
+				"Vittoria" "Lucrezia" "Isabella" "Chiara" "Giulia" "Eleonora"
+			}
+			regnal_second_names = {
+				"Ferrari" "Bianchi" "De Luca" "Giordano" "Garibaldi" "Corsini"
+			}
+		}
+
+		### Japanese
+		### Significant tech and cultural role in the Commonwealth
+		names5 = {
+			weight = 12
+			first_names_male = {
+				"Hiroto" "Hikaru" "Takumi" "Tsubasa" "Ren" "Minato" "Shota" "Yuuto" "Sota" "Yuma"
+				"Takeru" "Rikuto" "Tatsuki" "Ryuto" "Haru" "Yushin" "Kosei" "Yoshinobu" "Jiro" "Hiroshi"
+				"Keisuke" "Saburo" "Junichi" "Yoshi" "Koshiro" "Kentaro" "Koichiro" "Akira" "Daichi" "Kaito"
+				"Hayato" "Ryu" "Shin" "Haruki" "Kenji" "Makoto" "Naoki" "Satoshi" "Toshiro" "Isamu"
+			}
+			first_names_female = {
+				"Haruna" "Sakura" "Misaki" "Aoi" "Miyu" "Rin" "Nanami" "Yui" "Hina" "Honoka"
+				"Riko" "Yuna" "Koharu" "Hinata" "Mei" "Saki" "Ichika" "Hiyori" "Shiori" "Natsuki"
+				"Ayane" "Kaho" "Hana" "Momoka" "Himari" "Yume" "Noriko" "Kazumi" "Kimiko" "Akemi"
+				"Chiyoko" "Fumiko" "Mariko" "Michiko" "Tomoko" "Yuriko" "Ayumi" "Emi" "Mika" "Sora"
+			}
+			second_names = {
+				"Sato" "Suzuki" "Takahashi" "Tanaka" "Watanabe" "Ito" "Nakamura" "Kobayashi" "Yamamoto" "Kato"
+				"Yoshida" "Yamada" "Sasaki" "Yamaguchi" "Matsumoto" "Inoue" "Kimura" "Shimizu" "Hayashi" "Saito"
+				"Yamazaki" "Nakajima" "Mori" "Abe" "Ikeda" "Hashimoto" "Ishikawa" "Yamashita" "Ogawa" "Hasegawa"
+				"Goto" "Okada" "Fujita" "Sakamoto" "Murakami" "Nishimura" "Harada" "Miura" "Amano" "Higuchi"
+			}
+			regnal_first_names_male = {
+				"Teruhito" "Hironari" "Norinaga" "Takumi" "Hiroto" "Haruki"
+			}
+			regnal_first_names_female = {
+				"Takara" "Hidaka" "Toshiko" "Sakura" "Himari" "Hina"
+			}
+			regnal_second_names = {
+				"Yamato" "Otomo" "Mononobe" "Tanaka" "Nakamura" "Watanabe"
+			}
+		}
+
+		### Brazilian / Hispanic
+		### Brazilian contingent plus broader Latin heritage
+		names6 = {
+			weight = 8
+			first_names_male = {
+				"Diego" "Luis" "Pedro" "Joaquin" "Jose" "Emilio" "Eduardo" "Alejandro" "Carlos" "Fernando"
+				"Francisco" "Julio" "Juan" "Manuel" "Pablo" "Miguel" "Ramon" "Santiago" "Ricardo" "Marcelo"
+				"Javier" "Alfonso" "Lorenzo" "Enrique" "Ernesto" "Guillermo" "Sergio" "Roberto" "Esteban"
+				"Gustavo" "Rafael" "Bernardo" "Matheus" "Thiago" "Caio" "Henrique" "Lucas" "Gabriel" "Felipe"
+			}
+			first_names_female = {
+				"Isabel" "Valentina" "Alejandra" "Alicia" "Antonia" "Carla" "Carmen" "Catalina" "Dolores"
+				"Fernanda" "Gabriela" "Maria" "Lorena" "Mercedes" "Paulina" "Sofia" "Camila" "Luciana"
+				"Valeria" "Mariana" "Daniela" "Martina" "Julieta" "Antonella" "Renata" "Constanza" "Fabiana"
+				"Beatriz" "Larissa" "Leticia" "Natalia" "Bianca" "Carolina" "Helena" "Manuela"
+			}
+			second_names = {
+				"Garcia" "Martinez" "Rodriguez" "Fernandez" "Sanchez" "Lopez" "Perez" "Gonzalez" "Alvarez" "Gomez"
+				"Diaz" "Dominguez" "Hernandez" "Ramirez" "Vasquez" "Ruiz" "Flores" "Torres" "Ortega" "Ortiz"
+				"Romero" "Saldana" "Salazar" "de la Vega" "de la Cruz" "Velazco" "Quesada" "Riveros"
+				"Da Silva" "Oliveira" "Santos" "Souza" "Costa" "Pereira" "Almeida" "Ferreira" "Ribeiro" "Cavalcanti"
+			}
+			regnal_first_names_male = {
+				"Santiago" "Ricardo" "Marcelo" "Ernesto" "Guillermo" "Felipe" "Gabriel"
+			}
+			regnal_first_names_female = {
+				"Isabel" "Valentina" "Catalina" "Martina" "Antonella" "Beatriz" "Natalia"
+			}
+			regnal_second_names = {
+				"Fernandez" "Gonzalez" "Da Silva" "Cavalcanti" "Lopez" "de la Vega"
+			}
+		}
+
+		### Indian
+		### South Asian contingent — engineers, scientists, professionals
+		names7 = {
+			weight = 7
+			first_names_male = {
+				"Aarav" "Vivaan" "Aditya" "Arjun" "Arnav" "Krishna" "Ishaan" "Shaurya" "Pranav" "Dhruv"
+				"Kabir" "Ritvik" "Aarush" "Darsh" "Veer" "Rahul" "Mahesh" "Raj" "Kumar" "Rakesh"
+				"Nishant" "Neeraj" "Shubham" "Rohan" "Vikram" "Sanjay" "Amit" "Pradeep" "Kiran" "Nikhil"
+			}
+			first_names_female = {
+				"Saanvi" "Aanya" "Aaradhya" "Ananya" "Anika" "Navya" "Diya" "Avani" "Myra" "Ira"
+				"Anvi" "Prisha" "Riya" "Anaya" "Shanaya" "Priyanka" "Divya" "Mahima" "Anoushka" "Sanjana"
+				"Meera" "Anjali" "Deepa" "Sunita" "Lakshmi" "Padma" "Nandini" "Kavitha" "Neha" "Pooja"
+			}
+			second_names = {
+				"Kumar" "Moorthi" "Shastri" "Prasad" "Acharya" "Swamy" "Pillai" "Gowda" "Nayak" "Deshmukh"
+				"Bhat" "Upadhyay" "Naik" "Kulkarni" "Patil" "Gupta" "Sharma" "Namboodiri" "Varma" "Chandran"
+				"Vijay" "Srinivasan" "Iyer" "Rao" "Reddy" "Menon" "Nair" "Patel" "Joshi" "Mishra"
+			}
+			regnal_first_names_male = {
+				"Arjun" "Vikram" "Dhruv" "Shaurya" "Krishna" "Veer" "Pranav"
+			}
+			regnal_first_names_female = {
+				"Saanvi" "Aaradhya" "Ananya" "Priyanka" "Divya" "Lakshmi" "Meera"
+			}
+			regnal_second_names = {
+				"Kumar" "Sharma" "Gupta" "Patel" "Rao" "Varma" "Nair" "Srinivasan"
+			}
+		}
+
+		### Israeli / Jewish
+		### Hebrew names — small but culturally significant contingent
+		names8 = {
+			weight = 5
+			first_names_male = {
+				"Yoav" "Noam" "Itai" "Eitan" "Uri" "Avi" "Ido" "Ori" "Amir" "Tal"
+				"Omer" "Nadav" "Gal" "Yuval" "Ilan" "Dov" "Ehud" "Ariel" "Moshe" "Barak"
+				"Nir" "Elad" "Amit" "Ran" "Shai" "Lior" "Gilad" "Eyal" "Ronen" "Yonatan"
+			}
+			first_names_female = {
+				"Noa" "Yael" "Shira" "Maya" "Tamar" "Liora" "Talia" "Michal" "Adina" "Aviva"
+				"Dana" "Galia" "Ilana" "Keren" "Naomi" "Orly" "Rivka" "Sara" "Vered" "Ayelet"
+				"Dafna" "Hila" "Miri" "Nurit" "Sigal" "Tzipora" "Ziva" "Efrat" "Inbar" "Chen"
+			}
+			second_names = {
+				"Cohen" "Levi" "Mizrahi" "Peretz" "Biton" "Dahan" "Azoulay" "Friedman" "Goldberg" "Katz"
+				"Shapiro" "Weiss" "Rosenberg" "Schwartz" "Silverman" "Abramovich" "Ben-David" "Ben-Ari"
+				"Bar-Lev" "Shamir" "Rabin" "Peres" "Herzog" "Golan" "Eliav" "Ashkenazi" "Navon" "Barak"
+			}
+			regnal_first_names_male = {
+				"Eitan" "Yoav" "Ariel" "Amir" "Barak" "Noam"
+			}
+			regnal_first_names_female = {
+				"Noa" "Yael" "Tamar" "Liora" "Talia" "Shira"
+			}
+			regnal_second_names = {
+				"Ben-David" "Ben-Ari" "Bar-Lev" "Cohen" "Shamir" "Navon"
+			}
+		}
+
+		### Korean
+		### South Korean contingent — tech and engineering
+		names9 = {
+			weight = 4
+			first_names_male = {
+				"Minjun" "Seojun" "Dohyun" "Hajun" "Jiho" "Juwon" "Junwoo" "Siwoo" "Yejun" "Hyunwoo"
+				"Taemin" "Jisoo" "Donghyun" "Woobin" "Kyungho" "Sunwoo" "Jaehyun" "Changmin" "Sungho" "Byeongho"
+			}
+			first_names_female = {
+				"Soyeon" "Jiwoo" "Seoyeon" "Chaeyoung" "Yuna" "Dahyun" "Hayoon" "Minji" "Soeun" "Jiyeon"
+				"Eunji" "Sumin" "Hyejin" "Nayeon" "Jisoo" "Eunbi" "Yerin" "Gayeon" "Soojin" "Haeun"
+			}
+			second_names = {
+				"Kim" "Lee" "Park" "Choi" "Jung" "Kang" "Cho" "Yoon" "Jang" "Lim"
+				"Han" "Oh" "Seo" "Shin" "Kwon" "Hwang" "Ahn" "Song" "Yoo" "Hong"
+			}
+			regnal_first_names_male = {
+				"Minjun" "Taemin" "Sunwoo" "Jiho" "Hyunwoo" "Seojun"
+			}
+			regnal_first_names_female = {
+				"Soyeon" "Chaeyoung" "Minji" "Jiwoo" "Dahyun" "Eunji"
+			}
+			regnal_second_names = {
+				"Kim" "Lee" "Park" "Choi" "Jung" "Han"
+			}
+		}
+
+		### Arab / Gulf (UAE contingent)
+		### Small but present — Emirati, Gulf Arab names
+		names10 = {
+			weight = 3
+			first_names_male = {
+				"Abdullah" "Ahmad" "Ali" "Hamza" "Hassan" "Ibrahim" "Khalid" "Omar" "Rashid" "Tariq"
+				"Yusuf" "Samir" "Malik" "Amir" "Faisal" "Sultan" "Nasser" "Zayed" "Majed" "Saeed"
+			}
+			first_names_female = {
+				"Amira" "Aisha" "Fatima" "Hala" "Hana" "Leila" "Maryam" "Noor" "Salma" "Zahra"
+				"Latifa" "Shamma" "Reem" "Mahra" "Dana" "Layan" "Sara" "Mariam" "Alia" "Yasmin"
+			}
+			second_names = {
+				"Al-Maktoum" "Al-Nahyan" "Al-Rashid" "Al-Falasi" "Al-Suwaidi" "Al-Mansoori"
+				"Al-Shamsi" "Al-Zaabi" "Al-Dhaheri" "Al-Nuaimi" "Al-Mubarak" "Al-Qasimi"
+				"Barakat" "Bakir" "Hassan" "Hussein" "Ibrahim" "Ismail"
+			}
+			regnal_first_names_male = {
+				"Khalid" "Sultan" "Faisal" "Zayed" "Rashid" "Abdullah"
+			}
+			regnal_first_names_female = {
+				"Amira" "Fatima" "Latifa" "Noor" "Shamma" "Zahra"
+			}
+			regnal_second_names = {
+				"Al-Maktoum" "Al-Nahyan" "Al-Rashid" "Al-Falasi" "Al-Mubarak" "Al-Qasimi"
+			}
+		}
+	}
+}

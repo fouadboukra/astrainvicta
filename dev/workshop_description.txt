@@ -1,0 +1,109 @@
+[h1]ASTRA INVICTA[/h1]
+[i]A Hard Sci-Fi Total Conversion — Open Alpha[/i]
+
+[hr]
+
+[h2]⚠ ALPHA VERSION — READ BEFORE SUBSCRIBING[/h2]
+
+This is an [b]open alpha[/b]. Many values are not yet finalized, several planned features are still in development, and you [i]will[/i] encounter rough edges. This release exists to gather feedback, spark conversation, and invite the community into the process early. Your input genuinely shapes what this mod becomes — more on that below.
+
+[hr]
+
+[h2]THE VISION[/h2]
+
+Stellaris is one of the greatest 4X games ever made. It is also, at times, a deeply immersion-breaking experience — one where Space Fauna roams the stars, psychic dimensions bleed into your senate, and every system is packed with planets like a cosmic yard sale. [b]Astra Invicta[/b] is a long-term project to change that.
+
+The goal is to transform Stellaris into a [b]grounded, hard sci-fi experience[/b] — one that respects the actual science where possible, that treats politics and civilization-building with more seriousness and depth, and that gives roleplayers the immersive sandbox they have always deserved. This is not a balance patch. The long-term vision is a [b]full total conversion[/b] that eventually touches every major game system and gives it a fresh coat of paint rooted in scientific plausibility and narrative richness.
+
+Right now, Astra Invicta is taking its first steps. But they are deliberate ones.
+
+[hr]
+
+[h2]WHAT'S IN THE ALPHA[/h2]
+
+[h3]⚙ Reworked Combat System[/h3]
+Weapons, ship components, and defensive systems have been renamed, re-tiered, and re-themed to reflect genuine underlying physics and engineering rather than generic sci-fi aesthetics. Each technology tier represents a [b]fundamentally different mechanism[/b] — not an incremental reskin of the previous one.
+
+[list]
+[*] Laser weapons now encode their actual wavelength and emission mechanism — from Infrared Battery to Gamma-Ray Graser Array.
+[*] Kinetic weapons progress logically from conventional railguns through to Antimatter-Catalyzed Accelerators.
+[*] Ship reactors, thrusters, FTL drives, and sensors have all been retooled with hard sci-fi naming — Inertial Confinement Reactors, Fusion Torch Drives, Alcubierre and Krasnikov FTL, Neutrino Imaging Arrays.
+[*] Strategic resources have been renamed to reflect their actual scientific properties: Photonic Crystals, Exotic Isotopes, Programmable Matter, and Metastable Compounds.
+[/list]
+
+[h3]🌌 Custom Star Map — The Sol Neighborhood[/h3]
+The default Stellaris galaxy has been replaced with a [b]handcrafted map of the solar neighborhood[/b] — approximately 50 light years around Sol, containing [b]300 to 400 real star systems[/b]. This is the map humanity would actually expand into. You will find Alpha Centauri, Epsilon Eridani, Tau Ceti, Procyon, and dozens of other systems drawn from real astronomical data.
+
+This map is a living part of the mod. It will be continuously expanded and refined as the project matures.
+
+[h3]👥 Custom Civilizations — Human Factions[/h3]
+All default Stellaris starting civilizations have been [b]removed and replaced[/b] with original factions designed from the ground up. Vanilla empires like the United Nations of Earth and the Commonwealth of Man have either been completely overhauled or replaced entirely with something more grounded and more interesting.
+
+The three human factions — the [b]United Nations of Sol[/b], the [b]Promethean Commonwealth[/b], and the [b]Meridian Directorate[/b] — each come with:
+[list]
+[*] Deep political lore grounded in plausible near-future history
+[*] Fully written ship name lists, character name pools, fleet names, army designations, and planet names
+[*] Distinct cultural and ideological identities with no cartoonish good-vs-evil framing
+[/list]
+
+Twelve alien civilizations are also designed and in various stages of implementation.
+
+[hr]
+
+[h2]WHAT'S NOT IN THE ALPHA YET[/h2]
+
+[list]
+[*] [b]The option to disable unrealistic content[/b] (Shroud, Space Fauna, etc.) — this feature is planned and in design, but not yet implemented. For now, those elements remain in the game as shipped by Paradox.
+[/list]
+
+[hr]
+
+[h2]THE ROADMAP — WHERE THIS IS GOING[/h2]
+
+Astra Invicta is not just a renaming project. The following are active areas of development:
+
+[b]Star System Generation Rework[/b] — Real star systems are not all equal. The current Stellaris generator produces too many stellar objects and distributes resources too uniformly. The planned rework will produce fewer planets per system, but those planets will generate more meaningful resources. Some systems will be dramatically more valuable than others — dense with asteroid belts, moons, or rare worlds — while others will be sparse and barely worth settling. The contrast between systems will be far starker and far more strategically meaningful.
+
+[b]Removing or Reworking Unrealistic Content[/b] — The Shroud and Space Fauna are the primary targets for removal or replacement. Dimensional entities may be kept but redesigned with a harder scientific framing. These elements will eventually become optional toggles so that players can choose the experience they want.
+
+[b]End-Game Crisis Overhaul[/b] — Existing crises will be evaluated for scientific plausibility, reworked, replaced, or removed. New crises grounded in hard sci-fi concepts are planned. One confirmed addition is an [b]Astrophage-inspired crisis[/b] drawn from Andy Weir's [i]Project Hail Mary[/i] — a slow, invisible, existential threat that the galaxy must collectively confront. More to come.
+
+[b]Political System Rework[/b] — The current civic and government system will be substantially reworked for greater depth, realism, and roleplaying potential.
+
+[b]More Event Chains and Anomalies[/b] — New content designed to reward scientific curiosity and narrative engagement.
+
+[b]Strategic and Special Resource Overhaul[/b] — Resources will be retooled to reflect hard sci-fi concepts and give them clearer scientific identities.
+
+[b]Force-Spawn System[/b] — A planned feature allowing players to designate specific spawn locations for their empire or AI empires. Want to start in Alpha Centauri? You will be able to.
+
+[b]Expanded Roleplay Support[/b] — More empire icons, more name lists, and more flavour for players who want to build immersive multiplayer campaigns. Planned name lists include factions inspired by [i]The Expanse[/i], [i]Star Wars[/i], and other beloved sci-fi universes.
+
+[b]Origins Rework[/b] — Existing origins will be revised for thematic fit, and new ones will be added.
+
+[hr]
+
+[h2]COMPATIBILITY[/h2]
+
+[b]Required DLC:[/b]
+[list]
+[/list]
+
+[b]Known Conflicts:[/b] Astra Invicta makes sweeping changes to core game systems. It will [b]conflict with any mod that also overhauls the base game[/b] — other total conversions, combat overhauls, or civilization replacement mods. Cosmetic mods, UI mods, and minor tweaks are generally safe.
+
+[hr]
+
+[h2]THIS IS A COLLABORATIVE PROJECT[/h2]
+
+Astra Invicta is currently a solo effort, but it does not have to stay that way — and it will be better if it does not.
+
+[b]Your ideas, your feedback, and your expertise matter.[/b] Whether you have thoughts on a specific mechanic, suggestions for new content, knowledge of astronomy or political science you want to contribute, or just opinions on what hard sci-fi Stellaris should feel like — all of it is welcome and genuinely considered.
+
+Join the Discord to share feedback, report bugs, and follow development:
+[b][url=DISCORD_LINK_HERE]→ Astra Invicta Discord[/url][/b]
+
+[hr]
+
+[h2]CREDITS[/h2]
+[b]AlgerianGeneral[/b] — Design, Implementation, Lore
+
+[i]Astra Invicta is a fan modification for Stellaris. All rights to Stellaris belong to Paradox Interactive.[/i]

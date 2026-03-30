@@ -1,0 +1,89 @@
+@distance = 50
+@base_moon_distance = 10
+@jumps = 3
+
+### Delta Pavonis
+sol_sector_delta_pavonis_initializer = {
+	name = "Delta Pavonis"
+	class = sc_g
+
+	flags = { ss_init_unique }			
+	usage = misc_system_init			
+	usage_odds = {						
+		base = 0
+	}
+
+	max_instances = 1					
+
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 100
+	}
+
+	planet = {
+		name = "Delta Pavonis"
+		count = 1
+		class = pc_g_star
+		orbit_distance = 1
+		orbit_angle = 180
+		size = 45
+		has_ring = no
+	}
+
+	planet = {
+		name = "Delta Pavonis b"
+		class = pc_barren
+		orbit_distance = 60
+		size = 12
+	}
+
+	planet = {
+		name = "Delta Pavonis c"
+		class = pc_barren
+		orbit_distance = 20
+		size = 16
+	}
+
+	planet = {
+		name = "Delta Pavonis d"
+		class = pc_gas_giant
+		orbit_distance = 80
+		size = 35
+
+		moon = {
+			name = "Delta Pavonis d a"
+			class = pc_barren
+			orbit_distance = 20
+			size = 10
+		}
+
+		moon = {
+			name = "Delta Pavonis d b"
+			class = pc_ocean
+			starting_planet = yes
+			orbit_distance = 30
+			size = 20
+			init_effect = {
+				prevent_anomaly = yes
+			}
+		}
+
+		planet = {
+			name = "Delta Pavonis d c"
+			class = pc_toxic
+			orbit_distance = 30
+			size = 18
+		}
+
+		planet = {
+			name = "Delta Pavonis d e"
+			class = pc_barren_cold
+			orbit_distance = 20
+			size = 5
+		}
+	}
+}
+
+
+

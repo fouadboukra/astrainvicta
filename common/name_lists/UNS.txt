@@ -1,0 +1,1592 @@
+UNS = {
+	category = "Humanoid"
+	randomized = no
+
+	ship_names = {
+
+		### =======================================================================
+		### CORVETTES
+		### The most numerous class. Named by individual nations and blocs.
+		### Intentionally fragmented — this is humanity's range, not a single voice.
+		### =======================================================================
+		corvette = {
+
+			# ——— THEME A: Space pioneers and astronauts (all nations) ———
+
+			### American / Canadian
+			"Alan Shepard" "John Glenn" "Neil Armstrong" "Buzz Aldrin" "Sally Ride"
+			"Gus Grissom" "Ed White" "Roger Chaffee" "Christa McAuliffe"
+			"Jim Lovell" "Gene Cernan" "Wally Schirra" "Scott Carpenter"
+			"Mae Jemison" "Guion Bluford" "Bernard Harris" "Ronald McNair"
+			"Marc Garneau" "Julie Payette" "David Saint-Jacques" "Roberta Bondar"
+
+			### Soviet / Russian
+			"Yuri Gagarin" "Valentina Tereshkova" "Alexei Leonov" "Gherman Titov"
+			"Vladimir Komarov" "Pavel Belyayev" "Sergei Korolev" "Yuri Romanenko"
+			"Svetlana Savitskaya" "Elena Kondakova" "Anna Kikina"
+
+			### Chinese
+			"Yang Liwei" "Liu Yang" "Wang Yaping" "Fei Junlong" "Nie Haisheng"
+			"Liu Boming" "Zhang Xiaoguang" "Chen Dong" "Tang Hongbo" "Zhai Zhigang"
+
+			### Indian
+			"Kalpana Chawla" "Rakesh Sharma" "Sunita Williams"
+
+			### Other nations — first of their kind, memorable precisely because they were first
+			"Pham Tuan" "Sheikh Muszaphar" "Marcos Pontes" "Anousheh Ansari"
+			"Sultan Al Neyadi" "Hazza Al Mansouri" "Yi So-yeon"
+			"Arnaldo Tamayo Méndez" "Dumitru Prunariu"
+			"Patrick Baudry" "Jean-Loup Chrétien" "Thomas Pesquet"
+			"Gerhard Thiele" "Reinhold Ewald" "Ulrich Walter"
+			"Samantha Cristoforetti" "Franco Malerba" "Umberto Guidoni"
+			"Pedro Duque" "Michael López-Alegría"
+
+			### Fictional future figures (2100–2300) — invented people from the gap years
+			"Kirra Anderson" "Yosef Asmara" "Catalina Fuentes" "Dmitri Volkonsky"
+			"Adeyemi Osei" "Priya Shankar" "Ingrid Magnusson" "Tariq Al-Hadidi"
+			"Soo-Yeon Park" "Haruto Suzuki" "Léa Beaumont" "Nicolás Vargas"
+			"Amara Diallo" "Zainab Al-Amin" "Pieter van der Berg" "Chiara Romano"
+
+			# ——— THEME B: Admirals and military figures from history ———
+
+			### Western naval tradition
+			"Horatio Nelson" "Francis Drake" "John Paul Jones" "George Dewey"
+			"Chester Nimitz" "Raymond Spruance" "William Halsey" "Ernest King"
+			"Robert Blake" "Edward Vernon" "George Anson" "Samuel Hood"
+			"Cochrane" "Collingwood" "Benbow"
+
+			### Classical
+			"Themistocles" "Pompey" "Agrippa" "Lysander" "Pericles" "Epaminondas"
+
+			### Islamic / Ottoman naval
+			"Khayreddin Barbarossa" "Turgut Reis" "Piri Reis" "Murat Reis"
+			"Khalid ibn al-Walid" "Tariq ibn Ziyad"
+
+			### Eastern / Asian military
+			"Yi Sun-sin" "Tōgō Heihachirō" "Qi Jiguang" "Peng Dehuai"
+			"Nogi Maresuke"
+
+			### African military
+			"Shaka Zulu" "Yaa Asantewaa" "Taharqa" "Menelik II"
+
+			### Russian / Eastern European
+			"Suvorov" "Ushakov" "Nakhimov" "Brusilov"
+
+			### Latin American
+			"Simón Bolívar" "José de San Martín" "Bernardo O'Higgins"
+
+			# ——— THEME C: Abstract concepts and virtues (European naming tradition) ———
+
+			### English
+			"Resolution" "Vigilance" "Intrepid" "Indomitable" "Valiant" "Courageous"
+			"Endurance" "Fortitude" "Relentless" "Dauntless" "Defiance"
+			"Tenacity" "Audacity" "Steadfast" "Resolute"
+
+			### French
+			"Liberté" "Résolution" "Intrépide" "Vaillante" "Courageuse"
+			"France Libre" "Déterminée" "Indomptable" "Ardente" "Tonnerre"
+
+			### Spanish / Portuguese
+			"Resolución" "Valor" "Intrépido" "Indomable" "Vigilancia" "Independencia"
+
+			### German
+			"Entschlossenheit" "Wachsamkeit" "Unerschrocken" "Standhaft"
+
+			### Italian
+			"Intrepido" "Valoroso" "Indomito" "Risoluto" "Ardito"
+
+			### Scandinavian
+			"Frihet" "Tapperhet" "Resolut" "Utholdende"
+
+			### Latin (Martian formal register — bleeds into corvette naming near game start)
+			"Invictus" "Fortis" "Aeternus" "Liberator" "Validus"
+
+			# ——— THEME D: Fictional UNS-era figures (lore + invented) ———
+
+			### From the UNS lore documents
+			"Thomas Breck" "Anne-Claire Devereaux" "Grace Wairimu Mwangi"
+			"Chen Yongkang" "Sarah Hutchins" "James Nakamura" "Xu Lingyun"
+			"Priya Nair" "Adaeze Obi" "Kofi Asante-Mensah"
+			"Carlos Guzmán-Zhang" "Amina El-Tayeb" "Priya Chakravarti"
+			"James Oyelaran" "Fatima al-Rashidi" "Margaret Ainsworth"
+
+			### Invented gap-year figures (2200–2300)
+			"Viktor Sorokin" "Amara Diallo" "Jean-Baptiste Mollet"
+			"Obi Nwosu" "Sunita Krishnamurthy" "Rashid Hamoud"
+			"Mei-Lin Zhao" "Elan Voss" "Selin Yıldız" "Ananya Krishnan"
+			"Elara Kim" "Darius Farrokhzad" "Sofia Petersen" "Kenji Watanabe"
+		}
+
+		### =======================================================================
+		### DESTROYERS
+		### Step up in prestige. Themes continue from corvettes but elevated.
+		### Nations still name these but blocs have more input.
+		### =======================================================================
+		destroyer = {
+
+			# ——— THEME A: Abstract concepts and virtues (elevated register) ———
+
+			### English — grander, more imposing
+			"Sovereign" "Dominion" "Triumph" "Majestic" "Inviolable"
+			"Ironclad" "Tempest" "Firestorm" "Thunderbolt" "Avenger"
+			"Reprisal" "Retribution" "Implacable" "Illustrious" "Formidable"
+
+			### French
+			"République" "Gloire" "Terrible" "Illustre"
+			"Fantasque" "Indomptable" "Redoutable" "Furieux"
+
+			### Latin (formalized by the UNS and Martian naval tradition)
+			"Imperator" "Liberator" "Aeternus" "Gloriosus" "Maximus"
+			"Victor" "Triumphator" "Supremus" "Invictus"
+
+			### Spanish / Portuguese
+			"Independencia" "Libertad" "Formidable" "Implacable" "Irresistible"
+
+			### German
+			"Unerschütterlich" "Standhaft" "Unbeugsam" "Unbesiegbar"
+
+			# ——— THEME B: Fictional UNS-era figures (continuing, expanded) ———
+			"Margaret Ainsworth" "Sergei Volkov-Tanaka" "Fatima al-Rashidi"
+			"James Oyelaran" "Yuki Tanaka-Singh" "Kenji Watanabe-Reis"
+			"Grace Mwangi" "Daniel Nkomo" "Priya Chakravarti"
+			"Pavel Konstantin" "Amelia Torres" "Darius Farrokhzad"
+			"Jean-Baptiste Mollet" "Rashida Okafor" "Hiroshi Nakamura"
+			"Kwame Asante" "Tariq Farouk" "Lena Voronova"
+
+			# ——— THEME C: Historic exploration vessels ———
+
+			### British / European exploration
+			"Endeavour" "Resolution" "Discovery" "Adventure" "Bounty"
+			"Beagle" "Challenger" "Erebus" "Terror" "Investigator" "Fram"
+			"Endurance" "Aurora" "Quest"
+
+			### Spanish / Portuguese
+			"Santa María" "Victoria" "Trinidad" "São Gabriel" "São Rafael"
+			"Berrio" "Santiago" "Concepción"
+
+			### Russian exploration
+			"Vostok" "Mirny" "Nadezhda" "Neva" "Rurik" "Kruzenshtern"
+
+			### Dutch
+			"Batavia" "Hollandia" "Halve Maen" "Liefde"
+
+			### Named after explorer (used as vessel name)
+			"Zheng He" "Ibn Battuta"
+
+			# ——— THEME D: Lost and historic spacecraft (the memorial tier) ———
+			### Named after disasters and missions the culture still mourns or mythologizes.
+			### Note: Ariane 5 V88 removed — too specific for a ship name.
+			### Mars rovers reserved for science ships only.
+
+			### The disasters
+			"Challenger" "Columbia" "Buran" "Komarov"
+
+			### Capsule and program names that entered mythology
+			"Mercury" "Gemini" "Apollo" "Soyuz" "Vostok"
+			"Skylab" "Mir" "Freedom" "Salyut"
+
+			### Individual command modules and landers
+			"Eagle" "Aquarius" "Odyssey" "Kitty Hawk" "Friendship" "Aurora"
+			"Faith" "Liberty Bell" "Sigma" "Molly Brown"
+		}
+
+		### =======================================================================
+		### CRUISERS
+		### Mid-tier prestige. Four parallel themes coexist — UNS is not monolithic.
+		### =======================================================================
+		cruiser = {
+
+			# ——— THEME A: Historically significant locations ———
+
+			### Ancient civilization centers
+			"Babylon" "Carthage" "Alexandria" "Persepolis" "Nineveh" "Ur"
+			"Thebes" "Memphis" "Corinth" "Syracuse" "Antioch"
+			"Ctesiphon" "Samarkand" "Timbuktu" "Palmyra" "Petra"
+			"Mohenjo-Daro" "Anuradhapura" "Angkor" "Teotihuacan" "Çatalhöyük"
+
+			### Medieval and early modern strategic cities
+			"Constantinople" "Baghdad" "Córdoba" "Toledo" "Venice"
+			"Genoa" "Malacca" "Calicut" "Hormuz" "Zanzibar" "Kilwa"
+			"Kairouan" "Fez" "Palermo" "Novgorod"
+
+			### Historical flashpoints and colonial-era ports
+			"Jamestown" "Tenochtitlan" "Cusco" "Goa" "Mombasa" "Macau"
+			"Cartagena" "Veracruz" "Havana" "Port Royal" "Nagasaki"
+
+			### UNS-era significant locations
+			"Tycho Station" "Vandenberg" "Geneva" "Olympus Station"
+			"Elysium Base" "Gate Watch"
+
+			# ——— THEME B: Major historical battles ———
+
+			### Classical
+			"Thermopylae" "Salamis" "Marathon" "Issus" "Gaugamela"
+			"Cannae" "Zama" "Actium" "Adrianople" "Châlons"
+
+			### Medieval / early modern
+			"Poitiers" "Ain Jalut" "Kulikovo" "Panipat" "Lepanto"
+			"Sekigahara" "Adwa" "Isandlwana" "Talas" "Yarmouk"
+
+			### Modern (The Expanse tradition — battle names on cruisers)
+			"Tsushima" "Jutland" "Midway" "Trafalgar" "Austerlitz"
+			"Waterloo" "Stalingrad" "El Alamein" "Inchon"
+			"Dien Bien Phu" "Kursk" "Iwo Jima" "Monte Cassino"
+
+			### UNS-era engagements and The Expanse nods
+			"Bunker Hill" "Tripoli" "Kutuzov" "Shackleton"
+			"Cislunar" "Gwanggaeto"
+
+			# ——— THEME C: Classical and mythological figures (expanded) ———
+
+			### Greek / Roman pantheon
+			"Ares" "Athena" "Poseidon" "Hermes" "Hephaestus" "Nike"
+			"Nemesis" "Eris" "Phobos" "Deimos"
+			"Mars" "Minerva" "Neptune" "Mercury" "Vulcan" "Victoria" "Juno" "Aurora"
+
+			### Greek / Roman heroes
+			"Achilles" "Odysseus" "Hector" "Perseus" "Heracles" "Bellerophon"
+			"Aeneas" "Romulus" "Cincinnatus" "Fabius" "Camillus"
+
+			### Egyptian
+			"Ra" "Horus" "Thoth" "Sekhmet" "Osiris" "Anubis" "Khepri" "Amun"
+
+			### Norse
+			"Odin" "Thor" "Freya" "Tyr" "Heimdall" "Skadi" "Fenrir"
+
+			### Mesopotamian
+			"Enlil" "Marduk" "Ishtar" "Gilgamesh" "Enkidu"
+
+			### Hindu
+			"Indra" "Varuna" "Agni" "Durga" "Kali" "Arjuna" "Hanuman" "Garuda"
+
+			### Chinese
+			"Nezha" "Erlang" "Xuanwu" "Zhuque" "Baihu" "Qinglong"
+			"Nuwa" "Fuxi" "Kuafu" "Gonggong"
+
+			### Mesoamerican
+			"Quetzalcoatl" "Huitzilopochtli" "Xochiquetzal" "Tlaloc" "Coatlicue"
+
+			### African / Yoruba
+			"Shango" "Ogun" "Yemoja" "Obatala" "Oya" "Anansi"
+
+			### Central Asian / Turkic
+			"Tengri" "Erlik" "Umay"
+
+			### Japanese
+			"Amaterasu" "Susanoo" "Raijin" "Fujin" "Izanagi" "Tsukuyomi"
+
+			### Persian / Zoroastrian
+			"Mithra" "Anahita" "Verethragna" "Ahura"
+
+			### Direct Expanse nods (Martian-tradition names — preserved for flavor)
+			"Scipio Africanus" "Aryabhata" "Xuesen" "Cydonia"
+			"Donnager" "Hammurabi" "Cavalier" "Icaria Planum" "Schiaparelli"
+			"Pella" "Barkeith" "Ballare" "Harman Dae-Jung" "Armstrong"
+
+			# ——— THEME D: Historical leaders ———
+
+			### American tradition
+			"Truman" "Eisenhower" "Kennedy" "Roosevelt" "Lincoln"
+			"Washington" "Jefferson" "Hamilton" "Madison"
+
+			### European leaders
+			"Churchill" "De Gaulle" "Bismarck" "Garibaldi" "Cavour"
+			"Gladstone" "Disraeli" "Cromwell"
+
+			### African leaders
+			"Mandela" "Nkrumah" "Kenyatta" "Lumumba" "Haile Selassie" "Sankara"
+
+			### South Asian leaders
+			"Nehru" "Gandhi" "Bose" "Jinnah"
+
+			### Arab / Middle Eastern leaders
+			"Atatürk" "Nasser" "Ibn Saud"
+
+			### East Asian leaders
+			"Sun Yat-sen" "Zhou Enlai" "Lee Kuan Yew"
+
+			### Direct Expanse nods (UN fleet tradition — these slot naturally here)
+			"Agatha King" "Thomas Prince" "Feodorovna" "Okimbo" "Darius"
+		}
+
+		### =======================================================================
+		### BATTLESHIPS
+		### More consolidated — the UNS's prestige class.
+		### Chaotic but with a sense of civilizational weight.
+		### =======================================================================
+		battleship = {
+
+			# ——— THEME A: Scientists and philosophers (mythologized, recognizable) ———
+			### Only the names that carry weight to a non-specialist.
+			### Al-Khwarizmi is not a battleship name. Newton is. The threshold matters.
+
+			"Newton" "Darwin" "Einstein" "Curie" "Turing" "Hawking"
+			"Galileo" "Copernicus" "Kepler" "Faraday" "Maxwell" "Planck"
+			"Ramanujan" "Bose" "Chandrasekar"
+			"Al-Biruni" "Ibn Rushd" "Al-Haytham"
+			"Zhang Heng" "Lomonosov" "Mendeleev"
+			"Archimedes" "Euclid" "Pythagoras"
+			"Aristotle" "Plato" "Confucius" "Avicenna" "Ibn Khaldun"
+			"Cicero" "Aurelius" "Seneca" "Laozi"
+
+			# ——— THEME B: Historical leaders (prestige-class statesmen) ———
+			### The UNS names its heavy iron after the people who built civilization.
+			### American tradition sits alongside Roman emperors — intentionally.
+
+			### American statesmen
+			"Truman" "Eisenhower" "Lincoln" "Roosevelt" "Washington" "Jefferson" "Hamilton"
+
+			### European statesmen
+			"Churchill" "De Gaulle" "Bismarck" "Gladstone" "Garibaldi" "Disraeli"
+
+			### Roman emperors and generals
+			"Augustus" "Hadrian" "Trajan" "Marcus Aurelius" "Vespasian" "Scipio"
+
+			### Persian / Achaemenid
+			"Cyrus" "Darius" "Xerxes"
+
+			### South Asian
+			"Ashoka" "Chandragupta" "Akbar"
+
+			### Ottoman / Turkish
+			"Suleiman" "Mehmed" "Atatürk"
+
+			### Chinese
+			"Yongle" "Wu Zetian" "Qianlong"
+
+			### African
+			"Mansa Musa" "Taharqa" "Nkrumah" "Mandela"
+
+			### Latin American
+			"Bolívar" "San Martín"
+
+			# ——— THEME C: Geopolitical turning points (UNS history) ———
+			### The moments that made the UNS. Gate Silence is not on this list —
+			### the UNS does not name battleships after its worst day.
+			"Tycho" "Reconciliation" "New Charter" "Red Solidarity"
+			"Vandenberg" "Long Ear" "Olympus Station"
+			"First Session" "Pax Solaris" "Geneva Compact"
+
+			# ——— THEME D: Stellar objects ———
+			### Selective. Proxima is named on one ship, once. That crew knows what it means.
+			"Proxima" "Barnard" "Tau Ceti" "Epsilon Eridani" "Sirius"
+			"Betelgeuse" "Rigel" "Vega" "Deneb" "Altair" "Fomalhaut"
+			"Procyon" "Capella" "Aldebaran" "Antares" "Spica"
+			"Canopus" "Arcturus" "Polaris"
+
+			# ——— THEME E: Major historical battles (civilization-defining tier) ———
+			### The same battles appear on cruisers. On a battleship, the name weighs more.
+			"Thermopylae" "Salamis" "Trafalgar" "Jutland" "Midway"
+			"Stalingrad" "Kursk" "El Alamein" "Tsushima"
+			"Sekigahara" "Panipat" "Adwa" "Ain Jalut"
+			"Agincourt" "Hastings" "Tours" "Gaugamela" "Actium" "Cannae"
+
+			# ——— THEME F: Concepts (European formal naming tradition) ———
+			### The tradition that named ships Indomitable and Sovereign does not stop at 2300.
+			"Sovereignty" "Imperium" "Commonwealth" "Covenant"
+			"Solidarity" "Pax" "Union" "Alliance"
+			"Aegis" "Bastion" "Vigil" "Sentinel"
+			"Ascendancy" "Supremacy" "Dominion"
+			"Fortitude" "Constancy" "Perpetuity" "Inviolate"
+
+			# ——— THEME G: Historically significant places (civilization-tier) ———
+			### Cities and sites that shaped the species.
+			"Babylon" "Carthage" "Alexandria" "Constantinople" "Baghdad"
+			"Jerusalem" "Rome" "Athens" "Persepolis" "Samarkand"
+			"Timbuktu" "Tenochtitlan" "Angkor" "Mohenjo-Daro"
+			"Vienna" "Hiroshima" "Cape Canaveral" "Tycho Station"
+			"Geneva" "New York"
+
+			# ——— THEME H: Martian names (Latin / classical / cartographic) ———
+			### Mars names its prestige ships after its geography and its founding history.
+			### More entries here than any other theme — Mars insists on being seen.
+
+			### Martian geography
+			"Olympus" "Valles Marineris" "Hellas" "Elysium" "Tharsis" "Cydonia"
+			"Schiaparelli" "Lowell" "Amazonis" "Meridiani" "Isidis"
+			"Utopia" "Arcadia" "Noachis" "Chryse" "Candor"
+			"Melas" "Hebes" "Juventae" "Pavonis" "Vastitas"
+			"Coprates" "Argyre" "Tharsis Rise" "Amazonis Planitia"
+
+			### Martian founding figures (honored at battleship prestige)
+			"Xu Lingyun" "James Nakamura" "First Landing"
+
+			### Latin phrases formalized by Martian naval tradition
+			"Ultimum Thule" "Per Aspera" "Ad Astra" "Sic Semper"
+		}
+
+		### =======================================================================
+		### TITANS
+		### The names humanity agrees on regardless of bloc.
+		### These are commissioned by the Security Directorate — not a single nation.
+		### =======================================================================
+		titan = {
+			"Imhotep" "Archimedes" "Euclid" "Pythagoras" "Hippocrates"
+			"Confucius" "Laozi" "Avicenna" "Averroes" "Ibn Khaldun"
+			"Aristotle" "Plato" "Socrates" "Cicero" "Virgil"
+			"Zoroaster" "Siddhartha" "Nagarjuna"
+			"Alexander" "Caesar" "Ashoka" "Cyrus"
+			"Hannibal" "Tamerlane"
+			"Long Ear" "New Charter" "Sol" "Terra"
+		}
+
+		colossus = {
+			"Sol" "Terra" "Humanity" "New Charter" "Long Ear" "Reconciliation"
+			"United Nations" "Tycho" "Pax Solaris"
+		}
+
+		juggernaut = {
+			"Sol" "Terra Firma" "Tycho" "Long Ear" "New Charter" "Pax Solaris"
+			"Ultima Ratio"
+		}
+
+		### =======================================================================
+		### CONSTRUCTORS
+		### Named by the people who build things, after the bones of building.
+		### =======================================================================
+		constructor = {
+
+			# ——— THEME A: Structural and engineering terms ———
+			"Keystone" "Catenary" "Buttress" "Voussoir" "Tensegrity"
+			"Cantilever" "Truss" "Ashlar" "Quoin" "Spandrel"
+			"Cofferdam" "Caisson" "Abutment" "Lintel" "Corbel"
+			"Pendentive" "Flying Buttress" "Barrel Vault" "Groin Vault"
+			"Diagrid" "Space Frame" "Geodesic" "Tensile"
+			"Falsework" "Formwork" "Centering" "Shear Wall"
+
+			# ——— THEME B: Engineers and architects across all of history ———
+
+			### Ancient
+			"Imhotep" "Archimedes" "Vitruvius" "Apollodorus" "Anthemius"
+
+			### Islamic Golden Age
+			"Al-Jazari" "Al-Karaji" "Banu Musa"
+
+			### Renaissance / Early modern
+			"Brunelleschi" "Palladio" "Wren" "Hawksmoor"
+
+			### Ottoman
+			"Sinan" "Hayreddin"
+
+			### Industrial era
+			"Brunel" "Telford" "Stephenson" "Eiffel" "Roebling" "Rennie"
+
+			### Modern masters
+			"Nervi" "Maillart" "Fuller" "Kahn" "Utzon" "Hadid"
+			"Calatrava" "Piano" "Foster" "Ando" "Zumthor"
+
+			### Invented future engineers (2100–2300) — the people who built the hab domes
+			"Kwame Asante" "Mei Zhao" "Tariq Farouk" "Lena Voronova"
+			"Sunita Krishnamurthy" "Jean-Baptiste Mollet" "Obi Nwosu"
+			"Rashida Okafor" "Pavel Semenov" "Hiroshi Nakamura"
+
+			# The Expanse
+			"Khandahar" "Inazami" "Tynan" "Leviathan" "Phoebe" "Jotunn" "Zmeya" "Mowteng" "Dewalt"
+		}
+
+		### =======================================================================
+		### COLONIZERS
+		### More varied than any other class — these ships carry people,
+		### and the people who name ships carrying people think about everything.
+		### =======================================================================
+		colonizer = {
+
+			# ——— THEME A: Words for departure, journey, threshold in many languages ———
+			"Safar" "Lucheng" "Yolculuk" "Mwendo" "Hanh Trinh" "Puteshestvie"
+			"Yatra" "Viagem" "Viaje" "Voyage" "Reise" "Reis"
+			"Threshold" "Transit" "Passage" "Crossing" "Departure" "Outward"
+			"Exodus" "Migration" "Dispersal" "Diaspora"
+			"Ümit" "Omid" "Nozomi" "Spes" "Tumaini" "Harapan"
+			"Journey" "Sojourn" "Wandering" "Wayfare"
+
+			# ——— THEME B: Famous departure points and colonial founding sites ———
+			"Jamestown" "Plymouth" "Botany Bay" "Tenerife"
+			"Ceuta" "Callao" "Hormuz" "Malacca" "Mombasa" "Goa"
+			"Nagasaki" "Macau" "Cartagena" "Veracruz" "Montevideo"
+			"Aden" "Zanzibar" "Cape Town" "Funchal" "Recife"
+			"Deptford" "Portsmouth" "Cádiz" "Lisbon" "Amsterdam"
+
+			# ——— THEME C: Founders and community builders (all traditions) ———
+			"William Penn" "Roger Williams" "La Salle" "Champlain"
+			"Ibn Majid" "Tupac Yupanqui" "Osei Tutu" "Trần Hưng Đạo"
+			"Hayam Wuruk" "Pedro Álvares Cabral" "Diogo Cão"
+			### Contested names — some member states named ships after these figures,
+			### others formally protested. The ships sail anyway.
+			"Cortés" "Pizarro" "Columbus" "Vasco da Gama"
+
+			# ——— THEME D: First Martian settlers and early colony ships (invented) ———
+			"First Landing" "Red Shore" "Valles One" "Elysium Base"
+			"Nakamura" "Xu Lingyun" "Tiānhé Memorial" "Ares One"
+			"New Valles" "Dustborn" "Rust Shore" "Irongate"
+			"Red Gate" "First Winter" "Survival Year" "Dry Season"
+
+			# ——— THEME E: Historic sailing ships used by explorers and colonizers ———
+			"Mayflower" "Susan Constant" "Godspeed" "Golden Hind"
+			"Vittoria" "Trinidad" "Santiago" "Concepción"
+			"Arabella" "Speedwell" "Fortune" "Anne"
+			"São Gabriel" "São Rafael" "Berrio"
+			"Liefde" "Hollandia" "Batavia"
+			"Vasa" "Pelican"
+		}
+
+		### Bureau-designated colonizers — cold, functional, numbered
+		sponsored_colonizer = {
+			"UNS Colonial Authority I" "UNS Colonial Authority II" "UNS Colonial Authority III"
+			"Bureau of Settlement Alpha" "Bureau of Settlement Beta" "Bureau of Settlement Gamma"
+			"Colonial Deployment 1" "Colonial Deployment 2" "Colonial Deployment 3"
+			"Security Directorate Provision" "Secretariat Mandate" "General Assembly Resolution"
+			"Charter Mandate" "Sol Compact" "Colonial Allocation I" "Colonial Allocation II"
+		}
+
+		### =======================================================================
+		### SCIENCE SHIPS
+		### Named after the machines that went first, and the people who pointed them.
+		### =======================================================================
+		science = {
+
+			# ——— THEME A: Real probe missions (the ancestors) ———
+
+			### American
+			"Voyager" "Pioneer" "Cassini" "Galileo" "Magellan" "Messenger"
+			"New Horizons" "OSIRIS-REx" "Parker" "DART" "Juno" "Dawn"
+			"Mariner" "Viking" "Pathfinder" "Spirit" "Opportunity"
+			"Curiosity" "Perseverance" "InSight" "Phoenix"
+
+			### European
+			"Rosetta" "Huygens" "Giotto" "Ulysses" "Cluster"
+			"Mars Express" "Venus Express" "BepiColombo" "JUICE" "ExoMars"
+
+			### Soviet / Russian
+			"Luna" "Venera" "Phobos" "Zond" "Vega"
+
+			### Chinese
+			"Tianwen" "Yutu" "Chang'e" "Zhurong" "Queqiao"
+
+			### Indian
+			"Mangalyaan" "Chandrayaan" "Aditya" "Shukrayaan"
+
+			### Japanese
+			"Hayabusa" "Akatsuki" "Kaguya" "Ikaros"
+
+			### Other national programs
+			"Hope" "Danuri" "Al-Amal"
+
+			# ——— THEME B: Explorers from all eras ———
+			"Ibn Battuta" "Zheng He" "Vasco da Gama" "Magellan" "Cook" "Amundsen"
+			"Pytheas" "Hanno" "Eudoxus" "Necho"
+			"Bering" "Dezhnev" "Krasheninnikov"
+			"Xuanzang" "Faxian" "Yijing"
+			"Ahmad ibn Fadlan" "Al-Masudi" "Al-Idrisi" "Ibn Jubayr"
+			"Shackleton" "Scott" "Nansen" "Peary" "Heyerdahl"
+			"Sacagawea" "Tupaia" "Mungo Park" "Laperouse"
+
+			# ——— THEME C: Fictional future probe missions (2200–2300) ———
+			### By game start, these are historical missions the way Voyager is to us
+			"Perihelion" "Heliopause"
+			"Oort" "Kuiper"
+			"Tau Ceti Approach" "Epsilon" "Barnard"
+			"Proxima" "Sol"
+		}
+
+		transport = {
+			### Mountains and great geographic features — the bones of worlds
+			"Everest" "K2" "Aconcagua" "Denali" "Kilimanjaro" "Elbrus"
+			"Mont Blanc" "Matterhorn" "Eiger" "Jungfrau"
+			"Fuji" "Olympus" "Etna" "Vesuvius" "Krakatau"
+			"Atlas" "Tibesti" "Ruwenzori" "Drakensberg" "Table Mountain"
+			"Damavand" "Ararat" "Karakoram" "Hindu Kush" "Pamir"
+			"Appalachian" "Rockies" "Andes" "Sierra Nevada" "Caucasus"
+			### Mars
+			"Olympus Mons" "Tharsis" "Pavonis" "Elysium Mons" "Ascraeus"
+			### Moon
+			"Montes Apenninus" "Montes Caucasus" "Montes Rook" "Montes Leibnitz"
+			# ——— THEME E: Historic sailing ships used by explorers and colonizers ———
+			"Mayflower" "Susan Constant" "Godspeed" "Golden Hind"
+			"Vittoria" "Trinidad" "Santiago" "Concepción"
+			"Arabella" "Speedwell" "Fortune" "Anne"
+			"São Gabriel" "São Rafael" "Berrio"
+			"Liefde" "Hollandia" "Batavia"
+			"Vasa" "Pelican"
+		}
+
+		military_station_small = {
+			### English
+			"Watchtower" "Bulwark" "Rampart" "Redoubt" "Bastion" "Citadel"
+			"Stronghold" "Outpost" "Sentinel" "Picket" "Perimeter"
+			### Latin (UNS / Martian formal register)
+			"Castellum" "Arx" "Praesidium" "Vigilia" "Limes" "Turris" "Murus"
+			### French
+			"Redoute" "Tour" "Bastille" "Forteresse" "Poste"
+			### Russian
+			"Krepost" "Ostrog" "Redut" "Zaseka"
+			### Arabic
+			"Burj" "Ribat" "Qasr" "Hisn" "Thaghr"
+			### Chinese
+			"Guān" "Sài" "Lóu" "Tái"
+			### Named UNS stations
+			"Tycho Station" "Shackleton Watch" "Gate Watch" "Outer Limes"
+			"Belt Picket" "GARS Perimeter" "Proxima Vigil"
+			"Watchtower Alpha" "Sentinel Point" "Solar Guard"
+		}
+
+		ion_cannon = {
+			"Solar Fist" "Starfire" "Magnetar" "Pulsar" "Heliostrike"
+			"Sol's Wrath" "Mjolnir" "Indra's Bolt" "Levin" "Thunderhead"
+		}
+	}
+
+	### =======================================================================
+	### FLEETS
+	### =======================================================================
+	fleet_names = {
+		random_names = {
+			### UNS formal fleet commands
+			"First Cislunar Fleet" "Second Cislunar Fleet" "Third Cislunar Fleet"
+			"Outer System Command" "Belt Patrol Command" "Lunar Defense Command"
+			"Gate Anomaly Security Detail" "GARS Escort Flotilla"
+			"Solar Vigil Command" "Deep Space Patrol"
+			### Bloc-contributed named fleets
+			"Atlantic Combined Fleet" "Indo-Pacific Combined Fleet"
+			"African Union Expeditionary Fleet" "Eurasian Combined Fleet"
+			"Martian Liaison Fleet" "Islamic Cooperative Fleet"
+			"South American Combined Fleet" "Pacific Patrol Fleet"
+			### Memorial / historical designations
+			"Vandenberg Memorial Fleet"
+			"Tycho Station Guard"
+			"Cislunar Patrol"
+			"Gwanggaeto Memorial Flotilla"
+			"Reconciliation Fleet"
+			"Proxima Watch Flotilla"
+		}
+		sequential_name = UNS_FLEET_SEQUENTIAL
+	}
+
+	### =======================================================================
+	### ARMIES
+	### =======================================================================
+	army_names = {
+
+		generic = {
+			sequential_name = UNS_ARMY_GENERIC
+		}
+
+		machine_defense = {
+			sequential_name = UNS_ARMY_MACHINE_DEFENSE
+		}
+
+		machine_assault_1 = {
+			sequential_name = UNS_ARMY_MACHINE_ASSAULT_1
+		}
+
+		machine_assault_2 = {
+			sequential_name = UNS_ARMY_MACHINE_ASSAULT_2
+		}
+
+		machine_assault_3 = {
+			sequential_name = UNS_ARMY_MACHINE_ASSAULT_3
+		}
+
+		defense_army = {
+			random_names = {
+				### Earth garrison divisions by bloc
+				"1st Atlantic Division" "2nd Atlantic Division" "3rd Atlantic Division"
+				"1st European Division" "2nd European Division" "3rd European Division"
+				"1st African Union Division" "2nd African Union Division" "3rd African Union Division"
+				"1st Indo-Pacific Division" "2nd Indo-Pacific Division" "3rd Indo-Pacific Division"
+				"1st Eurasian Division" "2nd Eurasian Division"
+				"1st Islamic Cooperative Division" "2nd Islamic Cooperative Division"
+				"1st South American Division" "2nd South American Division"
+				"1st East Asian Division" "2nd East Asian Division"
+				### Mars garrison divisions
+				"1st Mars Home Defense Division" "2nd Mars Home Defense Division"
+				"Valles Marineris Territorial Division" "Elysium Garrison Division"
+				"Tharsis Home Guard Division" "Olympus Territorial Division"
+				### Lunar
+				"1st Lunar Brigade" "2nd Lunar Brigade"
+				"Lunar Administration Security Brigade"
+				### Belt
+				"Belt Station Security Brigade" "Ceres Garrison Brigade"
+			}
+			sequential_name = UNS_ARMY_DEFENSE_ARMY
+		}
+
+		assault_army = {
+			random_names = {
+				# ——— Legacy numbered brigades (preserved from pre-UNS militaries) ———
+				### These units kept their numbering and their pride across 300 years.
+				### The number is the name. "101st" means something. Don't touch it.
+
+				### American legacy
+				"101st Orbital Assault Brigade"
+				"82nd Orbital Assault Brigade"
+				"1st Orbital Marine Brigade"
+				"75th Orbital Ranger Regiment"
+				"11th Orbital Brigade"
+				"173rd Orbital Assault Brigade"
+				"1st Orbital Cavalry Brigade"
+
+				### Russian legacy
+				"7th Guards Orbital Assault Brigade"
+				"76th Guards Orbital Assault Brigade"
+				"45th Guards Orbital Spetsnaz Brigade"
+				"56th Guards Orbital Assault Brigade"
+				"98th Guards Orbital Assault Brigade"
+
+				### Chinese legacy
+				"15th Space Drop Corps"
+				"43rd Space Drop Corps"
+				"1st Special Operations Orbital Brigade"
+				"11th Orbital Assault Brigade"
+				"27th Orbital Assault Brigade"
+
+				### French legacy
+				### Note: unit designation + numeric. "1re Légion Spatiale" is a specific unit.
+				### Numbered variants are how the tradition actually expands.
+				"1re Légion Spatiale"
+				"2e Légion Spatiale"
+				"3e Légion Spatiale"
+				"1re Brigade Orbitale"
+				"5e Brigade Orbitale"
+
+				### British legacy
+				"3 Orbital Commando Brigade"
+				"16 Orbital Assault Brigade"
+				"1 Orbital Raider Group"
+
+				### Brazilian legacy
+				"1ª Brigada de Assalto Orbital"
+				"3ª Brigada de Assalto Orbital"
+				"Brigada Paraquedista Orbital"
+
+				### Indian legacy
+				"21st Orbital Assault Brigade"
+				"50th Independent Orbital Brigade"
+
+				### Turkish legacy
+				"1nci Hücum Tugayı"
+				"5inci Orbital Tugay"
+
+				# ——— Named brigades with unit nicknames and numbers ———
+				### These exist AS units with organic nicknames — the number is part of the name.
+				### "Black Knives Division" without a number feels like a game.
+				### "3rd Black Knives Division" feels like a real war.
+
+				### English / American tradition
+				"1st Ironfall Brigade"
+				"2nd Thunderheads Brigade"
+				"3rd Screaming Seraphim Brigade"
+				"1st Hard Rain Brigade"
+				"4th Ghost Brigade"
+				"Devil's Own Brigade"
+				"1st Ironclad Brigade"
+
+				### French tradition
+				"1re Légion Noire"
+				"2e Légion Noire"
+				"Les Diables Rouges"
+				"1re Brigade des Fantômes"
+
+				### Russian / Slavic tradition
+				"1st Black Knives Division"
+				"3rd Black Knives Division"
+				"1st Iron Bear Brigade"
+				"2nd Iron Bear Brigade"
+				"Wolves of Baikal Brigade"
+				"1st Storm Division"
+
+				### Chinese tradition
+				"1st Tiequan Brigade"
+				"2nd Tiequan Brigade"
+				"1st Feilong Division"
+				"Huben Brigade"
+
+				### African tradition
+				"1st Harmattan Brigade"
+				"2nd Harmattan Brigade"
+				"Rift Valley Division"
+				"1st Simba Brigade"
+				"Sahara Division"
+
+				### South American tradition
+				"1st Sertão Brigade"
+				"2nd Sertão Brigade"
+				"Andean Strike Brigade"
+				"Los Cóndores Brigade"
+
+				### Middle Eastern / Islamic Cooperative
+				"1st Desert Storm Brigade"
+				"Al-Qiyan Brigade"
+				"Sahib al-Saif Brigade"
+				"1st Sahib al-Saif Brigade"
+
+				### Korean tradition
+				"Tiger Division"
+				"1st Tiger Brigade"
+				"Black Panther Brigade"
+				"1st Lightning Brigade"
+
+				### Japanese tradition
+				"1st Rising Sun Brigade"
+				"Fuji Division"
+
+				# ——— Martian brigades (Roman / Greek / Persian / Carthaginian tradition) ———
+				### Mars draws on ancient empires for its military nomenclature.
+				### A Martian officer naming a unit after Hannibal is making a point
+				### about civilizational continuity — and about crossing mountains.
+				### These are always brigades. Mars does not field divisions without Earth.
+
+				### Roman tradition
+				"1st Praetorian Brigade"
+				"2nd Praetorian Brigade"
+				"Martian Praetorian Brigade"
+				"Duststorm Legion"
+				"Olympus Guard Brigade"
+				"Red Desert Cohort"
+				"1st Cohors Martensis"
+				"2nd Cohors Martensis"
+				"Fabius Brigade"
+				"Fabius Maximus Brigade"
+				"Cato Brigade"
+				"Cincinnatus Brigade"
+
+				### Carthaginian tradition
+				"Hannibal Brigade"
+				"Hamilcar Brigade"
+				"Barcid Brigade"
+				"1st Barcid Brigade"
+
+				### Greek tradition
+				"Leonidas Brigade"
+				"Themistocles Brigade"
+				"Miltiades Brigade"
+				"Sacred Band Brigade"
+
+				### Persian / Achaemenid tradition
+				"Xerxes Brigade"
+				"Darius Brigade"
+				"Immortals Brigade"
+				"1st Immortals Brigade"
+				"2nd Immortals Brigade"
+
+				# ——— Memorial brigades (UNS historical events) ———
+				"Shackleton Strike Brigade"
+				"Gwanggaeto Memorial Brigade"
+				"Nakamura-Xu Brigade"
+				"Resolute Brigade"
+				"Cislunar Memorial Brigade"
+			}
+			sequential_name = UNS_ARMY_ASSAULT_ARMY
+		}
+
+		slave_army = {
+			sequential_name = UNS_ARMY_SLAVE_ARMY
+		}
+
+		clone_army = {
+			sequential_name = UNS_ARMY_CLONE_ARMY
+		}
+
+		perfected_clone_army = {
+			sequential_name = UNS_ARMY_PERFECTED_CLONE_ARMY
+		}
+
+		undead_army = {
+			sequential_name = UNS_ARMY_UNDEAD_ARMY
+		}
+
+		robotic_army = {
+			sequential_name = UNS_ARMY_ROBOTIC_ARMY
+		}
+
+		robotic_defense_army = {
+			sequential_name = UNS_ARMY_ROBOTIC_DEFENSE_ARMY
+		}
+
+		psionic_army = {
+			sequential_name = UNS_ARMY_PSIONIC_ARMY
+		}
+
+		xenomorph_army = {
+			sequential_name = UNS_ARMY_XENOMORPH_ARMY
+		}
+
+		gene_warrior_army = {
+			random_names = {
+				### Named after the Cislunar officers and UNS founding figures
+				"Chen Yongkang Guard"
+				"Hutchins Division"
+				"Nakamura-Xu Brigade"
+				"Mwangi Guard"
+				"Obi Division"
+				"Gwanggaeto Guard"
+				"Nair Division"
+				"Breck Brigade"
+			}
+			sequential_name = UNS_ARMY_GENE_WARRIOR_ARMY
+		}
+
+		occupation_army = {
+			sequential_name = UNS_ARMY_OCCUPATION_ARMY
+		}
+
+		individual_machine_occupation_army = {
+			sequential_name = UNS_ARMY_INDIVIDUAL_MACHINE_OCCUPATION_ARMY
+		}
+
+		robotic_occupation_army = {
+			sequential_name = UNS_ARMY_ROBOTIC_OCCUPATION_ARMY
+		}
+
+		primitive_army = {
+			sequential_name = UNS_ARMY_PRIMITIVE_ARMY
+		}
+
+		industrial_army = {
+			sequential_name = UNS_ARMY_INDUSTRIAL_ARMY
+		}
+
+		postatomic_army = {
+			sequential_name = UNS_ARMY_POSTATOMIC_ARMY
+		}
+
+		warpling_army = {
+			sequential_name = seq_warpling_army
+		}
+
+		ember_legion = {
+			sequential_name = seq_ember_legion
+		}
+
+		lm_imbued_army = {
+			sequential_name = seq_lm_imbued_army
+		}
+
+		abomination_army = {
+			sequential_name = seq_abomination_army
+		}
+
+		wilderness_pre_sapient_defence_army = {
+			sequential_name = seq_wilderness_pre_sapient_defence_army
+		}
+
+		wilderness_pre_sapient_assault_army = {
+			sequential_name = seq_wilderness_pre_sapient_assault_army
+		}
+	}
+
+	### =======================================================================
+	### PLANET NAMES
+	### =======================================================================
+	planet_names = {
+
+		generic = {
+			names = {
+				### Greco-Roman mythology (dominant first-colonization language)
+				"Ares" "Hermes" "Apollo" "Artemis" "Athena" "Poseidon" "Hephaestus"
+				"Mars" "Mercury" "Minerva" "Neptune" "Vulcan" "Diana" "Juno" "Aurora"
+				"Olympus" "Elysium" "Arcadia" "Prospero" "Calypso"
+				### Classical concepts
+				"Thule" "Hyperborea" "Ultima Thule" "Novus Mundus" "Terra Nova"
+				### Multi-bloc settlement naming
+				"Jamestown" "New Plymouth" "Esperanza" "Nueva Granada"
+				"Zvezdny" "Novy Mir" "Xintiandi"
+				"Nusantara" "New Lagos" "Al-Jadida" "Yeni Dünya"
+				"New Samarkand" "New Alexandria" "New Carthage"
+				### Technical / functional (Belt tradition)
+				"Station Alpha" "Waypoint" "Relay" "Junction" "Crossroads"
+				"Depot" "Staging Post" "Transit Hub"
+				### Martian cartographic tradition
+				"Cydonia" "Meridiani" "Amazonis" "Hellas Nova"
+				"Lowell" "Elysium Nova" "Schiaparelli Station"
+			}
+		}
+
+		pc_desert = {
+			names = {
+				"Sahara" "Atacama" "Gobi" "Rub al-Khali" "Taklamakan"
+				"Sonoran" "Namib" "Kalahari" "Dasht-e Kavir" "Thar"
+				"Dasht" "Erg" "Hamada" "Serir" "Reg" "Nafud"
+				"Dry Meridian" "Cinder" "Ashfall" "Dust Harbor"
+				"Arid Station" "Firebreak" "Red Plain"
+			}
+		}
+
+		pc_arid = {
+			names = {
+				"Oasis" "Waha" "Chashma" "Qanat" "Karez"
+				"Amber" "Russet" "Terracotta"
+				"New Samarkand" "New Palmyra" "New Petra" "New Kashgar"
+				"Baked Plain" "Red Mesa" "Iron Steppe" "Dustfall"
+			}
+		}
+
+		pc_tropical = {
+			names = {
+				"Eden" "Verdant" "Canopy" "Rainfall"
+				"New Borneo" "New Amazon" "New Congo" "New Mekong"
+				"Greenworld" "Fernhaven" "Dawnforest"
+				"Equatorial" "Tropica" "Rimba"
+			}
+		}
+
+		pc_continental = {
+			names = {
+				"New Geneva" "New Kyoto" "New Nairobi" "New Tehran"
+				"New Seoul" "New Jakarta" "New Cairo" "New Mumbai" "New Lagos"
+				"New Moscow" "New Beijing" "New Paris" "New London" "New Rio"
+				"Founding" "Establishment" "Charter" "New Accord" "Compact"
+				"Heartland" "Mainland" "Continental" "Breadbasket"
+			}
+		}
+
+		pc_gaia = {
+			names = {
+				"Eden" "Elysium" "Arcadia" "Paradise" "Utopia"
+				"Jannah" "Firdaws" "Cennet" "Behesht" "Sukhavati"
+				"Tian" "Penglai" "Kunlun" "Hourai"
+				"Avalon" "Valhalla" "Promised"
+				"New Earth" "Covenant" "Accord" "Pax"
+			}
+		}
+
+		pc_ocean = {
+			names = {
+				"Pelagic" "Bathys" "Thalassa" "Oceanus" "Mare"
+				"New Polynesia" "Blue World" "Flotilla"
+				"Island Chain" "Archipelago" "Atoll"
+				"Calypso" "Poseidon" "Neptune" "Nereid"
+			}
+		}
+
+		pc_tundra = {
+			names = {
+				"Boreal" "Taiga" "Permafrost" "Frostfall" "Icereach"
+				"New Siberia" "New Lapland" "New Alaska"
+				"Winterhold" "Coldfront" "Hardwinter"
+				"Arctis" "Glacialis" "Frigidus"
+			}
+		}
+
+		pc_arctic = {
+			names = {
+				"Glacialis" "Arctis" "Boreas" "Hyperborea" "Ultima"
+				"Icecap" "Polar Station" "White World" "Deep Freeze"
+				"Frostpoint" "New Antarctica" "New Greenland" "New Svalbard"
+			}
+		}
+
+		pc_savannah = {
+			names = {
+				"New Serengeti" "New Sahel" "New Savannah" "New Veldt"
+				"Grassland" "Prairie" "Steppe" "Pampa" "Veld"
+				"Golden Plain" "Amber Plains" "Wide Sky" "Horizon"
+			}
+		}
+
+		pc_alpine = {
+			names = {
+				"New Alps" "New Himalayas" "New Andes" "New Rockies"
+				"Highpeak" "Summit" "Ridgepoint" "Crestfall" "Pinnacle"
+				"Alpin" "Montanus" "New Everest" "New Olympus" "High Ground"
+			}
+		}
+	}
+
+	### =======================================================================
+	### CHARACTER NAMES
+	### Reflects the full diversity of UNS member states.
+	### Security Council permanent members: USA, China, India, EU, African Union,
+	### Russia, Turkey, Brazil, ASEAN, Islamic Cooperative Council, Mars.
+	### =======================================================================
+	character_names = {
+
+		### Anglo-American / English-speaking Western
+		names1 = {
+			weight = 12
+			first_names_male = {
+				"James" "John" "Robert" "William" "David" "Richard" "Joseph" "Thomas"
+				"Charles" "Daniel" "Matthew" "Anthony" "Mark" "Paul" "George"
+				"Steven" "Kenneth" "Andrew" "Edward" "Brian" "Kevin" "Timothy"
+				"Jason" "Ryan" "Nathan" "Ethan" "Benjamin" "Samuel" "Patrick" "Jack"
+				"Oliver" "Harry" "Liam" "Noah" "Lucas" "Mason" "Logan"
+				"Connor" "Aiden" "Carter" "Caleb" "Hunter" "Dylan" "Owen" "Luke" "Felix" "Franklin"
+			}
+			first_names_female = {
+				"Mary" "Patricia" "Jennifer" "Linda" "Barbara" "Susan" "Margaret"
+				"Jessica" "Sarah" "Karen" "Elizabeth" "Helen" "Lisa" "Nancy"
+				"Ashley" "Amanda" "Emily" "Hannah" "Megan" "Olivia" "Emma" "Ava"
+				"Isabella" "Sophia" "Charlotte" "Amelia" "Harper" "Evelyn" "Abigail"
+				"Grace" "Chloe" "Victoria" "Natalie" "Lauren" "Samantha" "Allison"
+				"Riley" "Zoe" "Eleanor" "Lily" "Aurora" "Stella" "Luna"
+			}
+			second_names = {
+				"Smith" "Johnson" "Williams" "Brown" "Jones" "Garcia" "Miller" "Davis"
+				"Wilson" "Anderson" "Taylor" "Thomas" "Jackson" "White" "Harris"
+				"Martin" "Thompson" "Martinez" "Robinson" "Clark" "Rodriguez" "Lewis"
+				"Lee" "Walker" "Hall" "Allen" "Young" "King" "Wright" "Scott"
+				"Mitchell" "Carter" "Campbell" "Adams" "Nelson" "Baker" "Hill" "Roberts"
+				"Evans" "Turner" "Collins" "Parker" "Edwards" "Stewart" "Morris" "Sorrento-Gillis" "Avasarala" "Gao" "Errinwright" "Souther" "Purnell" "Holden" "Miller" "Dawes" "Strickland" "Marcu" "Degraaf" "Soren" "Sutton" "Thorsen" "Yao" "Okoye" "Dresden"
+			}
+			regnal_first_names_male = {
+				"James" "William" "George" "David" "Richard" "Thomas" "John" "Robert"
+			}
+			regnal_first_names_female = {
+				"Elizabeth" "Victoria" "Mary" "Anne" "Margaret" "Catherine" "Charlotte" "Grace" "Agatha" 
+			}
+			regnal_second_names = {
+				"Smith" "Williams" "Taylor" "Adams" "Nelson" "King" "Mitchell" "Clarke"
+			}
+		}
+
+		### French / Francophone
+		names2 = {
+			weight = 7
+			first_names_male = {
+				"Pierre" "Jean" "Paul" "Michel" "François" "Philippe" "Henri" "Jacques"
+				"Claude" "André" "Alain" "Louis" "Luc" "Marc" "Antoine" "Xavier"
+				"Baptiste" "Étienne" "Guillaume" "Julien" "Mathieu" "Nicolas" "Olivier"
+				"Romain" "Thomas" "Théo" "Adrien" "Alexandre" "Hugo" "Léo"
+				"Nathan" "Quentin" "Raphaël" "Émile" "Gauthier"
+			}
+			first_names_female = {
+				"Marie" "Sophie" "Isabelle" "Camille" "Céline" "Amélie" "Nathalie"
+				"Anne" "Julie" "Claire" "Laura" "Emma" "Chloé" "Léa" "Lucie"
+				"Alice" "Anaïs" "Aurélie" "Charlotte" "Delphine" "Élodie" "Eva"
+				"Floriane" "Hélène" "Inès" "Jade" "Juliette" "Laure" "Manon" "Margot"
+				"Mathilde" "Noémie" "Océane" "Pauline" "Valentine" "Zoé"
+			}
+			second_names = {
+				"Martin" "Bernard" "Dubois" "Thomas" "Robert" "Richard" "Petit" "Durand"
+				"Leroy" "Moreau" "Simon" "Laurent" "Lefebvre" "Michel" "Garcia" "David"
+				"Bertrand" "Roux" "Vincent" "Fournier" "Morel" "Girard" "André"
+				"Mercier" "Dupont" "Lambert" "Bonnet" "François" "Martinez" "Legrand"
+				"Garnier" "Faure" "Rousseau" "Blanc" "Guerin" "Henry" "Roussel"
+			}
+			regnal_first_names_male = {
+				"Louis" "Charles" "Philippe" "Henri" "François" "Jean" "Guillaume" "Léo"
+			}
+			regnal_first_names_female = {
+				"Marie" "Sophie" "Isabelle" "Charlotte" "Camille" "Anne" "Margot" "Élise"
+			}
+			regnal_second_names = {
+				"Martin" "Dubois" "Bernard" "Dupont" "Rousseau" "Laurent" "Blanc" "Girard"
+			}
+		}
+
+		### Spanish / Portuguese / Latin American
+		names3 = {
+			weight = 9
+			first_names_male = {
+				"Carlos" "Juan" "Miguel" "Pedro" "José" "Antonio" "Luis" "Jorge"
+				"Rafael" "Fernando" "Manuel" "Alejandro" "Diego" "Javier" "Andrés"
+				"Roberto" "Sergio" "Francisco" "Enrique" "Ricardo" "Pablo" "Marco"
+				"Nicolás" "Eduardo" "Sebastián" "Mateo" "Emilio" "Rodrigo" "Álvaro"
+				"João" "Filipe" "Rui" "Bruno" "Tiago" "Diogo" "Nuno" "Gonçalo" "Augusto" "Felix"
+			}
+			first_names_female = {
+				"María" "Ana" "Carmen" "Laura" "Isabel" "Lucía" "Sofía" "Elena"
+				"Pilar" "Rosa" "Beatriz" "Teresa" "Claudia" "Patricia" "Natalia"
+				"Paula" "Valentina" "Daniela" "Alejandra" "Gabriela" "Camila" "Andrea"
+				"Mariana" "Fernanda" "Valeria" "Catalina" "Isabella" "Renata"
+				"Ana" "Inês" "Marta" "Sónia" "Rita" "Filipa" "Vera" "Joana"
+			}
+			second_names = {
+				"García" "Rodríguez" "González" "López" "Martínez" "Sánchez" "Pérez"
+				"Gómez" "Martín" "Jiménez" "Ruiz" "Hernández" "Díaz" "Moreno" "Álvarez"
+				"Muñoz" "Romero" "Alonso" "Gutiérrez" "Navarro" "Torres" "Domínguez"
+				"Vázquez" "Ramos" "Gil" "Ramírez" "Serrano" "Blanco" "Suárez" "Molina"
+				"Silva" "Santos" "Ferreira" "Pereira" "Costa" "Rodrigues" "Martins"
+				"Carvalho" "Araújo" "Oliveira" "Almeida" "Fernandes" "Machado" "Sandoval" "Delgado"
+			}
+			regnal_first_names_male = {
+				"Carlos" "Felipe" "Alfonso" "Juan" "Fernando" "Manuel" "Rodrigo" "Diego"
+			}
+			regnal_first_names_female = {
+				"Isabel" "María" "Carmen" "Sofía" "Catalina" "Elena" "Beatriz" "Victoria"
+			}
+			regnal_second_names = {
+				"García" "González" "Martínez" "López" "Torres" "Silva" "Ferreira" "Rodríguez"
+			}
+		}
+
+		### Chinese
+		names4 = {
+			weight = 10
+			first_names_male = {
+				"Wei" "Jun" "Hao" "Lei" "Cheng" "Tao" "Ming" "Feng" "Gang" "Jian"
+				"Bo" "Peng" "Qiang" "Long" "Yong" "Kai" "Dong" "Xiang" "Liang" "Hui"
+				"Zhiyuan" "Haoran" "Zixuan" "Yichen" "Junhao" "Minghao" "Haoyu"
+				"An" "Bao" "De" "Guo" "Hu" "Jie" "Kang" "Li" "Meng"
+				"Ning" "Shi" "Song" "Tian" "Wu" "Xiong" "Yi"
+			}
+			first_names_female = {
+				"Mei" "Ling" "Xia" "Yan" "Fang" "Hong" "Hua" "Jiao" "Juan" "Lan"
+				"Lian" "Lin" "Na" "Ni" "Qian" "Qiao" "Qing" "Shan" "Shu" "Ting"
+				"Wen" "Xian" "Xiang" "Xiu" "Xue" "Ying" "Yu" "Yuan" "Yun" "Zhen"
+				"Zhi" "Ai" "Bi" "Cui" "Dan" "Huan" "Ju" "Minzhi" "Ruoxi" "Siyu"
+				"Yutong" "Xinyi" "Wanyu" "Ziyi" "Mengqi"
+			}
+			second_names = {
+				"Wang" "Li" "Zhang" "Liu" "Chen" "Yang" "Zhao" "Huang" "Zhou" "Wu"
+				"Xu" "Sun" "Hu" "Zhu" "Gao" "Lin" "He" "Guo" "Ma" "Luo"
+				"Liang" "Song" "Zheng" "Xie" "Han" "Tang" "Feng" "Deng" "Cao" "Peng"
+				"Sima" "Zhuge" "Ouyang" "Xiao" "Cui" "Pan" "Kong" "Shen"
+				"Tan" "Cheng" "Mao" "Lu" "Qin" "Shao" "Jiang"
+			}
+			regnal_first_names_male = {
+				"Wei" "Jun" "Hao" "Ming" "Feng" "Zhiyuan" "Yong" "Tian" "Bo" "Kai"
+			}
+			regnal_first_names_female = {
+				"Mei" "Ling" "Xia" "Yan" "Ying" "Yu" "Zhen" "Hua" "Siyu" "Xinyi"
+			}
+			regnal_second_names = {
+				"Zhang" "Liu" "Chen" "Yang" "Zhao" "Wang" "Huang" "Li" "Wu" "Zhou"
+			}
+		}
+
+		### Indian (Hindi, Tamil, Bengali, and broader South Asian)
+		names5 = {
+			weight = 10
+			first_names_male = {
+				"Arjun" "Rahul" "Amit" "Vikram" "Rajesh" "Suresh" "Anil" "Sanjay"
+				"Pankaj" "Deepak" "Vivek" "Nikhil" "Rohit" "Karan"
+				"Aditya" "Rajan" "Manoj" "Ashish" "Anand" "Akash" "Shubham" "Rishabh"
+				"Surya" "Aryan" "Dhruv" "Kartik" "Pranav" "Siddharth" "Yash" "Kabir"
+				"Ravi" "Vijay" "Satish" "Mohan" "Ram" "Dilip"
+				"Murugan" "Selvam" "Kumaran" "Rajkumar" "Senthil" "Vignesh"
+				"Soumyajit" "Aritra" "Subhajit" "Debashis" "Sourav" "Partha"
+			}
+			first_names_female = {
+				"Priya" "Sunita" "Anjali" "Pooja" "Kavya" "Sneha" "Ananya" "Shreya"
+				"Divya" "Meera" "Nisha" "Riya" "Aarti" "Neha" "Swati" "Shweta"
+				"Aishwarya" "Deepa" "Laxmi" "Sarika" "Komal" "Manisha" "Pallavi"
+				"Rekha" "Seema" "Shalini" "Usha" "Yamini"
+				"Kavitha" "Sangeetha" "Bhuvana" "Meenakshi" "Gomathi"
+				"Mrinmoyee" "Sutapa" "Debjani" "Sayantani" "Barnali"
+			}
+			second_names = {
+				"Singh" "Kumar" "Sharma" "Patel" "Gupta" "Verma" "Joshi" "Shah"
+				"Mehta" "Nair" "Pillai" "Iyer" "Rao" "Reddy" "Menon" "Krishnan"
+				"Chaudhary" "Saxena" "Mishra" "Tiwari" "Pandey" "Shukla" "Tripathi"
+				"Banerjee" "Chatterjee" "Ghosh" "Bose" "Mukherjee" "Chakraborty"
+				"Arumugam" "Krishnaswamy" "Venkataraman"
+			}
+			regnal_first_names_male = {
+				"Arjun" "Vikram" "Aditya" "Dhruv" "Karan" "Surya" "Kabir" "Ram"
+			}
+			regnal_first_names_female = {
+				"Priya" "Kavya" "Ananya" "Meera" "Divya" "Aishwarya" "Laxmi" "Shreya"
+			}
+			regnal_second_names = {
+				"Singh" "Sharma" "Patel" "Rao" "Reddy" "Nair" "Kumar" "Mehta"
+			}
+		}
+
+		### African (pan-African, primarily West and East African)
+		names6 = {
+			weight = 8
+			first_names_male = {
+				"Kwame" "Kofi" "Kojo" "Nana" "Yaw" "Fiifi"
+				"Chukwuemeka" "Adebayo" "Nnamdi" "Emeka" "Obinna" "Ikechukwu"
+				"Femi" "Kayode" "Tunde" "Segun" "Yinka" "Abiodun" "Babajide"
+				"Aminu" "Garba" "Musa" "Bello" "Usman" "Sanusi" "Ibrahim"
+				"Jabari" "Bakari" "Faraji" "Jelani" "Simba" "Zuberi" "Baraka"
+				"Tendaji" "Said" "Omari" "Hassan" "Rashid" "Salim"
+				"Juma" "Kibwe" "Rajabu"
+			}
+			first_names_female = {
+				"Adaeze" "Ngozi" "Chidinma" "Amara" "Chiamaka" "Nneka" "Ifunanya"
+				"Oluwakemi" "Temitope" "Funmilayo" "Yetunde" "Titilayo" "Bukola"
+				"Adeola" "Jumoke" "Aisha" "Hauwa" "Halima" "Zainab" "Hadiza"
+				"Amani" "Asha" "Eshe" "Furaha" "Imani" "Kamaria" "Nia" "Nuru"
+				"Zuri" "Rehema" "Dalila" "Jamila" "Mariamu" "Neema" "Saida" "Zahara"
+			}
+			second_names = {
+				"Okafor" "Okonkwo" "Nwosu" "Adeyemi" "Ogundimu" "Adesanya"
+				"Okeke" "Amaechi" "Igwe" "Eze" "Chukwuma"
+				"Bankole" "Akinjide" "Gbadamosi" "Olanrewaju" "Sow"
+				"Danjuma" "Mohammed" "Yakubu" "Suleiman" "Bello"
+				"Mwangi" "Kamau" "Odhiambo" "Otieno" "Kipchoge" "Wanjiku"
+				"Karanja" "Maina" "Njoroge" "Kimani" "Gitonga"
+				"Abdallah" "Mohamed" "Ali" "Said" "Bakari" "Juma"
+			}
+			regnal_first_names_male = {
+				"Kwame" "Kofi" "Nnamdi" "Jabari" "Faraji" "Simba" "Tendaji" "Baraka"
+			}
+			regnal_first_names_female = {
+				"Adaeze" "Ngozi" "Amara" "Funmilayo" "Amani" "Asha" "Imani" "Zuri"
+			}
+			regnal_second_names = {
+				"Okafor" "Adeyemi" "Sow" "Nwosu" "Mwangi" "Odhiambo" "Kipchoge" "Abdallah"
+			}
+		}
+
+		### Russian / Eastern European
+		names7 = {
+			weight = 7
+			first_names_male = {
+				"Ivan" "Nikolai" "Vladimir" "Pyotr" "Alexei" "Dmitri" "Sergei" "Viktor"
+				"Igor" "Mikhail" "Vasily" "Pavel" "Fyodor" "Leonid" "Yuri" "Oleg"
+				"Andrei" "Konstantin" "Artyom" "Bogdan" "Ilya" "Kirill" "Yegor" "Maxim"
+				"Artem" "Stanislav" "Ruslan" "Timur" "Roman" "Matvei"
+			}
+			first_names_female = {
+				"Anna" "Yelena" "Olga" "Tatyana" "Svetlana" "Nadya" "Irina" "Galina"
+				"Anastasia" "Vera" "Polina" "Marina" "Darya" "Katya" "Natasha" "Sonia"
+				"Valentina" "Arina" "Maria" "Kristina" "Alexandra" "Ekaterina" "Alina"
+				"Yulia" "Veronika" "Lena" "Oksana" "Natalya" "Lyudmila"
+			}
+			second_names_male = {
+				"Ivanov" "Petrov" "Volkov" "Sorokin" "Kozlov" "Novikov" "Morozov"
+				"Fedorov" "Komarov" "Vasiliev" "Romanov" "Antonov" "Makarov" "Titov"
+				"Smirnov" "Kuznetsov" "Popov" "Lebedev" "Sokolov" "Mikhailov"
+				"Bogdanov" "Orlov" "Frolov" "Zaytsev" "Nikitin" "Stepanov" "Volovodov"
+			}
+			second_names_female = {
+				"Ivanova" "Petrova" "Volkova" "Sorokina" "Kozlova" "Novikova"
+				"Fedorova" "Komarova" "Vasilyeva" "Romanova" "Antonova" "Makarova"
+				"Smirnova" "Kuznetsova" "Popova" "Lebedeva" "Sokolova" "Mikhailova" "Volovodova"
+			}
+			regnal_first_names_male = {
+				"Vladimir" "Nikolai" "Alexei" "Konstantin" "Artem" "Dmitri" "Ivan" "Pavel"
+			}
+			regnal_first_names_female = {
+				"Anastasia" "Svetlana" "Valentina" "Marina" "Darya" "Yelena" "Polina" "Vera"
+			}
+			regnal_second_names = {
+				"Romanov" "Volkov" "Smirnov" "Makarov" "Komarov" "Sorokin" "Ivanov" "Fedorov"
+			}
+		}
+
+		### Arabic / North African / Middle Eastern (Islamic Cooperative Council)
+		names8 = {
+			weight = 8
+			first_names_male = {
+				"Abdullah" "Ahmad" "Ali" "Ammar" "Hamza" "Hassan" "Ibrahim" "Jamal"
+				"Kareem" "Khalid" "Khalil" "Malik" "Mohamed" "Nasir" "Omar" "Rashid"
+				"Samir" "Tariq" "Yusuf" "Barak" "Hussain" "Farid" "Nabil" "Idris"
+				"Mustafa" "Bilal" "Zaid" "Riyad" "Walid" "Kamal" "Adel" "Hamed"
+				"Amin" "Othman" "Saleh" "Mansour" "Anwar" "Mazen" "Faisal" "Hakim"
+			}
+			first_names_female = {
+				"Amira" "Aisha" "Fatima" "Hala" "Hana" "Leila" "Maryam" "Noor"
+				"Salma" "Zahra" "Samira" "Naima" "Sanaa" "Malak" "Layan" "Aya"
+				"Rania" "Dina" "Huda" "Layla" "Lubna" "Muna" "Nadia" "Rasha"
+				"Safiya" "Suha" "Wafa" "Yasmin" "Zeinab" "Khadija" "Amal" "Bushra"
+			}
+			second_names = {
+				"Al-Rashidi" "Al-Mansouri" "Al-Farsi" "Al-Hashimi" "Al-Jazari"
+				"Al-Dimashqi" "Al-Mubarak" "Barakat"
+				"Abbas" "Abdel Nour" "El-Baz" "Ismail" "Hassan" "Bilal"
+				"Nadir" "Hamidi" "Salman" "Qasim" "Madani" "Ibrahim" "Khalil"
+				"Amari" "Boumediene" "Benali" "Belkacem" "Zerhouni" "Mehenni"
+				"Alaoui" "Bouzid"
+			}
+			regnal_first_names_male = {
+				"Khalid" "Faisal" "Mansour" "Rashid" "Abdullah" "Malik" "Hakim" "Sultan"
+			}
+			regnal_first_names_female = {
+				"Fatima" "Noor" "Zahra" "Amira" "Khadija" "Salma" "Maryam" "Safiya"
+			}
+			regnal_second_names = {
+				"Al-Rashidi" "Al-Hashimi" "Al-Mansouri" "Barakat" "Abbas" "Amari"
+			}
+		}
+
+		### Turkish (Republic of Turkey — permanent Security Council member)
+		names9 = {
+			weight = 5
+			first_names_male = {
+				"Mehmet" "Mustafa" "Ahmet" "Ali" "Hüseyin" "Hasan" "İbrahim" "Ömer"
+				"Yusuf" "Murat" "İsmail" "Osman" "Halil" "Cemal" "Kemal" "Burak"
+				"Emre" "Serkan" "Tolga" "Barış" "Cem" "Deniz" "Efe" "Kaan"
+				"Berk" "Alp" "Onur" "Selim" "Volkan" "Sinan"
+			}
+			first_names_female = {
+				"Fatma" "Ayşe" "Emine" "Hatice" "Zeynep" "Elif" "Merve" "Büşra"
+				"Esra" "Derya" "Gül" "Selin" "Naz" "Cansu" "İrem" "Ebru"
+				"Pınar" "Nur" "Defne" "Yasemin" "Aslı" "Burcu" "Ceren" "Dilara"
+			}
+			second_names = {
+				"Yılmaz" "Kaya" "Demir" "Çelik" "Şahin" "Yıldız" "Yıldırım" "Öztürk"
+				"Aydın" "Özdemir" "Arslan" "Doğan" "Kılıç" "Aslan" "Çetin" "Kara"
+				"Koç" "Kurt" "Özkan" "Polat" "Ateş" "Karadağ" "Güneş"
+			}
+			regnal_first_names_male = {
+				"Mehmet" "Selim" "Kemal" "Sinan" "Alp" "Kaan" "Onur" "Murat"
+			}
+			regnal_first_names_female = {
+				"Elif" "Zeynep" "Defne" "Naz" "Selin" "Gül" "Nur" "Aslı"
+			}
+			regnal_second_names = {
+				"Kaya" "Demir" "Arslan" "Karadağ" "Şahin" "Yıldırım" "Çelik" "Özdemir"
+			}
+		}
+
+		### Korean / Japanese
+		names10 = {
+			weight = 6
+			first_names_male = {
+				"Minjun" "Seojun" "Dohyun" "Hajun" "Jiho" "Juwon" "Junwoo" "Siwoo"
+				"Yejun" "Hyunwoo" "Taemin" "Donghyun" "Woobin" "Jaehyun"
+				"Jae-won" "Seung-ho" "Dae-jung" "Young-ho" "Tae-hyung"
+				"Haruto" "Sota" "Yuto" "Hayato" "Haruki" "Ryota" "Takumi" "Kenta"
+				"Kenji" "Riku" "Sora" "Yuuki" "Daiki" "Ren" "Kaito"
+			}
+			first_names_female = {
+				"Soyeon" "Jiwoo" "Seoyeon" "Chaeyoung" "Yuna" "Dahyun" "Hayoon" "Minji"
+				"Soeun" "Jiyeon" "Eunji" "Sumin" "Hyejin" "Nayeon" "Eunbi"
+				"Seol-hi" "Min-jung" "Ji-yeon" "Soo-yeon"
+				"Yui" "Aoi" "Hana" "Sakura" "Miu" "Rin" "Nanami" "Saki"
+				"Miyu" "Koharu" "Akari" "Hinata" "Noa" "Riko"
+			}
+			second_names = {
+				"Kim" "Lee" "Park" "Choi" "Jung" "Kang" "Cho" "Yoon" "Jang" "Lim"
+				"Han" "Oh" "Seo" "Shin" "Kwon" "Hwang" "Ahn" "Song" "Yoo" "Hong"
+				"Sato" "Suzuki" "Takahashi" "Tanaka" "Watanabe" "Ito" "Yamamoto"
+				"Nakamura" "Kobayashi" "Kato" "Yoshida" "Yamada" "Sasaki" "Yamaguchi"
+				"Matsumoto" "Inoue" "Kimura" "Hayashi" "Shimizu"
+			}
+			regnal_first_names_male = {
+				"Minjun" "Taemin" "Jiho" "Seojun" "Jae-won" "Haruto" "Kenji" "Sota"
+			}
+			regnal_first_names_female = {
+				"Soyeon" "Chaeyoung" "Minji" "Seol-hi" "Yui" "Aoi" "Sakura" "Hana"
+			}
+			regnal_second_names = {
+				"Kim" "Lee" "Park" "Choi" "Yoon" "Sato" "Suzuki" "Nakamura"
+			}
+		}
+
+		### Southeast Asian (ASEAN — permanent Security Council member)
+		names11 = {
+			weight = 5
+			first_names_male = {
+				"Minh" "Duc" "Huy" "Quang" "Thanh" "Tuan" "Khanh" "Hieu" "Phuc" "Long"
+				"Budi" "Agus" "Hendra" "Wahyu" "Adi" "Rizal" "Dimas" "Bagus" "Arief" "Fajar"
+				"Juan" "Jose" "Antonio" "Rafael" "Miguel" "Andres" "Carlo" "Marco"
+			}
+			first_names_female = {
+				"Mai" "Linh" "Huong" "Thao" "Ngoc" "Lan" "Hanh" "Trang" "Phuong" "An"
+				"Sari" "Dewi" "Putri" "Ayu" "Ratna" "Wati" "Yanti" "Siti" "Rina" "Dian"
+				"Maria" "Ana" "Teresa" "Luz" "Carmen" "Rosa" "Lita"
+			}
+			second_names = {
+				"Nguyen" "Tran" "Le" "Pham" "Hoang" "Vu" "Vo" "Dang" "Bui" "Do"
+				"Sukarno" "Widodo" "Hartono" "Santoso" "Wijaya" "Susanto" "Kurniawan"
+				"Suryadi" "Prasetyo" "Utomo" "Hidayat" "Nugraha" "Gunawan"
+				"Santos" "Cruz" "Reyes" "Ramos" "Gonzales" "Bautista" "Garcia"
+			}
+			regnal_first_names_male = {
+				"Minh" "Duc" "Rizal" "Budi" "Juan" "Rafael" "Quang" "Huy"
+			}
+			regnal_first_names_female = {
+				"Mai" "Linh" "Dewi" "Sari" "Maria" "Teresa" "Ngoc" "Thao"
+			}
+			regnal_second_names = {
+				"Nguyen" "Tran" "Widodo" "Sukarno" "Santos" "Cruz"
+			}
+		}
+
+		### Martian (mixed heritage, post-independence culture — distinct from Earth)
+		names12 = {
+			weight = 9
+			first_names_male = {
+				### Inherited Earth names — mixed international
+				"James" "Wei" "Mikhail" "Carlos" "Omar" "Kenji" "Kwame" "Arjun"
+				"Marco" "Alexei" "Liam" "Reza" "Seojun" "Tariq" "Viktor"
+				"David" "Thomas" "Ryan" "Nathan" "Lucas" "Connor" "Dylan" "Ethan"
+				"Hiroshi" "Dmitri" "Paulo" "Santiago" "Emre" "Rowan" "Kalani" "Winston" "Pyotr" "Sutton" "Fayiz" "Soren" "Lev" "Drum" "Fitz" "Senna" "Roni" "Solomon" "Voss" "Tarr" "Muss" "Bens" "Felcia" 
+				### Distinctly Martian given names (classical / Latin tradition)
+				### Mars consciously models itself on ancient empires — a Martian naming its child
+				### "Octavian" is making a statement about civilization
+				"Octavian" "Maximus" "Aurelius" "Caius" "Lucius" "Marcus" "Titus"
+				"Hadrian" "Scipio" "Fabius" "Cato" "Felix" "Rufus" "Cassius"
+				### Topographic given names (born in the canyon, named for the canyon)
+				"Lowell" "Elysian" "Olympos" "Valles" "Hellas"
+			}
+			first_names_female = {
+				### Inherited Earth names
+				"Mei" "Natasha" "Priya" "Elena" "Amara" "Yuna" "Sofia" "Fatima"
+				"Kirra" "Lin" "Darya" "Valentina" "Soo-Yeon"
+				"Emma" "Sarah" "Claire" "Hannah" "Laura" "Megan" "Rachel"
+				"Yuki" "Irina" "Lucia" "Isabela" "Aisha" "Ji-Won" "Elif" "Kelly" "Svetlana" "Dina" "Anya" "Sonia" "Camila" "Diana" "Maya" "Zara" "Lena" "Theresa" "Sandrine" "Caitlin"
+				### Distinctly Martian
+				"Octavia" "Livia" "Claudia" "Julia" "Valeria" "Aelia" "Cassia"
+				"Serena" "Aurora" "Solara" "Celeste" "Meridia" "Olympia"
+				### Topographic
+				"Cydonia" "Elysiane" "Roia" "Terracine"
+			}
+			second_names = {
+				### Hyphenated heritage surnames (common after 2-3 generations on Mars)
+				"Nakamura-Chen" "Zhang-Volkov" "Park-Martinez" "Wang-Okafor"
+				"Chen-Watanabe" "Liu-Petrov" "Kim-Andersen" "Huang-Singh"
+				"Nakamura-Xu" "Tran-Kim" "Volkov-Park" "Martinez-Liu"
+				"Santos-Park" "Volkov-Singh" "Okafor-Zhang" "Kim-Santos" "Andersen-Liu"
+				### Single-word Martian surnames (assimilation or topographic origin)
+				"Redmere" "Canyonborn" "Dustfall" "Lowell" "Mariner" "Irongate"
+				"Valles" "Tharsis" "Elysian" "Hellas" "Olympian" "Meridian"
+				"Rustborn" "Scarborn" "Basaltine" "Ferric" "Riftborn"
+				"Rustcroft" "Dawnside" "Rifton" "Craterborn" "Highcanyon" "Deepdust"
+				### Retained Earth surnames common among Mars population
+				"Zhang" "Kim" "Nakamura" "Petrov" "Singh" "Santos" "Okafor"
+				"Volkov" "Andersen" "Park" "Martinez" "Liu" "Chen" "Draper" "de Baca" "Smith" "Sauveterre" "Duarte" "Korshunov" "Shaddid" "Sa’id" "Hillman" "Martens" "Travis" "Badawi" "Kamal" "McDowell" "Cassiet" "Kyridis" "Cortázar" "Okoye" "Sarkis" "Epstein" "Sandhurst"
+			}
+			regnal_first_names_male = {
+				"Marcus" "Octavian" "Caius" "Lucius" "Hadrian" "Felix" "Titus" "Aurelius"
+			}
+			regnal_first_names_female = {
+				"Livia" "Octavia" "Valeria" "Serena" "Aurora" "Meridia" "Claudia" "Cassia"
+			}
+			regnal_second_names = {
+				"Nakamura-Chen" "Zhang-Volkov" "Park-Martinez" "Redmere"
+				"Mariner" "Valles" "Lowell" "Meridian"
+			}
+		}
+
+		### Belter (minor subculture — Belt pidgin blends everything, trusts nothing)
+		names13 = {
+			weight = 3
+			first_names_male = {
+				### Belter names: truncated, blended, recognizable from nowhere specific
+				"Amos" "Alex" "Cyn" "Diogo" "Bull" "Ochoa" "Sakai"
+				"Setze" "Kwan" "Taki" "Cotter" "Zed" "Pax"
+				"Soren" "Lev" "Drum" "Fitz" "Senna" "Roni"
+				"Voss" "Tarr" "Muss" "Bens" "Clip" "Narek" "Yul"
+				"Filip" "Marco" "Maneo" "Karal" "Josep" "Serge" "Tadeo" "Sandro"
+				"Bizi" "Hutch" "Wendell" "Evans" "Hector" "Liang" "Corin" "Roque"
+				"Bertold" "Rosenfeld" "Anderson"
+			}
+			first_names_female = {
+				"Senna" "Chava" "Roni" "Bess" "Nami" "Taki"
+				"Kris" "Oka" "Cass" "Mara" "Delia" "Petra"
+				"Zara" "Mira" "Lena" "Drum" "Nari" "Yeva"
+				"Voss" "Bex" "Suki" "Wren" "Cael" "Fen"
+				"Michio" "Camina" "Cara" "Xan" "Nadia" "Soledad" "Reeva"
+				"Clarissa" "Peaches" "Oksana"
+			}
+			second_names = {
+				### Belters often go by one name, or adopt names from their work and their rock
+				"Burton" "Kamal" "Muss" "Drummer" "Dawes"
+				"Clarissa" "Bull" "Diogo" "Sakai"
+				"Voidborn" "Rockborn" "Driftborn" "Floatborn" "Belter"
+				"Ceresborn" "Pallasborn" "Vestasborn" "Deepborn"
+				"Ochoa" "Beltran" "Tachi"
+				"Inaros" "Nagata" "Pa" "Jung-Espinoza" "Bacigalupi" "Guoliang"
+				"Muñoz-Farrar" "Bisset" "Avasarala" "Holden"
+				"Cererborn" "Tycho-born" "Ringborn" "Ganymedeborn"
+			}
+			regnal_first_names_male = {
+				"Anderson" "Diogo" "Kwan" "Setze" "Soren" "Zed" "Bull" "Amos"
+			"Filip" "Marco" "Karal"
+			}
+			regnal_first_names_female = {
+				"Senna" "Chava" "Roni" "Drum" "Nami" "Bess" "Kris" "Mara"
+			"Michio" "Camina" "Oksana" "Reeva"
+			}
+			regnal_second_names = {
+				"Drummer" "Kamal" "Dawes" "Voidborn" "Belter" "Beltran" "Ceresborn" "Deepborn" 	"Inaros" "Nagata" "Pa" "Jung-Espinoza"
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+﻿l_english:
+  ####################################
+  # Ship Components
+  ####################################
+  # ============================================================
+  # Astra Invicta - HARD SCI-FI WEAPON OVERHAUL — Localization Changes
+  # Only entries that differ from the user's existing file.
+  # Merge these into your existing localization file.
+  # ============================================================
+  volatile_motes: "Metastable Compounds"
+  volatile_motes_desc: "Chemical compounds locked in excited quantum states that store extraordinary energy density. When triggered, metastable compounds release this energy explosively, making them essential for advanced propellants, reactive warhead fillers, and energetic armor additives. Naturally occurring deposits are rare — most civilizations synthesize them at significant mineral cost."
+
+  exotic_gases: "Exotic Isotopes"
+  exotic_gases_desc: "Rare isotopic variants of common elements possessing unusual nuclear and quantum mechanical properties. Exotic isotopes are essential feedstock for superconductor fabrication, magnetic confinement field generation, and high-efficiency power coupling systems. Natural deposits are scarce — most civilizations resort to expensive isotope separation processes."
+
+  rare_crystals: "Photonic Crystals"
+  rare_crystals_desc: "Crystal lattices with periodic nanostructures that manipulate photon behavior at the quantum level. Photonic crystals are the enabling substrate for coherent light amplification, optical data processing, and quantum computing architectures. Essential for advanced laser focusing optics and high-throughput research instrumentation."
+
+  sr_living_metal: "Programmable Matter"
+  sr_living_metal_desc: "A material capable of autonomous self-assembly and structural repair at the molecular level. Originally encountered in alien megastructures, programmable matter dramatically accelerates large-scale construction by filling micro-fractures and reshaping damaged sections without external intervention."

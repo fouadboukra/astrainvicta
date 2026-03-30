@@ -1,0 +1,64 @@
+﻿l_english:
+ ### SOL SECTOR LOCALISATION
+ ###### SOL 1
+ civic_spawns_in_sol:0 "Government of Sol"
+ civic_spawns_in_sol_desc:0 "This is the government of the Sol System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§"
+ sol_sector_sol_earth_initializer_NAME:0 "Earth/Sol/SS"
+ sol_sector_sol_earth_initializer_DESC:0 "Sol, from the Sol Sector mod, with Earth being your starting planet.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ sol_sector_sol_mars_initializer_NAME:0 "Mars/Sol/SS"
+ sol_sector_sol_mars_initializer_DESC:0 "Sol, from the Sol Sector mod, with Mars being your starting planet.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### ALPHA CENTAURI
+ civic_spawns_in_alpha_centauri:0 "Government of Alpha Centauri"
+ civic_spawns_in_sector_alpha_centauri_desc:0 "This is the government of the Alpha Centauri System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§"
+ sol_sector_alpha_centauri_initializer_NAME:0 "Alpha Centauri/SS"
+ sol_sector_alpha_centauri_initializer_DESC:0 "Alpha Centauri, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### LUYTEN'S STAR
+ civic_spawns_in_luytens_star:0 "Government of Luyten's Star"
+ civic_spawns_in_luytens_star_desc:0 "This is the government of the Luyten's Star Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§"
+ sol_sector_luytens_star_initializer_NAME:0 "Luyten's Star/SS"
+ sol_sector_luytens_star_initializer_DESC:0 "Luyten's Star, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### Ross 128
+ civic_spawns_in_ross_128:0 "Government of Ross 128"
+ civic_spawns_in_ross_128_desc:0 "This is the government of the Ross 128 Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§"
+ sol_sector_ross_128_initializer_NAME:0 "Ross 128/SS"
+ sol_sector_ross_128_initializer_DESC:0 "Ross 128, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### Eta Cassiopeiae
+ civic_spawns_in_eta_cassiopeiae:0 "Government of Eta Cassiopeiae"
+ civic_spawns_in_eta_cassiopeiae_desc:0 "This is the government of the Eta Cassiopeiae Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§" 
+ sol_sector_eta_cassiopeiae_initializer_NAME:0 "Eta Cassiopeiae/SS"
+ sol_sector_eta_cassiopeiae_initializer_DESC:0 "Eta Cassiopeiae, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### Teegarden's Star
+ civic_spawns_in_teegardens_star:0 "Government of Teegarden's Star"
+ civic_spawns_in_teegardens_star_desc:0 "This is the government of the Teegarden's Star Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§" 
+ sol_sector_teegardens_star_initializer_NAME:0 "Teegarden's Star/SS"
+ sol_sector_teegardens_star_initializer_DESC:0 "Teegarden's Star, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### Wolf 1061
+ civic_spawns_in_wolf_1061:0 "Government of Wolf 1061"
+ civic_spawns_in_wolf_1061_desc:0 "This is the government of the Wolf 1061 Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§" 
+ sol_sector_wolf_1061_initializer_NAME:0 "Wolf 1061/SS"
+ sol_sector_wolf_1061_initializer_DESC:0 "Wolf 1061, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### Tau Ceti
+ civic_spawns_in_tau_ceti:0 "Government of Tau Ceti"
+ civic_spawns_in_tau_ceti_desc:0 "This is the government of the Tau Ceti Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§" 
+ sol_sector_tau_ceti_initializer_NAME:0 "Tau Ceti/SS"
+ sol_sector_tau_ceti_initializer_DESC:0 "Tau Ceti, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### Beta Comae Berenices
+ civic_spawns_in_beta_comae_berenices:0 "Government of Beta Comae Berenices"
+ civic_spawns_in_beta_comae_berenices_desc:0 "This is the government of the Beta Comae Berenices Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§" 
+ sol_sector_beta_comae_berenices_initializer_NAME:0 "Beta Comae Berenices/SS"
+ sol_sector_beta_comae_berenices_initializer_DESC:0 "Beta Comae Berenices, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### Gliese 667
+ civic_spawns_in_gliese_667:0 "Government of Gliese 667"
+ civic_spawns_in_gliese_667_desc:0 "This is the government of the Gliese 667 Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§" 
+ sol_sector_gliese_667_initializer_NAME:0 "Gliese 667/SS"
+ sol_sector_gliese_667_initializer_DESC:0 "Gliese 667, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### 82 G. Eridani
+ civic_spawns_in_82_g_eridani:0 "Government of 82 G. Eridani"
+ civic_spawns_in_82_g_eridani_desc:0 "This is the government of the 82 G. Eridani Star System.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§" 
+ sol_sector_82_g_eridani_initializer_NAME:0 "82 G. Eridani/SS"
+ sol_sector_82_g_eridani_initializer_DESC:0 "82 G. Eridani, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"
+ ###### Delta Pavonis
+ civic_spawns_in_delta_pavonis:0 "Government of Delta Pavonis"
+ civic_spawns_in_delta_pavonis_desc:0 "This is the government of the Delta Pavonis.\n§SThis civic will place this empire in a pre-determined location within the Sol Sector static map.§ \n§EOnce the game starts you will be able to replace this Civic with another one.§ \n§RDo not place this same exact civic on multiple forced spawn empires or your PC might or might not collapse into a black hole and kill all life on the planet!§" 
+ sol_sector_delta_pavonis_initializer_NAME:0 "Delta Pavonis/SS"
+ sol_sector_delta_pavonis_initializer_DESC:0 "Delta Pavonis, from the Sol Sector mod.§SThis only determines the layout of the starting system, to start in a specific location in the galaxy map you must select the appropiate Civic.§"

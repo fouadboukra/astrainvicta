@@ -1,0 +1,1333 @@
+static_galaxy_scenario = {
+	name = "The Sol Sector"
+	priority = 6
+	supports_shape = elliptical #more complicated shapes probably won't work with this, but it needs at least some parameters from the shape definition
+	num_empires = { min = 0 max = 16 }
+	num_empire_default = 0
+	fallen_empire_default = 0
+	fallen_empire_max = 2
+	marauder_empire_default = 0
+	marauder_empire_max = 1
+	advanced_empire_default = 0
+	colonizable_planet_odds = 1.0
+	primitive_odds = 1.0
+	crisis_strength = 1
+	extra_crisis_strength = { 50 1000}
+	num_wormhole_pairs = { min = 0 max = 3 }
+	num_wormhole_pairs_default = 0
+	num_gateways = { min = 0 max = 3 }
+	num_gateways_default = 0
+	random_hyperlanes = yes
+	core_radius = 0
+	# New Modifiers
+	num_hyperlanes = { min=0.5 max= 3 }
+	num_hyperlanes_default = 1
+	# num_nebulas	= 3
+	# nebula_size = 60
+	# nebula_min_dist = 100
+
+	num_wormhole_pairs = { min = 0 max = 5 }
+	num_wormhole_pairs_default = 1	
+
+	coordinate_transform = { #Subsequent systems will have the coordinates entered for them altered by these numbers
+		x = {
+			add = 0
+			sub = 0
+		}
+
+		y = {
+
+		}
+
+		z = {
+
+		}
+	}
+ 
+	system = { 
+		id = "0" name = "Sol" position = { x = 0 y = 0 } 
+		initializer = sol_sector_sol_earth_initializer
+		spawn_weight = { 
+			base = 0 
+			modifier = { 
+				add = 100000
+				ss_spawns_in_sol = yes
+			} 
+		} 			
+			
+	}
+
+	system = { 
+		id = "1" name = "Alpha Centauri" position = { x = -24 y = 24 } 
+		initializer = sol_sector_alpha_centauri_initializer
+		spawn_weight = { 
+			base = 0 
+			modifier = { 
+				add = 100000
+				ss_spawns_in_alpha_centauri = yes
+			} 
+		}
+	}
+
+	system = { 
+		id = "2" name = "Barnard's Star" position = { x = 25 y = 41 }
+		initializer = sol_sector_red_dwarf_unary_init	 
+	}
+
+	system = { 
+		id = "3" name = "Luyten's Star" position = { x = -53 y = -84 }
+		initializer = sol_sector_luytens_star_initializer	 
+		spawn_weight = { 
+			base = 0 
+			modifier = { 
+				add = 100000
+				ss_spawns_in_luytens_star = yes
+			} 
+		} 		
+	}		
+
+	system = { 
+		id = "4" name = "NN 3522" position = { x = -57 y = -124 }
+		initializer = sol_sector_red_dwarf_trinary_init		 
+		}	
+
+	system = { 
+		id = "5" name = "Procyon" position = { x = -51 y = -76 }
+		#initializer = sol_sector_procyon_initializer		 
+	}	
+
+	system = { 
+		id = "6" name = "Sirius" position = { x = -51 y = -47 } 
+		#initializer = sol_sector_sirius_initializer	
+	}	
+
+	system = { 
+		id = "7" name = "V577 Monocerotis" position = { x = -58 y = -90 }
+		initializer = sol_sector_red_dwarf_binary_init		 
+		}	
+
+	system = { 
+		id = "8" name = "Gliese 205" position = { x = -67 y = -133 } #BD 03 1123
+		initializer = sol_sector_red_dwarf_unary_init		
+		}	
+
+
+
+	system = { 
+		id = "10" name = "Gliese 213" position = { x = -36 y = -147 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}	
+
+	system = { 
+		id = "11" name = "Gliese 251" position = { x = -7 y = -145 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}		
+
+	system = { 
+		id = "12" name = "Gliese 268" position = { x = 3 y = -158 }
+		initializer = sol_sector_red_dwarf_binary_init		 
+		}	
+
+	system = { 
+		id = "13" name = "GJ 1105" position = { x = 5 y = -231 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}	
+
+	system = { 
+		id = "14" name = "NN 3421" position = { x = 65 y = -226 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}			
+	system = { 
+		id = "15" name = "NN 3378" position = { x = 88 y = -181 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}																		
+	system = { 
+		id = "16" name = "NN 3417" position = { x = 134 y = -271 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}																		
+	system = { 
+		id = "17" name = "Gliese 169" position = { x = 23 y = -291 }
+		initializer = sol_sector_red_dwarf_binary_init
+		}																		
+	system = { 
+		id = "18" name = "Gliese 338" position = { x = 43 y = -160 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}							
+	system = { 
+		id = "19" name = "Groombridge 1618" position = { x = 31 y = -123 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}		
+	system = { 
+		id = "20" name = "WX Ursae Majoris" position = { x = 12 y = -228 }
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = { 
+		id = "21" name = "AD Leonis" position = { x = -77 y = -104 } 
+		initializer = sol_sector_red_dwarf_unary_init			
+		}	
+	system = { 
+		id = "22" name = "GJ 1116" position = { x = -63 y = -121 }
+		initializer = sol_sector_red_dwarf_binary_init		 
+		}															
+	system = { 
+		id = "23" name = "DX Cancri" position = { x = -27 y = -90 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "24" name = "Lalande 21 185" position = { x = -6 y = -66 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "25" name = "Wolf 359" position = { x = -57 y = -28 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "26" name = "Ross 128" position = { x = -88 y = 0 } 
+		initializer = sol_sector_ross_128_initializer
+		# modifier = { 
+		# 	add = 100000
+		# 	ss_spawns_in_ross_128 = yes
+		# 	}	
+		}
+	system = { 
+		id = "27" name = "NN 3622" position = { x = -118 y = -19 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}			
+	system = { 
+		id = "28" name = "Gliese 402" position = { x = -161 y = -83 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}		
+	system = { 
+		id = "29" name = "BD+01 24 47" position = { x = -165 y = -79 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}
+	system = { 
+		id = "30" name = "Gliese 408" position = { x = -104 y = -142 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "31" name = "NN 3667" position = { x = -176 y = 0 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}		
+	system = {
+		id = "33" name = "Beta Canum Venaticorum" position = { x = 153 y = -159 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = { 
+		id = "34" name = "CF Ursae Majoris" position = { x = 48 y = -234 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}	
+	system = { 
+		id = "35" name = "GJ 1151" position = { x = 112 y = -177 }
+		initializer = sol_sector_red_dwarf_unary_init			 
+		}
+	system = { 
+		id = "36" name = "SZ Ursae Majoris" position = { x = 162 y = -173 } 
+		initializer = sol_sector_red_dwarf_unary_init			
+		}
+	system = { 
+		id = "37" name = "Beta Comae Berenices" position = { x = 165 y = 174 }
+		initializer = sol_sector_beta_comae_berenices_initializer
+		spawn_weight = { 
+			base = 0 
+			modifier = { 
+				add = 100000
+				ss_spawns_in_beta_comae_berenices = yes
+				}
+			}
+		}	
+	system = { 
+		id = "38" name = "NN 3789" position = { x = 169 y = 147 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "39" name = "NN 3801" position = { x = 218 y = 101 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "40" name = "NN 3839" position = { x = 183 y = 143 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "41" name = "Xi Bootis" position = { x = 69 y = 161 } 
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = { 
+		id = "42" name = "BD+11 2576" position = { x = -89 y = 177 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "43" name = "Gliese 486" position = { x = -182 y = 105 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+
+	system = { 
+		id = "45" name = "Gliese 518" position = { x = -110 y = 188 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "46" name = "Gliese 493" position = { x = -173 y = 141 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "47" name = "GJ 1156" position = { x = -168 y = 17 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}	
+	system = { 
+		id = "48" name = "GJ2097" position = { x = -86 y = 171 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "49" name = "Wolf 424 / FL Virginis" position = { x = -108 y = 37 } 
+		initializer = sol_sector_red_dwarf_binary_init	
+		}
+	system = { 
+		id = "50" name = "Gliese 357" position = { x = -237 y = -68 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "51" name = "BD-03 2870" position = { x = -183 y = -83 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "52" name = "NN 3517" position = { x = -176 y = -141 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}	
+	system = { 
+		id = "53" name = "GJ 2066" position = { x = -156 y = -174 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "54" name = "Gliese 250 B" position = { x = -139 y = -181 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "55" name = "GJ 2069 B" position = { x = -58 y = -123 } 
+		initializer = sol_sector_red_dwarf_unary_init	
+		}
+	system = { 
+		id = "56" name = "GJ 1103" position = { x = -155 y = -185 } 
+		initializer = sol_sector_red_dwarf_binary_init		
+		}
+	system = { 
+		id = "57" name = "Gliese 283" position = { x = -193 y = -140 } 
+		initializer = sol_sector_red_dwarf_binary_init		
+		}
+	system = { 
+		id = "58" name = "Gliese 299" position = { x = -99 y = -146 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}
+	system = { 
+		id = "59" name = "YZ Canis Majoris" position = { x = -91 y = -126 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}
+	system = { 
+		id = "60" name = "NN3454" position = { x = -116 y = -189 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "61" name = "Gliese 300" position = { x = -186 y = -101 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "62" name = "Gliese 203" position = { x = -66 y = -257 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}
+	system = { 
+		id = "63" name = "Chi 1 Orionis" position = { x = -33 y = -223 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = { 
+		id = "64" name = "GJ 1093" position = { x = -57 y = -194 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}	
+	system = { 
+		id = "65" name = "Gliese 232" position = { x = -35 y = -219 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}	
+	system = { 
+		id = "66" name = "GJ 1087" position = { x = -78 y = -196 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "67" name = "Gliese 185" position = { x = -145 y = -163 } 
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = { 
+		id = "68" name = "BD-21 1377" position = { x = -113 y = -99 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}	
+	system = { 
+		id = "69" name = "Gliese 223" position = { x = -109 y = -240 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}	
+	system = { 
+		id = "70" name = "NN 3323" position = { x = -62 y = -125 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "71" name = "Pi 3 Orionis - Tabit" position = { x = -42 y = -205 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init 
+		}	
+	system = { 
+		id = "72" name = "Gliese 183" position = { x = -98 y = -209 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}
+	system = { 
+		id = "73" name = "Gamma Leporis" position = { x = -169 y = -159 } 
+		initializer = sol_sector_yellow_white_dwarf_binary_init 
+		}
+	system = { 
+		id = "74" name = "Gliese 257" position = { x = -201 y = -56 } 
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = { 
+		id = "75" name = "Gliese 318" position = { x = -214 y = -59 } 
+		initializer = sol_sector_red_dwarf_unary_init			
+		}
+	system = { 
+		id = "76" name = "DY Eridani" position = { x = -46 y = -122 } 
+		#initializer = sol_sector_dy_eridani_initializer
+		}
+	system = { 
+		id = "77" name = "Hip 15689" position = { x = -112 y = -325 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}	
+	system = { 
+		id = "78" name = "Epsilon Eridani" position = { x = -23 y = -81 } 
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "79" name = "Kapleyn's Star" position = { x = -97 y = -34 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "80" name = "GJ 1061" position = { x = -90 y = -30 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "81" name = "82 G. Eridani" position = { x = -149 y = -52 }
+		initializer = sol_sector_82_g_eridani_initializer
+		# spawn_weight = {
+		#   base = 0
+		# 	modifier = { 
+		# 		add = 100000
+		# 		ss_spawns_in_82_g_eridani = yes
+		# 		}
+		# 	}
+		}
+	system = { 
+		id = "82" name = "GJ 2034" position = { x = -248 y = -63 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "83" name = "Hip 20968" position = { x = -180 y = -158 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "84" name = "GJ 1054 B" position = { x = -208 y = -222 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "85" name = "NN 3193 B" position = { x = -131 y = -361 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "86" name = "Delta Eridani" position = { x = -74 y = -225 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "87" name = "Kappa 1 Ceti" position = { x = 8 y = -242 }
+		initializer = sol_sector_yellow_dwarf_unary_init 
+		}
+	system = { 
+		id = "88" name = "GJ 1057" position = { x = 18 y = -223 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "89" name = "NN 3146" position = { x = 67 y = -378 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "90" name = "Gliese 105" position = { x = 54 y = -181 }
+		initializer = sol_sector_orange_dwarf_trinary_init
+		}
+	system = { 
+		id = "91" name = "NN 3128" position = { x = 159 y = -341 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "92" name = "Gliese 109" position = { x = 92 y = -178 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}	
+	system = { 
+		id = "93" name = "107 Piscium" position = { x = 131 y = -150 } 
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "94" name = "NN 3076" position = { x = 229 y = -328 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "95" name = "Gliese 83" position = { x = 62 y = -99 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "96" name = "Tau Ceti" position = { x = 11 y = -95 }
+		initializer = sol_sector_tau_ceti_initializer
+		spawn_weight = { 
+			base = 0 
+			modifier = { 
+				add = 100000
+				ss_spawns_in_tau_ceti = yes
+				} 
+			} 
+		}
+	system = { 
+		id = "97" name = "UV Ceti" position = { x = 5 y = -70 }
+		initializer = sol_sector_red_dwarf_binary_init 
+		}	
+	system = { 
+		id = "98" name = "Van Maanen's Star" position = { x = 96 y = -60 } 
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = { 
+		id = "99" name = "GJ 1002" position = { x = 126 y = -5 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}	
+	system = { 
+		id = "100" name = "GJ 1005" position = { x = 130 y = 14 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "101" name = "Gliese One" position = { x = -32 y = 109 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}	
+	system = { 
+		id = "102" name = "Lacaille 9352" position = { x = 8 y = 85 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "103" name = "EZ Aquarii" position = { x = 65 y = 60 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "104" name = "HIP 114110" position = { x = 72 y = 52 }
+		initializer = sol_sector_red_dwarf_unary_init  
+		}	
+	system = { 
+		id = "105" name = "IL Aquarii" position = { x = 96 y = 75 }
+		initializer = sol_sector_red_dwarf_unary_init  
+		}	
+	system = { 
+		id = "106" name = "Lacaille 8760" position = { x = 7 y = 104 }
+		initializer = sol_sector_red_dwarf_unary_init  
+		}	
+	system = { 
+		id = "107" name = "Epsilon Indi" position = { x = -38 y = 87 }
+		}
+	system = { 
+		id = "108" name = "Gliese 832" position = { x = -24 y = 127 } 
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "109" name = "HIP 103039" position = { x = 74 y = 127 } 
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "110" name = "GIJ 729" position = { x = 15 y = 76 }
+		initializer = sol_sector_red_dwarf_unary_init  
+		}	
+	system = { 
+		id = "111" name = "Gliese 784" position = { x = -15 y = 160 } 
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "112" name = "Gliese 783" position = { x = 14 y = 156 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	#system = { 
+	#	id = "113" name = "HIP 93449" position = { x = -127 y = -238 }
+	#	#blue with red dwarf companion
+	#	}	
+	system = { 
+		id = "114" name = "Gliese 754" position = { x = -21 y = 153 }
+		initializer = sol_sector_red_dwarf_unary_init  
+		}
+	system = { 
+		id = "115" name = "Altair" position = { x = 99 y = 90 } 
+		#initializer = sol_sector_altair_initializer
+		}
+	system = { 
+		id = "116" name = "Gliese 785" position = { x = 62 y = 221 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "117" name = "Zeta Tucanae" position = { x = -176 y = 139 } 
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}	
+	system = { 
+		id = "118" name = "Gliese 54" position = { x = 49 y = -84 } 
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "119" name = "Pi Eridani" position = { x = -192 y = 68 } 
+		initializer = sol_sector_orange_dwarf_binary_init
+		}	
+	system = { 
+		id = "120" name = "Gamma Pavonis" position = { x = -127 y = 205 } 
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "122" name = "Beta Hydri " position = { x = -160 y = 111 }
+		initializer = sol_sector_yellow_dwarf_unary_init 
+		}	
+	system = { 
+		id = "123" name = "Hip 85605" position = { x = 237 y = 215 }
+		initializer = sol_sector_red_dwarf_unary_init		 
+		}						
+	system = { 
+		id = "124" name = "NN 4285" position = { x = 123 y = 143 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "125" name = "Delta Pavonis" position = { x = -80 y = 138 }
+		initializer = sol_sector_delta_pavonis_initializer
+		# spawn_weight = { 
+		# 	base = 0 
+		# 	modifier = { 
+		# 		add = 100000
+		# 		ss_spawns_in_delta_pavonis = yes
+		# 		} 
+		# 	}
+		}
+	system = { 
+		id = "126" name = "Gliese 693" position = { x = -64 y = 140 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "127" name = "Gliese 674" position = { x = -35 y = 113 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "128" name = "Gliese 588" position = { x = -71 y = 137 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "129" name = "Gliese 682" position = { x = -32 y = 127 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "130" name = "Hip 82725" position = { x = -130 y = 202 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "133" name = "GJ 1123" position = { x = -229 y = 95 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}	
+	system = { 
+		id = "134" name = "Gliese 293" position = { x = -209 y = 38 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "135" name = "GJ 1128" position = { x = -162 y = 50 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "136" name = "Innes' Star" position = { x = -105 y = 15 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}	
+	system = { 
+		id = "137" name = "Gliese 440" position = { x = -109 y = 53 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "138" name = "Hip 54298" position = { x = -150 y = 87 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "139" name = "Gliese 438" position = { x = -266 y = 109 } 
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "140" name = "Gliese 480" position = { x = -347 y = 137 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "141" name = "Gliese 433" position = { x = -229 y = 61 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "142" name = "61 Virginis" position = { x = -166 y = 149 }
+		initializer = sol_sector_yellow_dwarf_unary_init 
+		}
+	system = { 
+		id = "143" name = "NN 3737" position = { x = -150 y = 87 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "144" name = "Gliese 442" position = { x = -229 y = 82 }
+		initializer = sol_sector_yellow_dwarf_binary_init 
+		}
+	system = { 
+		id = "145" name = "Gliese 465" position = { x = -212 y = 95 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "146" name = "NN 3820" position = { x = -166 y = 228 } 
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "147" name = "NN 3707" position = { x = -305 y = 101 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "148" name = "GJ 1154" position = { x = -206 y = 47 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "149" name = "BD-20 4123" position = { x = -57 y = 143 } 
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "150" name = "BD-11 3759" position = { x = 190 y = 129 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "151" name = "Gliese 570" position = { x = -60 y = 144 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "152" name = "Wolf 1061" position = { x = 7 y = 113 } 
+		initializer = sol_sector_wolf_1061_initializer
+		# spawn_weight = { 
+		# 	base = 0 
+		# 	# modifier = { 
+		# 	# 	add = 100000
+		# 	# 	ss_spawns_in_wolf_1061 = yes
+		# 	# 	} 
+		# 	# } 
+		 }
+	system = { 
+		id = "153" name = "36 Ophiuchi" position = { x = -4 y = 155 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "154" name = "Hip 86961" position = { x = -17 y = 368 } 
+		initializer = sol_sector_red_dwarf_binary_init
+		}	
+	system = { 
+		id = "155" name = "Gliese 667" position = { x = -25 y = 177 }
+		initializer = sol_sector_gliese_667_initializer
+		spawn_weight = { 
+			base = 0 
+			modifier = { 
+				add = 100000
+				ss_spawns_in_gliese_667 = yes
+				} 
+			} 
+		}
+	system = { 
+		id = "156" name = "Gliese 618" position = { x = -67 y = 211 }
+		initializer = sol_sector_red_dwarf_binary_init 
+		}
+	system = { 
+		id = "157" name = "Gliese 595" position = { x = -48 y = 248 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "158" name = "41 Arae" position = { x = -70 y = 218 }
+		initializer = sol_sector_red_dwarf_binary_init 
+		}
+	system = { 
+		id = "159" name = "82724" position = { x = -151 y = 236 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}																																						
+	system = { 
+		id = "160" name = "V1054 Ophiuchi" position = { x = 31 y = 159 } 
+		#quintuple star system
+		}
+	system = { 
+		id = "161" name = "70 Ophiuchi" position = { x = 66 y = 115 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	system = { 
+		id = "162" name = "Gliese 752" position = { x = 100 y = 117 }
+		initializer = sol_sector_red_dwarf_binary_init 
+		}
+	system = { 
+		id = "163" name = "GJ 1230" position = { x = 210 y = 151 } 
+		initializer = sol_sector_orange_dwarf_binary_init
+		}	
+	system = { 
+		id = "164" name = "Gliese 747" position = { x = 195 y = 95 } 
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = { 
+		id = "165" name = "Gliese 745" position = { x = 185 y = 138 } 
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = { 
+		id = "166" name = "Vega" position = { x = 185 y = 77 } 
+		#initializer = sol_sector_vega_initializer 		
+		}
+	system = {
+		id = "168" name = "BD+ 18 3421" position = { x = 143 y = 158 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "169" name = "BD+ 02 3312" position = { x = 84 y = 183 } 
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "170" name = "BD-03 4233" position = { x = 90 y = 186 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "171" name = "GJ 1224" position = { x = 49 y = 202 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}	
+	system = { 
+		id = "172" name = "Gliese 643" position = { x = 33 y = 166 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "173" name = "Gliese 661 B" position = { x = 148 y = 50 } 
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	system = { 
+		id = "174" name = "NN 3991" position = { x = 197 y = 68 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "175" name = "Gliese 623" position = { x = 197 y = 52 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}																																						
+	system = { 
+		id = "176" name = "Gliese 625" position = { x = 168 y = 20 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "177" name = "Gliese 793" position = { x = 207 y = -36 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "178" name = "Gliese 809" position = { x = 182 y = -28 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "179" name = "NN 4053" position = { x = 198 y = -21 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}		
+	system = { 
+		id = "180" name = "Chi Draconis" position = { x = 205 y = -49 }
+		initializer = sol_sector_chi_draconis_init
+		}	
+	system = { 
+		id = "181" name = "GJ 1227" position = { x = 218 y = -6 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "182" name = "HU Delphini" position = { x = 157 y = 116 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "183" name = "Gliese 829" position = { x = 166 y = 62 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "184" name = "NN 4247" position = { x = 236 y = 28 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}																																						
+	system = { 
+		id = "185" name = "BD+ 15 4733" position = { x = 161 y = -24 }
+		initializer = sol_sector_orange_dwarf_unary_init 
+		}
+	system = {
+		id = "187" name = "Gliese 884" position = { x = 129 y = 171 }
+		initializer = sol_sector_orange_dwarf_unary_init 
+		}
+	system = { 
+		id = "188" name = "BD+04 123" position = { x = 165 y = -101 } 
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = { 
+		id = "189" name = "Gliese 831" position = { x = 133 y = 142 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}			
+	system = { 
+		id = "190" name = "NN 4274" position = { x = 123 y = 143 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}	
+	system = { 
+		id = "191" name = "FK Aquarii" position = { x = 142 y = 183 } 
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = { 
+		id = "192" name = "GJ 1276" position = { x = 199 y = 99 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "193" name = "NN 4360" position = { x = 254 y = 117 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "194" name = "GJ 2005" position = { x = 105 y = 172 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "195" name = "Gliese 915" position = { x = -103 y = 192 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}	
+	system = { 
+		id = "196" name = "Hip 114176" position = { x = 65 y = 264 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "197" name = "Fomalhaut" position = { x = 70 y = 188 }
+		initializer = sol_sector_fomalhaut_initializer 
+		modifier = { 
+			add = 10000
+			leader = { has_trait = leader_trait_ruler_of_fomalhaut }
+		} 		
+		}
+	system = { 
+		id = "198" name = "GJ 1286" position = { x = 186 y = 22 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "199" name = "Gliese 908 " position = { x = 154 y = -10 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "200" name = "EQ Pegasi" position = { x = 159 y = -24 }
+		#RED BINARY 
+		}
+	system = { 
+		id = "201" name = "GJ 1289" position = { x = 207 y = -67 }
+		initializer = sol_sector_orange_dwarf_unary_init 
+		}
+	system = { 
+		id = "202" name = "Gliese 892" position = { x = 160 y = -58 } 
+		#ORANGE UNARY
+		}
+	system = { 
+		id = "203" name = "Mu Cassiopeiae" position = { x = 163 y = -116 } 
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = { 
+		id = "204" name = "Eta Cassiopeiae" position = { x = 131 y = -84 } 
+		initializer = sol_sector_eta_cassiopeiae_initializer
+		spawn_weight = { 
+			base = 0 
+			modifier = { 
+				add = 100000
+				ss_spawns_in_eta_cassiopeiae = yes
+				}
+			}
+		}
+	system = { 
+		id = "205" name = "Gliese 48" position = { x = 179 y = -120 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "206" name = "Gliese 51" position = { x = 212 y = -145 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}																				
+	system = { 
+		id = "207" name = "EV Lacertae" position = { x = 130 y = -24 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}	
+	system = { 
+		id = "208" name = "GJ 1221" position = { x = 158 y = -32 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}
+	system = { 
+		id = "209" name = "Sigma Draconis" position = { x = 147 y = -29 }
+		initializer = sol_sector_orange_dwarf_unary_init 
+		}
+	system = { 
+		id = "210" name = "Gliese 445" position = { x = 113 y = -84 } 
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = { 
+		id = "211" name = "Gliese 687" position = { x = 117 y = -18 } 
+		initializer = sol_sector_red_dwarf_unary_init		
+		}
+	system = { 
+		id = "212" name = "Gliese 725" position = { x = 92 y = 1 }
+		initializer = sol_sector_orange_dwarf_binary_init 
+		}	
+	system = { 
+		id = "213" name = "V1581 Cygni" position = { x = 154 y = 30 } 
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = { 
+		id = "214" name = "61 Cygni" position = { x = 90 y = 12 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	system = { 
+		id = "215" name = "DO Cephei" position = { x = 101 y = -27 } 
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = { 
+		id = "216" name = "Gliese 905" position = { x = 77 y = -28 }
+		initializer = sol_sector_red_dwarf_unary_init 
+		}	
+	system = { 
+		id = "217" name = "Andromedae" position = { x = 84 y = -42 }
+		initializer = sol_sector_red_dwarf_binary_init 
+		}	
+		
+	system = { 
+		id = "218" name = "Teegarden's Star" position = { x = 34 y = -94 } 
+		initializer = sol_sector_teegardens_star_initializer
+		# spawn_weight = { 
+		# 	base = 0 
+		# 		 modifier = { 
+		# 		 	add = 100000
+		# 		 	ss_spawns_in_teegardens_star = yes
+		# 		 } 
+		# 	} 
+		}
+
+	# --- Expansion batch 1: named/notable stars IDs 219–242 ---
+	system = {
+		id = "219" name = "Pollux" position = { x = -57 y = -264 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "220" name = "Arcturus" position = { x = 76 y = 284 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "221" name = "Capella" position = { x = 103 y = -327 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = {
+		id = "222" name = "Denebola" position = { x = -271 y = -95 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "223" name = "Rasalhague" position = { x = 228 y = 315 }
+		initializer = sol_sector_yellow_white_dwarf_binary_init
+		}
+	system = {
+		id = "224" name = "Deneb Algedi" position = { x = 189 y = 245 }
+		initializer = sol_sector_yellow_white_dwarf_binary_init
+		}
+	system = {
+		id = "225" name = "Gamma Cephei" position = { x = 315 y = -174 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	system = {
+		id = "226" name = "55 Cancri" position = { x = -95 y = -314 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = {
+		id = "227" name = "Upsilon Andromedae" position = { x = 262 y = -236 }
+		initializer = sol_sector_yellow_white_dwarf_binary_init
+		}
+	system = {
+		id = "228" name = "47 Ursae Majoris" position = { x = 27 y = -361 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "229" name = "18 Scorpii" position = { x = 30 y = 368 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "230" name = "Nu2 Lupi" position = { x = -209 y = 323 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "231" name = "Gliese 86" position = { x = -279 y = 29 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	system = {
+		id = "232" name = "54 Piscium" position = { x = 253 y = -141 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "233" name = "HD 40307" position = { x = -337 y = -7 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "234" name = "GJ 1214" position = { x = 168 y = 343 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "235" name = "Gliese 163" position = { x = -391 y = -50 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "236" name = "Gliese 176" position = { x = 0 y = -247 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "237" name = "Iota Persei" position = { x = 160 y = -226 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "238" name = "Theta Persei" position = { x = 182 y = -226 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "239" name = "Alpha Fornacis" position = { x = -259 y = -261 }
+		initializer = sol_sector_yellow_white_dwarf_binary_init
+		}
+	system = {
+		id = "240" name = "Eta Cephei" position = { x = 369 y = -51 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "241" name = "V987 Cassiopeiae" position = { x = 203 y = -165 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "242" name = "Gliese 536" position = { x = -115 y = 247 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+
+	# --- Expansion batch 2: IDs 243–301 ---
+	system = {
+		id = "243" name = "Zeta Reticuli" position = { x = -315 y = -17 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = {
+		id = "244" name = "Zavijava" position = { x = -285 y = 22 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "245" name = "Zeta Doradus" position = { x = -305 y = -10 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "246" name = "Tau Bootis" position = { x = 390 y = 119 }
+		initializer = sol_sector_yellow_white_dwarf_binary_init
+		}
+	system = {
+		id = "247" name = "Mu Herculis" position = { x = 171 y = 134 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = {
+		id = "248" name = "Alpha Mensae" position = { x = -226 y = 137 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "249" name = "Delta Trianguli" position = { x = 149 y = -239 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "250" name = "Gliese 380" position = { x = -92 y = -195 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "251" name = "Gliese 614" position = { x = -24 y = 168 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	system = {
+		id = "252" name = "Gliese 673" position = { x = 45 y = 197 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "253" name = "Gliese 60" position = { x = -145 y = 40 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	system = {
+		id = "254" name = "GJ 3470" position = { x = -84 y = -231 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "255" name = "GJ 1132" position = { x = -283 y = 165 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "256" name = "LHS 1140" position = { x = 11 y = -389 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "257" name = "Trappist" position = { x = -66 y = -309 }
+		initializer = sol_sector_trappist_initializer
+		}
+	system = {
+		id = "258" name = "Gliese 317" position = { x = -391 y = -55 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "259" name = "Gliese 581" position = { x = 0 y = 162 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "260" name = "Gliese 876" position = { x = 83 y = 90 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "261" name = "HD 85512" position = { x = -291 y = -10 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "262" name = "HD 147513" position = { x = -83 y = 331 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = {
+		id = "263" name = "Gliese 229" position = { x = -87 y = -123 }
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = {
+		id = "264" name = "Psi Serpentis" position = { x = 121 y = 339 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "265" name = "Zeta Bootis" position = { x = 262 y = 286 }
+		initializer = sol_sector_yellow_white_dwarf_binary_init
+		}
+	system = {
+		id = "266" name = "Alula Australis" position = { x = 22 y = -217 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = {
+		id = "267" name = "Pi1 Ursae Majoris" position = { x = 193 y = -314 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "268" name = "Gliese 505" position = { x = 269 y = -76 }
+		initializer = sol_sector_yellow_dwarf_binary_init
+		}
+	system = {
+		id = "269" name = "61 Ursae Majoris" position = { x = 127 y = -214 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "270" name = "Gliese 352" position = { x = -158 y = -313 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "271" name = "Gliese 395" position = { x = -310 y = -206 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "272" name = "Gliese 664" position = { x = 96 y = 336 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "273" name = "Helvetios" position = { x = 404 y = 54 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "274" name = "Cervantes" position = { x = -157 y = 373 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "275" name = "HD 97658" position = { x = -96 y = -138 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "276" name = "Gliese 436" position = { x = -29 y = -254 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "277" name = "Gliese 195" position = { x = -38 y = -397 }
+		initializer = sol_sector_orange_dwarf_binary_init
+		}
+	system = {
+		id = "278" name = "Gliese 17" position = { x = 295 y = -130 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "279" name = "Gliese 26" position = { x = 293 y = -238 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "280" name = "Gliese 58" position = { x = 282 y = -250 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "281" name = "Gliese 519" position = { x = -330 y = 187 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "282" name = "Gliese 768" position = { x = 207 y = 261 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "283" name = "Gliese 764" position = { x = 151 y = 290 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "284" name = "Gliese 720" position = { x = 152 y = 161 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "285" name = "Gliese 879" position = { x = 167 y = -15 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "286" name = "YZ Ceti" position = { x = 5 y = -97 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "287" name = "LTT 1445" position = { x = -18 y = -178 }
+		initializer = sol_sector_red_dwarf_binary_init
+		}
+	system = {
+		id = "288" name = "L 98-59" position = { x = -274 y = 39 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "289" name = "Gliese 3323" position = { x = -26 y = -138 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+	system = {
+		id = "290" name = "HD 219134" position = { x = 167 y = -29 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "291" name = "Gliese 9" position = { x = 279 y = -107 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "292" name = "Theta Bootis" position = { x = 355 y = 139 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "293" name = "Nu Phoenicis" position = { x = -377 y = -121 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "294" name = "Gliese 157" position = { x = 113 y = -363 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "295" name = "Gliese 47" position = { x = 252 y = -263 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "296" name = "Gliese 107" position = { x = 32 y = -361 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "297" name = "Gliese 140" position = { x = 74 y = -321 }
+		initializer = sol_sector_yellow_dwarf_unary_init
+		}
+	system = {
+		id = "298" name = "Gliese 346" position = { x = -229 y = -246 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "299" name = "Gliese 488" position = { x = -226 y = 109 }
+		initializer = sol_sector_orange_dwarf_unary_init
+		}
+	system = {
+		id = "300" name = "Alderamin" position = { x = 384 y = -81 }
+		initializer = sol_sector_yellow_white_dwarf_unary_init
+		}
+	system = {
+		id = "301" name = "Gliese 740" position = { x = 183 y = 228 }
+		initializer = sol_sector_red_dwarf_unary_init
+		}
+
+
+}
+ 
+ 

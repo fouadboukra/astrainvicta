@@ -1,0 +1,170 @@
+﻿l_english:
+  # MERDIR Army Sequential Names
+  name_list_MERDIR: "Meridian Directorate Namelist"
+
+  MERDIR_ARMY_GENERIC: "$ORD$ People's Guard"
+  MERDIR_ARMY_MACHINE_DEFENSE: "$ORD$ ICARS Autonomous Sentinel"
+  MERDIR_ARMY_MACHINE_ASSAULT_1: "$ORD$ Fast Attack Drone Swarm"
+  MERDIR_ARMY_MACHINE_ASSAULT_2: "$ORD$ Autonomous Unit"
+  MERDIR_ARMY_MACHINE_ASSAULT_3: "$ORD$ Heavy Autonomous Unit"
+  MERDIR_ARMY_DEFENSE_ARMY: "$ORD$ People's Guard"
+  MERDIR_ARMY_ASSAULT_ARMY: "$ORD$ Shock Division"
+  MERDIR_ARMY_SLAVE_ARMY: "$ORD$ Tier-7 Penal Division"
+  MERDIR_ARMY_CLONE_ARMY: "$ORD$ Clone Division"
+  MERDIR_ARMY_PERFECTED_CLONE_ARMY: "$ORD$ Vanguard Division"
+  MERDIR_ARMY_UNDEAD_ARMY: "$ORD$ Reanimation Division"
+  MERDIR_ARMY_ROBOTIC_ARMY: "$ORD$ Autonomous Unit"
+  MERDIR_ARMY_ROBOTIC_DEFENSE_ARMY: "$ORD$ ICARS Perimeter Defense"
+  MERDIR_ARMY_PSIONIC_ARMY: "$ORD$ Zhǐnán Psi Corps"
+  MERDIR_ARMY_XENOMORPH_ARMY: "$ORD$ XBW-Series Combat Organisms"
+  MERDIR_ARMY_GENE_WARRIOR_ARMY: "$ORD$ Guard"
+  MERDIR_ARMY_OCCUPATION_ARMY: "$ORD$ Garrison"
+  MERDIR_ARMY_INDIVIDUAL_MACHINE_OCCUPATION_ARMY: "$ORD$ Garrison"
+  MERDIR_ARMY_ROBOTIC_OCCUPATION_ARMY: "$ORD$ Autonomous Garrison"
+  MERDIR_ARMY_PRIMITIVE_ARMY: "$ORD$ Army"
+  MERDIR_ARMY_INDUSTRIAL_ARMY: "$ORD$ Army"
+  MERDIR_ARMY_POSTATOMIC_ARMY: "$ORD$ Army"
+
+  # MERDIR Fleet Sequential Names
+  MERDIR_FLEET_SEQUENTIAL: "$ORD$ Expeditionary Flotilla"
+
+  # PROMCOM Army Sequential Names
+  name_list_PROMCOM: "Promethean Commonwealth Namelist"
+
+  PROMCOM_ARMY_GENERIC: "$CARD$ Commonwealth Expeditionary Corps"
+  PROMCOM_ARMY_DEFENSE_ARMY: "$C$ Commonwealth Planetary Defense Force"
+  PROMCOM_ARMY_ASSAULT_ARMY: "$CARD$ Expeditionary Marine Corps"
+  PROMCOM_ARMY_MACHINE_DEFENSE: "$C$ Aegis Automated Garrison Unit"
+  PROMCOM_ARMY_ROBOTIC_DEFENSE_ARMY: "$ORD$ Aegis Defense Matrix"
+  PROMCOM_ARMY_MACHINE_ASSAULT_1: "$CARD$ Sentinel Light Autonomous Unit"
+  PROMCOM_ARMY_MACHINE_ASSAULT_2: "$CARD$ Cerberus Autonomous Unit"
+  PROMCOM_ARMY_MACHINE_ASSAULT_3: "$CARD$ Thunderbolt Autonomous Unit"
+  PROMCOM_ARMY_ROBOTIC_ARMY: "$ORD$ Light Autonomous Unit"
+  PROMCOM_ARMY_SLAVE_ARMY: "$ORD$ Corporate Conscript Brigade"
+  PROMCOM_ARMY_CLONE_ARMY: "$ORD$ Ascendant Legion"
+  PROMCOM_ARMY_PERFECTED_CLONE_ARMY: "$ORD$ Ascendant Stormbreakers Legion"
+  PROMCOM_ARMY_PSIONIC_ARMY: "$ORD$ Ascendant Psi-Ops Command"
+  PROMCOM_ARMY_UNDEAD_ARMY: "$ORD$ Lazarus Legion"
+  PROMCOM_ARMY_XENOMORPH_ARMY: "$ORD$ Combat Organism Unit"
+  PROMCOM_ARMY_GENE_WARRIOR_ARMY: "$ORD$ Hercules Squadron"
+  PROMCOM_ARMY_OCCUPATION_ARMY: "$ORD$ Commonwealth Garrison"
+  PROMCOM_ARMY_INDIVIDUAL_MACHINE_OCCUPATION_ARMY: "$ORD$ Commonwealth Garrison"
+  PROMCOM_ARMY_ROBOTIC_OCCUPATION_ARMY: "$ORD$ Automated Garrison"
+  PROMCOM_ARMY_PRIMITIVE_ARMY: "Primitive Army $C$"
+  PROMCOM_ARMY_INDUSTRIAL_ARMY: "Industrial Army $C$"
+  PROMCOM_ARMY_POSTATOMIC_ARMY: "Post-Atomic Army $C$"
+
+  # PROMCOM Fleet Sequential Names
+  PROMCOM_FLEET_SEQUENTIAL: "$ORD$ Commonwealth Fleet"
+ # =============================================================================
+ # UNITED NATIONS OF SOL — Sequential Name Localization
+ # =============================================================================
+ # This file defines the fallback sequential name strings used when the random
+ # name pools in namelist_UNS.txt are exhausted.
+ #
+ # Format: KEY: "$ORD$ [unit designation]"
+ # $ORD$ resolves to the ordinal number (1st, 2nd, 3rd...) at runtime.
+ #
+ # The seq_ keys at the bottom of the file are vanilla Stellaris keys.
+ # They are listed here for reference ONLY — do not redefine them unless
+ # you intend to override base game behavior for all empires.
+ # =============================================================================
+
+ # Display name of the namelist in the empire creation UI
+ name_list_UNS: "United Nations of Sol"
+
+
+ # =============================================================================
+ # FLEETS
+ # =============================================================================
+ # When random fleet names run out, sequential numbering takes over.
+ # The UNS uses formal numbered designations for overflow fleets —
+ # the same bureaucratic register as the Security Directorate itself.
+ UNS_FLEET_SEQUENTIAL: "$ORD$ Fleet"
+
+ # =============================================================================
+ # ARMIES — GENERIC
+ # =============================================================================
+ # Catch-all for any army type not otherwise categorized.
+ # Cold and administrative — the Secretariat named it.
+
+ UNS_ARMY_GENERIC: "$ORD$ Ground Contingent"
+
+
+ # =============================================================================
+ # ARMIES — AUTONOMOUS / MACHINE
+ # =============================================================================
+ # The UNS does not name its autonomous platforms individually.
+ # Bureau of Defense sequential designations only — no organic identity.
+ # This is a deliberate policy choice after the AI displacement debates of 2262.
+
+ UNS_ARMY_MACHINE_DEFENSE: "Bureau Defense Platform $ORD$"
+ UNS_ARMY_MACHINE_ASSAULT_1: "Bureau Combat Unit $ORD$"
+ UNS_ARMY_MACHINE_ASSAULT_2: "Bureau Advanced Combat Unit $ORD$"
+ UNS_ARMY_MACHINE_ASSAULT_3: "Bureau Heavy Combat Unit $ORD$"
+
+
+ # =============================================================================
+ # ARMIES — CONVENTIONAL
+ # =============================================================================
+
+ # Garrison / territorial defense
+ # When random division names run out, sequential territorial designations apply.
+ UNS_ARMY_DEFENSE_ARMY: "$ORD$ Territorial Division"
+
+ # Orbital assault
+ # When the random brigade name pool is exhausted, numbered brigades continue.
+ UNS_ARMY_ASSAULT_ARMY: "$ORD$ Orbital Assault Brigade"
+
+ # Slave armies
+ # The UNS does not officially categorize these; the designation is Secretariat-
+ # assigned and deliberately euphemistic.
+ UNS_ARMY_SLAVE_ARMY: "$ORD$ Conscript Regiment"
+
+ # Clone armies
+ UNS_ARMY_CLONE_ARMY: "$ORD$ Clone Division"
+ UNS_ARMY_PERFECTED_CLONE_ARMY: "$ORD$ Enhanced Clone Division"
+
+ # Undead armies
+ # The UNS Bureau of Science classifies these under bioreanimation research.
+ # No formal military designation exists in public doctrine.
+ UNS_ARMY_UNDEAD_ARMY: "$ORD$ Reanimated Combat Unit"
+
+ # Robotic armies
+ UNS_ARMY_ROBOTIC_ARMY: "Bureau Robotic Unit $ORD$"
+ UNS_ARMY_ROBOTIC_DEFENSE_ARMY: "Bureau Robotic Defense Unit $ORD$"
+
+ # Psionic armies
+ # No official UNS psionic doctrine exists in public records.
+ UNS_ARMY_PSIONIC_ARMY: "$ORD$ Psionic Brigade"
+
+ # Xenomorph armies
+ UNS_ARMY_XENOMORPH_ARMY: "$ORD$ XBW Combat Unit"
+
+ # Gene warrior armies
+ # When the named gene warrior pool is exhausted (Chen Yongkang Guard, etc.)
+ UNS_ARMY_GENE_WARRIOR_ARMY: "$ORD$ Gene Warrior Division"
+
+
+ # =============================================================================
+ # ARMIES — OCCUPATION / PEACEKEEPING
+ # =============================================================================
+ # The UNS uses "Peacekeeping Contingent" to match its UN Charter inheritance.
+ # "Stabilization" was rejected during the 2247 nomenclature review as implying
+ # the occupied population was the source of instability.
+ # Machine-assisted peacekeeping uses Bureau sequential designations.
+
+ UNS_ARMY_OCCUPATION_ARMY: "$ORD$ Peacekeeping Contingent"
+ UNS_ARMY_INDIVIDUAL_MACHINE_OCCUPATION_ARMY: "Bureau Autonomous Peacekeeping Unit $ORD$"
+ UNS_ARMY_ROBOTIC_OCCUPATION_ARMY: "Bureau Robotic Peacekeeping Unit $ORD$"
+
+
+ # =============================================================================
+ # ARMIES — PRE-FTL PRIMITIVE
+ # =============================================================================
+ # Designations for armies recruited from pre-FTL or transitional civilizations.
+ # The UNS Bureau of Alien Affairs assigns these designations on first contact.
+
+ UNS_ARMY_PRIMITIVE_ARMY: "$ORD$ Irregular Regiment"
+ UNS_ARMY_INDUSTRIAL_ARMY: "$ORD$ Standing Regiment"
+ UNS_ARMY_POSTATOMIC_ARMY: "$ORD$ Combined Arms Regiment"
