@@ -1,37 +1,36 @@
 @distance = 50
-@base_moon_distance = 10
+@base_moon_distance = 5
 @jumps = 3
 
 # Red Dwarf Unary
 sol_sector_red_dwarf_unary_init = {
-	class = "sol_sector_red_dwarf_unary"
-
+	class = "sc_m"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 190
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 30
 
 	planet = {
 		count = { min = 1 max = 8 }
-		orbit_distance = 20
+		orbit_distance = 15
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 2 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -40,41 +39,42 @@ sol_sector_red_dwarf_unary_init = {
 
 # Red Dwarf Binary
 sol_sector_red_dwarf_binary_init = {
-	class = "sol_sector_red_dwarf_binary"
+	class = "sc_m_binary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 190
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 25
-		orbit_angle = 0
-		size = { min = 30 max = 35 }
+		orbit_angle = 1
+		size = { min = 25 max = 35 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 0
+		orbit_angle = 180
 		size = { min = 15 max = 25 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 30
 
 	planet = {
 		count = { min = 0 max = 7 }
-		orbit_distance = 20
+		orbit_distance = 15
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 2 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -83,33 +83,33 @@ sol_sector_red_dwarf_binary_init = {
 
 # Orange Dwarf Unary
 sol_sector_orange_dwarf_unary_init = {
-	class = "sol_sector_orange_dwarf_unary"
+	class = "sc_k"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 230
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_k_star"
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 40
 
 	planet = {
 		count = { min = 3 max = 8 }
-		orbit_distance = 20
+		orbit_distance = 18
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 3 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -118,33 +118,42 @@ sol_sector_orange_dwarf_unary_init = {
 
 # Orange Dwarf Binary
 sol_sector_orange_dwarf_binary_init = {
-	class = "sol_sector_orange_dwarf_binary"
+	class = "sc_k_binary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 230
 	}
 
 	planet = {
 		count = 1
-		class = star
-		orbit_distance = 0
+		class = "pc_k_star"
+		orbit_distance = 25
 		orbit_angle = 1
-		size = { min = 20 max = 30 }
+		size = { min = 25 max = 35 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	planet = {
+		count = 1
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 180
+		size = { min = 15 max = 25 }
+		has_ring = no
+	}
+
+	change_orbit = 40
 
 	planet = {
 		count = { min = 2 max = 7 }
-		orbit_distance = 20
+		orbit_distance = 18
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 3 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -153,7 +162,7 @@ sol_sector_orange_dwarf_binary_init = {
 
 # Yellow Dwarf Unary
 sol_sector_yellow_dwarf_unary_init = {
-	class = "sol_sector_yellow_dwarf_unary"
+	class = "sc_g"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
@@ -162,7 +171,7 @@ sol_sector_yellow_dwarf_unary_init = {
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_g_star"
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
@@ -179,7 +188,7 @@ sol_sector_yellow_dwarf_unary_init = {
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 3 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -188,7 +197,7 @@ sol_sector_yellow_dwarf_unary_init = {
 
 # Yellow Dwarf Binary
 sol_sector_yellow_dwarf_binary_init = {
-	class = "sol_sector_yellow_dwarf_binary"
+	class = "sc_g_binary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
@@ -197,17 +206,18 @@ sol_sector_yellow_dwarf_binary_init = {
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_g_star"
 		orbit_distance = 25
-		orbit_angle = 0
-		size = { min = 30 max = 35 }
+		orbit_angle = 1
+		size = { min = 25 max = 35 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_g_star"
 		orbit_distance = 0
+		orbit_angle = 180
 		size = { min = 15 max = 25 }
 		has_ring = no
 	}
@@ -222,7 +232,7 @@ sol_sector_yellow_dwarf_binary_init = {
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 3 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -231,33 +241,33 @@ sol_sector_yellow_dwarf_binary_init = {
 
 # Yellow-White Dwarf Unary
 sol_sector_yellow_white_dwarf_unary_init = {
-	class = "sol_sector_yellow_white_dwarf_unary"
+	class = "sc_f"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 300
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_f_star"
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 50
 
 	planet = {
 		count = { min = 1 max = 5 }
-		orbit_distance = 20
+		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 2 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -266,41 +276,42 @@ sol_sector_yellow_white_dwarf_unary_init = {
 
 # Yellow-White Dwarf Binary
 sol_sector_yellow_white_dwarf_binary_init = {
-	class = "sol_sector_yellow_white_dwarf_binary"
+	class = "sc_f_binary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 300
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_f_star"
 		orbit_distance = 25
-		orbit_angle = 0
-		size = { min = 30 max = 35 }
+		orbit_angle = 1
+		size = { min = 25 max = 35 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_f_star"
 		orbit_distance = 0
+		orbit_angle = 180
 		size = { min = 15 max = 25 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 50
 
 	planet = {
 		count = { min = 0 max = 4 }
-		orbit_distance = 20
+		orbit_distance = 25
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 2 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -309,33 +320,33 @@ sol_sector_yellow_white_dwarf_binary_init = {
 
 # White Dwarf Unary (A-class)
 sol_sector_white_dwarf_unary_init = {
-	class = "sol_sector_white_dwarf_unary"
+	class = "sc_a"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 350
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_a_star"
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 65
 
 	planet = {
 		count = { min = 0 max = 3 }
-		orbit_distance = 20
+		orbit_distance = 30
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 2 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -344,41 +355,42 @@ sol_sector_white_dwarf_unary_init = {
 
 # White Dwarf Binary (A-class)
 sol_sector_white_dwarf_binary_init = {
-	class = "sol_sector_white_dwarf_binary"
+	class = "sc_a_binary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 350
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_a_star"
 		orbit_distance = 25
-		orbit_angle = 0
-		size = { min = 30 max = 35 }
+		orbit_angle = 1
+		size = { min = 25 max = 35 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_a_star"
 		orbit_distance = 0
+		orbit_angle = 180
 		size = { min = 15 max = 25 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 65
 
 	planet = {
 		count = { min = 0 max = 2 }
-		orbit_distance = 20
+		orbit_distance = 30
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 2 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -387,27 +399,27 @@ sol_sector_white_dwarf_binary_init = {
 
 # Blue-White Dwarf Unary (B-class)
 sol_sector_blue_white_dwarf_unary_init = {
-	class = "sol_sector_blue_white_dwarf_unary"
+	class = "sc_b"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 400
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_b_star"
 		orbit_distance = 0
 		orbit_angle = 1
 		size = { min = 20 max = 35 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 80
 
 	planet = {
 		count = { min = 0 max = 1 }
-		orbit_distance = 20
+		orbit_distance = 40
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
@@ -422,35 +434,36 @@ sol_sector_blue_white_dwarf_unary_init = {
 
 # Blue-White Dwarf Binary (B-class)
 sol_sector_blue_white_dwarf_binary_init = {
-	class = "sol_sector_blue_white_dwarf_binary"
+	class = "sc_b_binary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 400
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_b_star"
 		orbit_distance = 25
-		orbit_angle = 0
+		orbit_angle = 1
 		size = { min = 25 max = 35 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_b_star"
 		orbit_distance = 0
+		orbit_angle = 180
 		size = { min = 20 max = 30 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 80
 
 	planet = {
 		count = { min = 0 max = 1 }
-		orbit_distance = 20
+		orbit_distance = 40
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
@@ -465,49 +478,51 @@ sol_sector_blue_white_dwarf_binary_init = {
 
 # Red Dwarf Trinary
 sol_sector_red_dwarf_trinary_init = {
-	class = "sol_sector_red_dwarf_trinary"
+	class = "sc_m_trinary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 190
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 25
-		orbit_angle = 0
+		orbit_angle = 1
 		size = { min = 25 max = 30 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 0
+		orbit_angle = 120
 		size = { min = 15 max = 25 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 0
+		orbit_angle = 240
 		size = { min = 15 max = 20 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 30
 
 	planet = {
 		count = { min = 0 max = 6 }
-		orbit_distance = 20
+		orbit_distance = 15
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 2 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -516,49 +531,51 @@ sol_sector_red_dwarf_trinary_init = {
 
 # Orange Dwarf Trinary
 sol_sector_orange_dwarf_trinary_init = {
-	class = "sol_sector_orange_dwarf_trinary"
+	class = "sc_k_trinary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
-		radius = 260
+		radius = 230
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_k_star"
 		orbit_distance = 25
-		orbit_angle = 0
+		orbit_angle = 1
 		size = { min = 25 max = 35 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_k_star"
 		orbit_distance = 0
+		orbit_angle = 120
 		size = { min = 15 max = 25 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 0
+		orbit_angle = 240
 		size = { min = 15 max = 20 }
 		has_ring = no
 	}
 
-	change_orbit = 45
+	change_orbit = 40
 
 	planet = {
 		count = { min = 1 max = 6 }
-		orbit_distance = 20
+		orbit_distance = 18
 		orbit_angle = { min = 90 max = 270 }
 
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 3 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}
@@ -567,7 +584,7 @@ sol_sector_orange_dwarf_trinary_init = {
 
 # Yellow Dwarf Trinary
 sol_sector_yellow_dwarf_trinary_init = {
-	class = "sol_sector_yellow_dwarf_trinary"
+	class = "sc_g_trinary"
 
 	asteroid_belt = {
 		type = icy_asteroid_belt
@@ -576,25 +593,27 @@ sol_sector_yellow_dwarf_trinary_init = {
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_g_star"
 		orbit_distance = 25
-		orbit_angle = 0
+		orbit_angle = 1
 		size = { min = 25 max = 35 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 0
+		orbit_angle = 120
 		size = { min = 15 max = 25 }
 		has_ring = no
 	}
 
 	planet = {
 		count = 1
-		class = star
+		class = "pc_m_star"
 		orbit_distance = 0
+		orbit_angle = 240
 		size = { min = 15 max = 20 }
 		has_ring = no
 	}
@@ -609,7 +628,7 @@ sol_sector_yellow_dwarf_trinary_init = {
 		change_orbit = @base_moon_distance
 
 		moon = {
-			count = { min = 0 max = 1 }
+			count = { min = 0 max = 3 }
 			orbit_angle = { min = 90 max = 270 }
 			orbit_distance = 5
 		}

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find '/c/Program Files \\(x86\\)/Steam/steamapps/common/Stellaris/common/solar_system_initializers/' -type f -name *.txt)",
+      "Bash(ls -lah '/c/Program Files \\(x86\\)/Steam/steamapps/common/Stellaris/common/solar_system_initializers/')",
+      "Bash(find '/c/Users/fouad/OneDrive/Documents/Paradox Interactive/Stellaris/mod/astrainvicta/' -type f -name *.txt)",
+      "Bash(find 'C:\\\\Program Files \\(x86\\)\\\\Steam\\\\steamapps\\\\common\\\\Stellaris\\\\common\\\\solar_system_initializers' -type f -name *.txt)",
+      "Bash(grep -l \"binary\" \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\steamapps\\\\common\\\\Stellaris\\\\common\\\\solar_system_initializers\"/*.txt)",
+      "Bash(ls -la \"C:/Program Files \\(x86\\)/Steam/steamapps/common/Stellaris/common/solar_system_initializers/\")"
+    ]
+  }
+}

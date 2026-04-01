@@ -93,12 +93,12 @@ static_galaxy_scenario = {
 
 	system = { 
 		id = "5" name = "Procyon" position = { x = -51 y = -76 }
-		#initializer = sol_sector_procyon_initializer		 
+		initializer = sol_sector_yellow_white_dwarf_binary_init
 	}	
 
 	system = { 
-		id = "6" name = "Sirius" position = { x = -51 y = -47 } 
-		#initializer = sol_sector_sirius_initializer	
+		id = "6" name = "Sirius" position = { x = -51 y = -47 }
+		initializer = sol_sector_white_dwarf_binary_init
 	}	
 
 	system = { 
@@ -137,14 +137,6 @@ static_galaxy_scenario = {
 		id = "14" name = "NN 3421" position = { x = 65 y = -226 } 
 		initializer = sol_sector_red_dwarf_unary_init		
 		}			
-	system = { 
-		id = "15" name = "NN 3378" position = { x = 88 y = -181 }
-		initializer = sol_sector_red_dwarf_unary_init		 
-		}																		
-	system = { 
-		id = "16" name = "NN 3417" position = { x = 134 y = -271 }
-		initializer = sol_sector_red_dwarf_unary_init		 
-		}																		
 	system = { 
 		id = "17" name = "Gliese 169" position = { x = 23 y = -291 }
 		initializer = sol_sector_red_dwarf_binary_init
@@ -386,8 +378,8 @@ static_galaxy_scenario = {
 		initializer = sol_sector_red_dwarf_unary_init			
 		}
 	system = { 
-		id = "76" name = "DY Eridani" position = { x = -46 y = -122 } 
-		#initializer = sol_sector_dy_eridani_initializer
+		id = "76" name = "DY Eridani" position = { x = -46 y = -122 }
+		initializer = sol_sector_orange_dwarf_trinary_init
 		}
 	system = { 
 		id = "77" name = "Hip 15689" position = { x = -112 y = -325 }
@@ -488,8 +480,8 @@ static_galaxy_scenario = {
 		initializer = sol_sector_red_dwarf_binary_init 
 		}	
 	system = { 
-		id = "98" name = "Van Maanen's Star" position = { x = 96 y = -60 } 
-		initializer = sol_sector_yellow_white_dwarf_unary_init
+		id = "98" name = "Van Maanen's Star" position = { x = 96 y = -60 }
+		initializer = sol_sector_white_dwarf_unary_init
 		}
 	system = { 
 		id = "99" name = "GJ 1002" position = { x = 126 y = -5 }
@@ -555,8 +547,8 @@ static_galaxy_scenario = {
 		initializer = sol_sector_red_dwarf_unary_init  
 		}
 	system = { 
-		id = "115" name = "Altair" position = { x = 99 y = 90 } 
-		#initializer = sol_sector_altair_initializer
+		id = "115" name = "Altair" position = { x = 99 y = 90 }
+		initializer = sol_sector_white_dwarf_unary_init
 		}
 	system = { 
 		id = "116" name = "Gliese 785" position = { x = 62 y = 221 }
@@ -768,8 +760,8 @@ static_galaxy_scenario = {
 		initializer = sol_sector_red_dwarf_binary_init
 		}
 	system = { 
-		id = "166" name = "Vega" position = { x = 185 y = 77 } 
-		#initializer = sol_sector_vega_initializer 		
+		id = "166" name = "Vega" position = { x = 185 y = 77 }
+		initializer = sol_sector_white_dwarf_unary_init		
 		}
 	system = {
 		id = "168" name = "BD+ 18 3421" position = { x = 143 y = 158 }
@@ -821,8 +813,8 @@ static_galaxy_scenario = {
 		}		
 	system = { 
 		id = "180" name = "Chi Draconis" position = { x = 205 y = -49 }
-		initializer = sol_sector_chi_draconis_init
-		}	
+		initializer = sol_sector_yellow_white_dwarf_binary_init
+	}	
 	system = { 
 		id = "181" name = "GJ 1227" position = { x = 218 y = -6 }
 		initializer = sol_sector_red_dwarf_unary_init 
@@ -885,12 +877,8 @@ static_galaxy_scenario = {
 		}
 	system = { 
 		id = "197" name = "Fomalhaut" position = { x = 70 y = 188 }
-		initializer = sol_sector_fomalhaut_initializer 
-		modifier = { 
-			add = 10000
-			leader = { has_trait = leader_trait_ruler_of_fomalhaut }
-		} 		
-		}
+		initializer = sol_sector_white_dwarf_unary_init	
+	}
 	system = { 
 		id = "198" name = "GJ 1286" position = { x = 186 y = 22 }
 		initializer = sol_sector_red_dwarf_unary_init 
@@ -1108,7 +1096,7 @@ static_galaxy_scenario = {
 		}
 	system = {
 		id = "247" name = "Mu Herculis" position = { x = 171 y = 134 }
-		initializer = sol_sector_yellow_dwarf_binary_init
+		initializer = sol_sector_yellow_dwarf_trinary_init
 		}
 	system = {
 		id = "248" name = "Alpha Mensae" position = { x = -226 y = 137 }
@@ -1284,7 +1272,7 @@ static_galaxy_scenario = {
 		}
 	system = {
 		id = "291" name = "Gliese 9" position = { x = 279 y = -107 }
-		initializer = sol_sector_yellow_dwarf_unary_init
+		initializer = sol_sector_red_dwarf_unary_init
 		}
 	system = {
 		id = "292" name = "Theta Bootis" position = { x = 355 y = 139 }
@@ -1296,15 +1284,15 @@ static_galaxy_scenario = {
 		}
 	system = {
 		id = "294" name = "Gliese 157" position = { x = 113 y = -363 }
-		initializer = sol_sector_yellow_dwarf_unary_init
+		initializer = sol_sector_orange_dwarf_unary_init
 		}
 	system = {
 		id = "295" name = "Gliese 47" position = { x = 252 y = -263 }
-		initializer = sol_sector_yellow_dwarf_unary_init
+		initializer = sol_sector_red_dwarf_unary_init
 		}
 	system = {
 		id = "296" name = "Gliese 107" position = { x = 32 y = -361 }
-		initializer = sol_sector_yellow_dwarf_unary_init
+		initializer = sol_sector_orange_dwarf_binary_init
 		}
 	system = {
 		id = "297" name = "Gliese 140" position = { x = 74 y = -321 }

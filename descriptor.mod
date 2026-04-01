@@ -8,4 +8,6 @@ tags={
 	"Graphics"
 }
 name="Astra invicta"
+picture="thumbnail.png"
 supported_version="v4.3.0"
+remote_file_id="3696680257"

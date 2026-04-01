@@ -1,26 +1,15 @@
-[h1]ASTRA INVICTA[/h1]
+[img]https://i.imgur.com/n8B3dMa.png[/img]
 [i]A Hard Sci-Fi Total Conversion — Open Alpha[/i]
 
-[hr]
-
-[h2]⚠ ALPHA VERSION — READ BEFORE SUBSCRIBING[/h2]
-
+[img]https://i.imgur.com/0SnEyGF.png[/img]
 This is an [b]open alpha[/b]. Many values are not yet finalized, several planned features are still in development, and you [i]will[/i] encounter rough edges. This release exists to gather feedback, spark conversation, and invite the community into the process early. Your input genuinely shapes what this mod becomes — more on that below.
 
 [hr]
 
-[h2]THE VISION[/h2]
+[img]https://i.imgur.com/I1mrMlF.png[/img]
 
-Stellaris is one of the greatest 4X games ever made. It is also, at times, a deeply immersion-breaking experience — one where Space Fauna roams the stars, psychic dimensions bleed into your senate, and every system is packed with planets like a cosmic yard sale. [b]Astra Invicta[/b] is a long-term project to change that.
 
-The goal is to transform Stellaris into a [b]grounded, hard sci-fi experience[/b] — one that respects the actual science where possible, that treats politics and civilization-building with more seriousness and depth, and that gives roleplayers the immersive sandbox they have always deserved. This is not a balance patch. The long-term vision is a [b]full total conversion[/b] that eventually touches every major game system and gives it a fresh coat of paint rooted in scientific plausibility and narrative richness.
-
-Right now, Astra Invicta is taking its first steps. But they are deliberate ones.
-
-[hr]
-
-[h2]WHAT'S IN THE ALPHA[/h2]
-
+[img]https://i.imgur.com/lfP2cOa.png[/img]
 [h3]⚙ Reworked Combat System[/h3]
 Weapons, ship components, and defensive systems have been renamed, re-tiered, and re-themed to reflect genuine underlying physics and engineering rather than generic sci-fi aesthetics. Each technology tier represents a [b]fundamentally different mechanism[/b] — not an incremental reskin of the previous one.
 
@@ -48,18 +37,7 @@ The three human factions — the [b]United Nations of Sol[/b], the [b]Promethean
 
 Twelve alien civilizations are also designed and in various stages of implementation.
 
-[hr]
-
-[h2]WHAT'S NOT IN THE ALPHA YET[/h2]
-
-[list]
-[*] [b]The option to disable unrealistic content[/b] (Shroud, Space Fauna, etc.) — this feature is planned and in design, but not yet implemented. For now, those elements remain in the game as shipped by Paradox.
-[/list]
-
-[hr]
-
-[h2]THE ROADMAP — WHERE THIS IS GOING[/h2]
-
+[img]https://i.imgur.com/I1mrMlF.png[/img]
 Astra Invicta is not just a renaming project. The following are active areas of development:
 
 [b]Star System Generation Rework[/b] — Real star systems are not all equal. The current Stellaris generator produces too many stellar objects and distributes resources too uniformly. The planned rework will produce fewer planets per system, but those planets will generate more meaningful resources. Some systems will be dramatically more valuable than others — dense with asteroid belts, moons, or rare worlds — while others will be sparse and barely worth settling. The contrast between systems will be far starker and far more strategically meaningful.
@@ -80,30 +58,22 @@ Astra Invicta is not just a renaming project. The following are active areas of 
 
 [b]Origins Rework[/b] — Existing origins will be revised for thematic fit, and new ones will be added.
 
-[hr]
-
-[h2]COMPATIBILITY[/h2]
-
+[img]https://i.imgur.com/8mybcjj.png[/img]
 [b]Required DLC:[/b]
 [list]
 [/list]
 
 [b]Known Conflicts:[/b] Astra Invicta makes sweeping changes to core game systems. It will [b]conflict with any mod that also overhauls the base game[/b] — other total conversions, combat overhauls, or civilization replacement mods. Cosmetic mods, UI mods, and minor tweaks are generally safe.
 
-[hr]
-
-[h2]THIS IS A COLLABORATIVE PROJECT[/h2]
-
+[img]https://i.imgur.com/9oWQecX.png[/img]
 Astra Invicta is currently a solo effort, but it does not have to stay that way — and it will be better if it does not.
 
 [b]Your ideas, your feedback, and your expertise matter.[/b] Whether you have thoughts on a specific mechanic, suggestions for new content, knowledge of astronomy or political science you want to contribute, or just opinions on what hard sci-fi Stellaris should feel like — all of it is welcome and genuinely considered.
 
 Join the Discord to share feedback, report bugs, and follow development:
-[b][url=DISCORD_LINK_HERE]→ Astra Invicta Discord[/url][/b]
+[b][url=https://discord.gg/bvh5N2hgMD]→ Astra Invicta Discord[/url][/b]
 
-[hr]
-
-[h2]CREDITS[/h2]
+[img]https://i.imgur.com/5CASD8X.png[/img]
 [b]AlgerianGeneral[/b] — Design, Implementation, Lore
 
 [i]Astra Invicta is a fan modification for Stellaris. All rights to Stellaris belong to Paradox Interactive.[/i]
