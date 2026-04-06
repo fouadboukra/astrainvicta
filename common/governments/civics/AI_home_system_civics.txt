@@ -1,0 +1,360 @@
+civic_astra_invicta_spawns_in_sol = {
+	random_weight = {
+		base = 0
+	}
+	potential = {
+
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }
+			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }
+			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }
+			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }
+			NOT = { value = civic_astra_invicta_spawns_in_40_eridani }
+		}
+	}
+	modifier = {
+		#country_government_civic_points_add = 1
+	}
+}
+
+civic_astra_invicta_spawns_in_alpha_centauri = {
+	random_weight = {
+		base = 0
+	}
+	potential = {
+
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_astra_invicta_spawns_in_sol }
+			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }
+			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }
+			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }
+			NOT = { value = civic_astra_invicta_spawns_in_40_eridani }
+		}
+	}
+	modifier = {
+		#country_government_civic_points_add = 1
+	}
+}
+
+civic_astra_invicta_spawns_in_luytens_star= {
+	random_weight = {
+		base = 0
+	}
+	potential = {
+
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_astra_invicta_spawns_in_sol }
+			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }
+			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }
+			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }
+			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }
+			NOT = { value = civic_astra_invicta_spawns_in_40_eridani }
+		}
+	}
+	modifier = {
+		#country_government_civic_points_add = 1
+	}
+}
+
+# civic_astra_invicta_spawns_in_ross_128 = {
+# 	random_weight = {
+# 		base = 0
+# 	}
+# 	potential = {
+
+# 	}
+# 	possible = {
+# 		civics = {
+# 			NOT = { value = civic_astra_invicta_spawns_in_sol }
+# 			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }			
+# 			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+# 			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+# 			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+# 			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+# 			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }
+# 			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+# 			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+# 			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }	
+# 		}
+# 	}
+# 	modifier = {
+# 		#country_government_civic_points_add = 1
+# 	}
+# }
+
+civic_astra_invicta_spawns_in_eta_cassiopeiae = {
+	random_weight = {
+		base = 0
+	}
+	potential = {
+
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_astra_invicta_spawns_in_sol }
+			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }
+			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }
+			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }
+			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }
+			NOT = { value = civic_astra_invicta_spawns_in_40_eridani }
+		}
+	}
+	modifier = {
+		#country_government_civic_points_add = 1
+	}
+}
+
+# civic_astra_invicta_spawns_in_teegardens_star = {
+# 	random_weight = {
+# 		base = 0
+# 	}
+# 	potential = {
+
+# 	}
+# 	possible = {
+# 		civics = {
+# 			NOT = { value = civic_astra_invicta_spawns_in_sol }
+# 			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }			
+# 			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+# 			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+# 			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+# 			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+# 			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+# 			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }					
+# 		}
+# 	}
+# 	modifier = {
+# 		#country_government_civic_points_add = 1
+# 	}
+# }
+
+# civic_astra_invicta_spawns_in_wolf_1061 = {
+# 	random_weight = {
+# 		base = 0
+# 	}
+# 	potential = {
+
+# 	}
+# 	possible = {
+# 		civics = {
+# 			NOT = { value = civic_astra_invicta_spawns_in_sol }
+# 			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }			
+# 			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+# 			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+# 			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+# 			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }			
+# 		}
+# 	}
+# 	modifier = {
+# 		#country_government_civic_points_add = 1
+# 	}
+# }
+
+civic_astra_invicta_spawns_in_tau_ceti = {
+	random_weight = {
+		base = 0
+	}
+	potential = {
+
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_astra_invicta_spawns_in_sol }
+			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }
+			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }
+			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }
+			NOT = { value = civic_astra_invicta_spawns_in_40_eridani }
+		}
+	}
+	modifier = {
+		#country_government_civic_points_add = 1
+	}
+}
+
+civic_astra_invicta_spawns_in_beta_comae_berenices = {
+	random_weight = {
+		base = 0
+	}
+	potential = {
+
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_astra_invicta_spawns_in_sol }
+			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }
+			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }
+			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }
+			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }
+			NOT = { value = civic_astra_invicta_spawns_in_40_eridani }
+		}
+	}
+	modifier = {
+		#country_government_civic_points_add = 1
+	}
+}
+
+civic_astra_invicta_spawns_in_gliese_667 = {
+	random_weight = {
+		base = 0
+	}
+	potential = {
+
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_astra_invicta_spawns_in_sol }
+			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }
+			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }
+			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }
+			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }
+			NOT = { value = civic_astra_invicta_spawns_in_40_eridani }
+		}
+	}
+	modifier = {
+		#country_government_civic_points_add = 1
+	}
+}
+
+# civic_astra_invicta_spawns_in_82_g_eridani = {
+# 	random_weight = {
+# 		base = 0
+# 	}
+# 	potential = {
+
+# 	}
+# 	possible = {
+# 		civics = {
+# 			NOT = { value = civic_astra_invicta_spawns_in_sol }
+# 			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }			
+# 			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+# 			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+# 			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+# 			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }										
+# 		}
+# 	}
+# 	modifier = {
+# 		#country_government_civic_points_add = 1
+# 	}
+# }
+
+civic_astra_invicta_spawns_in_40_eridani = {
+	random_weight = {
+		base = 0
+	}
+	potential = {
+
+	}
+	possible = {
+		civics = {
+			NOT = { value = civic_astra_invicta_spawns_in_sol }
+			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }
+			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }
+			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }
+			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }
+			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }
+			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }
+			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }
+			NOT = { value = civic_astra_invicta_spawns_in_delta_pavonis }
+		}
+	}
+	modifier = {
+		#country_government_civic_points_add = 1
+	}
+}
+
+# civic_astra_invicta_spawns_in_delta_pavonis = {
+# 	random_weight = {
+# 		base = 0
+# 	}
+# 	potential = {
+
+# 	}
+# 	possible = {
+# 		civics = {
+# 			NOT = { value = civic_astra_invicta_spawns_in_sol }
+# 			NOT = { value = civic_astra_invicta_spawns_in_alpha_centauri }			
+# 			NOT = { value = civic_astra_invicta_spawns_in_luytens_star }
+# 			NOT = { value = civic_astra_invicta_spawns_in_ross_128 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_eta_cassiopeiae }
+# 			NOT = { value = civic_astra_invicta_spawns_in_teegardens_star }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_wolf_1061 }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_tau_ceti }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_beta_comae_berenices }	
+# 			NOT = { value = civic_astra_invicta_spawns_in_gliese_667 }
+# 			NOT = { value = civic_astra_invicta_spawns_in_82_g_eridani }	
+												
+# 		}
+# 	}
+# 	modifier = {
+# 		#country_government_civic_points_add = 1
+# 	}
+# }
+

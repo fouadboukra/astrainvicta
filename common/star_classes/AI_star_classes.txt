@@ -1,0 +1,297 @@
+random_list = {
+	name = "astra_invicta_red_dwarf_unary"
+	stars = {
+		"sc_m"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_red_dwarf_binary"
+	stars = {
+		"sc_m_binary"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_orange_dwarf_unary"
+	stars = {
+		"sc_k"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_orange_dwarf_binary"
+	stars = {
+		"sc_k_binary"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_yellow_dwarf_unary"
+	stars = {
+		"sc_g"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_yellow_dwarf_binary"
+	stars = {
+		"sc_g_binary"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_yellow_white_dwarf_unary"
+	stars = {
+		"sc_f"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_yellow_white_dwarf_binary"
+	stars = {
+		"sc_f_binary"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_red_dwarf_trinary"
+	stars = {
+		"sc_m_trinary"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_orange_dwarf_trinary"
+	stars = {
+		"sc_k_trinary"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_yellow_dwarf_trinary"
+	stars = {
+		"sc_g_trinary"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_white_dwarf_unary"
+	stars = {
+		"sc_a"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_white_dwarf_binary"
+	stars = {
+		"sc_a_binary"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_blue_white_dwarf_unary"
+	stars = {
+		"sc_b"
+	}
+}
+
+random_list = {
+	name = "astra_invicta_blue_white_dwarf_binary"
+	stars = {
+		"sc_b_binary"
+	}
+}
+
+
+
+
+
+sc_m_binary = { 
+	class = m_star
+	icon = d_binary_star
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+	planet	= {
+		key = pc_m_star
+		class = m_star
+		}
+}
+
+sc_k_binary = { 
+	class = k_star
+	icon = d_binary_star
+	planet = {
+		key = pc_k_star
+		class = k_star
+	}
+	planet	= {
+		key = pc_k_star
+		class = k_star
+	}
+}
+
+sc_g_binary = { 
+	class = g_star
+	icon = d_binary_star
+	planet = {
+		key = pc_g_star
+		class = g_star
+	}
+	planet	= {
+		key = pc_g_star
+		class = g_star
+	}
+}
+
+sc_f_binary = {
+	class = f_star
+	icon = d_binary_star
+	planet = {
+		key = pc_f_star
+		class = f_star
+	}
+	planet	= {
+		key = pc_f_star
+		class = f_star
+	}
+}
+
+sc_a_binary = {
+	class = a_star
+	icon = d_binary_star
+	planet = {
+		key = pc_a_star
+		class = a_star
+	}
+	planet = {
+		key = pc_a_star
+		class = a_star
+	}
+}
+
+sc_b_binary = {
+	class = b_star
+	icon = d_binary_star
+	planet = {
+		key = pc_b_star
+		class = b_star
+	}
+	planet = {
+		key = pc_b_star
+		class = b_star
+	}
+}
+
+sc_m_trinary = {
+	class = m_star
+	icon = a_trinary_star
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+}
+
+sc_k_trinary = {
+	class = k_star
+	icon = a_trinary_star
+	planet = {
+		key = pc_k_star
+		class = k_star
+	}
+	planet = {
+		key = pc_k_star
+		class = k_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+}
+
+sc_g_trinary = {
+	class = g_star
+	icon = a_trinary_star
+	planet = {
+		key = pc_g_star
+		class = g_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+}
+
+astra_invicta_dy_eridani = { 
+	class = k_star
+	icon = a_trinary_star
+	planet			= {
+						key = pc_k_star
+						class = k_star
+					}
+	planet			= {
+						key = pc_f_star
+						class = f_star
+					}
+	planet = {
+					key = pc_m_star
+					class = m_star
+	}				
+}
+
+astra_invicta_gliese_667 = { 
+	class			 = k_star
+	icon				= a_trinary_star
+	planet			= {
+						key = pc_k_star
+						class = k_star
+					}
+	planet			= {
+						key = pc_k_star
+						class = k_star
+					}
+	planet = {
+					key = pc_m_star
+					class = m_star
+	}				
+}
+
+astra_invicta_ophiuchi = { 
+	class			 = m_star
+	icon				= a_trinary_star
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+}	
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}						
+}
+

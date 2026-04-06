@@ -1,0 +1,119 @@
+@distance = 50
+@base_moon_distance = 10
+@jumps = 3
+
+### 40 Eridani (Keid)
+# Hierarchical trinary: K0.5V primary (A) far from a close WD+M binary (B+C) at ~400 AU.
+# 40 Eridani B is a DA4 white dwarf — approximated as pc_a_star, the closest available
+# star class. In reality it is a degenerate remnant roughly Earth-sized in radius.
+# 40 Eridani C is an M4.5Ve flare star orbiting B at ~35 AU.
+# No confirmed planets around A as of present; system layout is scientifically plausible.
+# B and C are too gravitationally perturbed by each other to host stable planets;
+# only stray captured bodies are present.
+astra_invicta_40_eridani_initializer = {
+	name = "40 Eridani"
+	class = sc_trinary_1
+
+	flags = { empire_home_system }
+
+	usage = custom_empire
+
+	init_effect = {
+		generate_home_system_resources = yes
+	}
+
+	# 40 Eridani A — K0.5V primary, L = 0.46 L☉, HZ ~0.55–0.95 AU
+	planet = {
+		name = "40 Eridani A"
+		count = 1
+		class = pc_k_star
+		orbit_distance = 15
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+
+		# 40 Eridani A I — inner rocky world, too hot for liquid water
+		planet = {
+			name = "40 Eridani A I"
+			class = pc_barren
+			orbit_distance = 55
+			size = 9
+			has_ring = no
+			init_effect = {
+				add_modifier = {
+					modifier = "tidal_locked"
+					days = -1
+				}
+			}
+		}
+
+		# 40 Eridani A II — habitable zone, arid super-Earth with ring system
+		planet = {
+			name = "40 Eridani A II"
+			class = pc_arid
+			orbit_distance = 45
+			size = 18
+			starting_planet = yes
+			has_ring = yes
+			init_effect = {
+				prevent_anomaly = yes
+			}
+
+			planet = {
+				name = "40 Eridani A II a"
+				class = pc_barren
+				orbit_distance = 20
+				size = 5
+				has_ring = no
+			}
+		}
+
+		# 40 Eridani A III — cold outer world, beyond the frost line
+		planet = {
+			name = "40 Eridani A III"
+			class = pc_barren_cold
+			orbit_distance = 80
+			size = 11
+			has_ring = no
+		}
+	}
+
+	# 40 Eridani B — DA4 white dwarf (~400 AU from A), approximated as pc_a_star
+	# Degenerate remnant; any former planets were ejected or engulfed during the giant phase.
+	planet = {
+		name = "40 Eridani B"
+		count = 1
+		class = pc_a_star
+		orbit_distance = 200
+		orbit_angle = 67
+		size = 7
+		has_ring = no
+	}
+
+	# 40 Eridani C — M4.5Ve red dwarf, close binary companion to B (~35 AU from B)
+	# Active flare star; intense UV makes stable life impossible.
+	# One tidally locked barren rock endures at the inner edge.
+	planet = {
+		name = "40 Eridani C"
+		count = 1
+		class = pc_m_star
+		orbit_distance = 35
+		orbit_angle = 247
+		size = 18
+		has_ring = no
+
+		planet = {
+			name = "40 Eridani C I"
+			class = pc_barren
+			orbit_distance = 40
+			size = 7
+			has_ring = no
+			init_effect = {
+				add_modifier = {
+					modifier = "tidal_locked"
+					days = -1
+				}
+			}
+		}
+	}
+}

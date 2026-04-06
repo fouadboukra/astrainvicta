@@ -1,0 +1,168 @@
+@distance = 50
+@base_moon_distance = 10
+@jumps = 3
+
+### Alpha Centauri
+astra_invicta_alpha_centauri_initializer = {
+	name = "NAME_Alpha_Centauri"
+	class = sc_trinary_1
+
+	flags = { empire_home_system }
+
+	usage = custom_empire
+
+	init_effect = {
+		generate_home_system_resources = yes
+	}
+
+	planet = {
+		name = "Rigil Kentauros"
+		count = 1
+		class = pc_g_star
+		orbit_distance = 15
+		orbit_angle = 350
+		size = 32
+		has_ring = no
+
+		planet = {
+			name = "Rigil Kentauros I"
+			class = pc_gas_giant
+			orbit_distance = 100
+			orbit_angle = 350
+			size = 28
+			has_ring = no
+
+			planet = {
+				name = "Rigil Kentauros Ia"
+				class = "pc_molten"
+				orbit_distance = 20
+				size = 4
+				has_ring = no
+			}
+			planet = {
+				name = "Rigil Kentauros Ib"
+				class = "pc_molten"
+				orbit_distance = 5
+				size = 4
+				has_ring = no
+			}
+			planet = {
+				name = "Rigil Kentauros Ic"
+				class = "pc_barren"
+				orbit_distance = 5
+				size = 6
+				has_ring = no
+			}
+			planet = {
+				name = "Rigil Kentauros Id"
+				class = "pc_tropical"
+				orbit_distance = 5
+				size = 12
+				has_ring = no
+			}
+			planet = {
+				name = "Rigil Kentauros Ie"
+				class = "pc_toxic"
+				orbit_distance = 5
+				size = 10
+				has_ring = no
+			}
+			planet = {
+				name = "Rigil Kentauros If"
+				class = "pc_barren"
+				orbit_distance = 5
+				size = 2
+				has_ring = no
+			}										
+		}
+	}
+
+	planet = {
+		name = "Toliman"
+		count = 1
+		class = pc_k_star
+		orbit_distance = 200
+		orbit_angle = 10
+		size = 30
+		has_ring = no
+	}
+
+	planet = {
+		name = "Proxima Centauri"
+		count = 1
+		class = pc_m_star
+		orbit_distance = 200
+		orbit_angle = 180
+		size = 15
+		has_ring = no
+
+		# Proxima d — candidate planet (0.26 M_Earth, 0.029 AU), interior to b, stripped bare by flares
+		planet = {
+			name = "Proxima Centauri d"
+			class = pc_barren
+			size = 7
+			orbit_distance = 50
+			init_effect = {
+				add_modifier = {
+					modifier = "tidal_locked"
+					days = -1
+				}
+			}
+		}
+
+		# Proxima b — confirmed, ~1.1 R_Earth, inner habitable zone edge (0.0485 AU)
+		planet = {
+			name = "NAME_Proxima_Centauri_b"
+			class = pc_continental
+			size = 12
+			starting_planet = yes
+			orbit_distance = 20
+			init_effect = {
+				prevent_anomaly = yes
+				add_anomaly = {
+					category = ALPHA_CENTAURI_CAT
+				}
+				add_modifier = {
+					modifier = "tidal_locked"
+					days = -1
+				}
+			}
+
+			planet = {
+				name = "Proxima Centauri B1"
+				class = pc_barren
+				size = 6
+				orbit_distance = 15
+			}
+
+			planet = {
+				name = "Proxima Centauri B2"
+				class = pc_barren
+				size = 4
+				orbit_distance = 5
+			}
+		}
+
+		# Proxima c — candidate super-Earth (~1.5 AU), far beyond HZ, equilibrium temp ~30K
+		planet = {
+			name = "NAME_Proxima_Centauri_c"
+			class = pc_frozen
+			size = 24
+			orbit_distance = 40
+
+			planet = {
+				name = "Proxima Centauri C1"
+				class = pc_barren
+				size = 4
+				orbit_distance = 20
+			}
+
+			planet = {
+				name = "Proxima Centauri C2"
+				class = pc_barren_cold
+				size = 6
+				orbit_distance = 5
+			}
+		}		
+	}
+}

@@ -1,0 +1,32 @@
+NGameplay = {
+	GOVERNMENT_CIVIC_POINTS_BASE = 3
+}
+
+NGraphics = {
+    GALAXY_STAR_ICON_SCALE = 0.4
+    GALAXY_STAR_ICON_MAX_SCALE = 5
+
+    BORDER_SYSTEM_RADIUS = 30.0
+    BORDER_HYPERLANE_THICKNESS = 25.0
+
+    BORDER_OWNERLESS_SYSTEM_RADIUS = 24.0
+    BORDER_OWNERLESS_HYPERLANE_THICKNESS = 0
+
+    BORDER_VISIBILITY_THRESHOLD = 0.05
+
+    MAPNAME_NEBULA_SCALE = 1.5
+
+    MAPNAME_BORDER_MIN_SIZE	= 100
+    MAPNAME_BORDER_SCALE = 0.8
+	MAPNAME_BORDER_OFFSET_MUL = 0.7
+
+    STAR_PIN_CIRCLE_RADIUS = 0.6	# The lines that go from solar systems down to the 0-plane. This is the radius of that circle
+    STAR_PIN_CIRCLE_NUM_POINTS = 6	# how many points in the circle on the 0-plane
+    STAR_PIN_ENABLE_NEUTRAL	= no # Should the game draw pins for stars that are not within any borders?
+    STAR_PIN_NEUTRAL_COLOR = { 0.5 0.5 0.5 0.5 }	# The color for pins that are not inside any borders
+
+    RANDOM_HEIGHT_MIN = -1
+    RANDOM_HEIGHT_MAX = 1
+
+    CELESTIAL_WARNING_COORDINATE_VALUE = 1000
+}

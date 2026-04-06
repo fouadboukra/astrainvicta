@@ -1,0 +1,664 @@
+# Human empires belong at the top of the list.
+
+# UNE with Mammalian ships
+humans1 = {
+	name = "EMPIRE_DESIGN_humans1"
+	adjective = "PRESCRIPTED_adjective_humans1"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_humans1"
+
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "PRESCRIPTED_species_name_humans1"
+		plural = "PRESCRIPTED_species_plural_humans1"
+		adjective = "PRESCRIPTED_species_adjective_humans1"
+		name_list = "HUMAN1"
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_nomadic"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_federation_builders_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_parliamentary_system" "civic_shadow_council" "civic_astra_invicta_spawns_in_sol" }
+	government = gov_representative_democracy
+
+	ethic = "ethic_materialist"
+	ethic = "ethic_militarist"
+	ethic = "ethic_egalitarian"
+
+	origin = "origin_default"
+
+	flag = empire_human_1
+
+	planet_name = "NAME_Earth"
+	planet_class = "pc_continental"
+	initializer = "sol_system_initializer"
+	system_name = "NAME_Sol"
+
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+
+	empire_flag = {
+		icon= {
+			category = "human"
+			file = "flag_human_9.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"light_blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_humans1"
+		gender = female
+		portrait = "human_female_05"
+		texture = 0
+		attachment = 1
+		clothes = 0
+		trait = "trait_ruler_eye_for_talent"
+		leader_class = official
+	}
+}
+
+# COM with Mammalian ships
+humans2 = {
+	name = "EMPIRE_DESIGN_humans2"
+	adjective = "PRESCRIPTED_adjective_humans2"
+	spawn_enabled = no # yes / no / always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_humans2"
+
+	species = {
+		class = "HUM"
+		portrait = "human"
+		name = "PRESCRIPTED_species_name_humans2"
+		plural = "PRESCRIPTED_species_plural_humans2"
+		adjective = "PRESCRIPTED_species_adjective_humans2"
+		name_list = "HUMAN2"
+		trait = "trait_organic"
+		trait = "trait_adaptive"
+		trait = "trait_nomadic"
+		trait = "trait_wasteful"
+	}
+
+	room = "personality_hegemonic_imperialists_room"
+
+	authority = "auth_dictatorial"
+	civics = { "civic_nationalistic_zeal" "civic_corvee_system" "civic_police_state" }
+	government = gov_military_dictatorship
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+
+	origin = "origin_lost_colony"
+
+	flag = empire_human_2
+
+	planet_name = "NAME_Unity"
+	planet_class = "pc_continental"
+	initializer = "deneb_system"
+	system_name = "NAME_Deneb"
+
+	graphical_culture = "mammalian_01"
+	city_graphical_culture = "mammalian_01"
+
+	empire_flag = {
+		icon= {
+			category = "human"
+			file = "flag_human_4.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "stripe.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_humans2"
+		portrait = "human_female_04"
+		gender = female
+		texture = 0
+		attachment = 6
+		clothes = 4
+		trait = "trait_ruler_warlike"
+		leader_class = commander
+	}
+}
+
+# K'varian League - Avian oligarchy, fanatic militarist xenophobe
+kvarian_league = {
+	name = "EMPIRE_DESIGN_kvarian_league"
+	adjective = "PRESCRIPTED_adjective_kvarian_league"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_kvarian_league"
+
+	species = {
+		class = "AVI"
+		portrait = "avi1"
+		name = "PRESCRIPTED_species_name_kvarian_league"
+		plural = "PRESCRIPTED_species_plural_kvarian_league"
+		adjective = "PRESCRIPTED_species_adjective_kvarian_league"
+		name_list = "AVI1"
+		trait = "trait_organic"
+		trait = "trait_strong"
+		trait = "trait_quick_learners"
+		trait = "trait_fleeting"
+		trait = "trait_communal"
+		trait = "trait_decadent"
+	}
+
+	room = "default_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_warrior_culture" "civic_meritocracy" "civic_citizen_service" }
+	government = gov_war_council
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+
+	origin = "origin_default"
+
+	planet_name = "PRESCRIPTED_planet_name_kvarian_league"
+	planet_class = "pc_alpine"
+	system_name = "PRESCRIPTED_system_name_kvarian_league"
+
+	graphical_culture = "nemesis_01"
+	city_graphical_culture = "humanoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "ornate"
+			file = "flag_ornate_1.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_21.dds"
+		}
+		colors = {
+			"indigo"
+			"black"
+			"black"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_kvarian_league"
+		gender = male
+		portrait = "avi1"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		ruler_title = "PRESCRIPTED_ruler_title_kvarian_league"
+		ruler_title_female = "PRESCRIPTED_ruler_title_kvarian_league"
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+# Essharian Mandate - Reptilian imperial monarchy, authoritarian militarist spiritualist
+essharian_mandate = {
+	name = "EMPIRE_DESIGN_essharian_mandate"
+	adjective = "PRESCRIPTED_adjective_essharian_mandate"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_essharian_mandate"
+
+	species = {
+		class = "REP"
+		portrait = "rep6"
+		name = "PRESCRIPTED_species_name_essharian_mandate"
+		plural = "PRESCRIPTED_species_plural_essharian_mandate"
+		adjective = "PRESCRIPTED_species_adjective_essharian_mandate"
+		name_list = "REP4"
+		trait = "trait_organic"
+		trait = "trait_venerable"
+		trait = "trait_slow_breeders"
+		trait = "trait_nonadaptive"
+		trait = "trait_intelligent"
+		trait = "trait_slow_learners"
+	}
+
+	room = "default_room"
+
+	authority = "auth_imperial"
+	civics = { "civic_byzantine_bureaucracy" "civic_nationalistic_zeal" "civic_philosopher_king" }
+	government = gov_enlightened_monarchy
+
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_militarist"
+	ethic = "ethic_spiritualist"
+
+	origin = "origin_hegemon"
+
+	planet_name = "PRESCRIPTED_planet_name_essharian_mandate"
+	planet_class = "pc_savannah"
+	system_name = "PRESCRIPTED_system_name_essharian_mandate"
+
+	graphical_culture = "avian_01"
+	city_graphical_culture = "reptilian_01"
+
+	empire_flag = {
+		icon = {
+			category = "spherical"
+			file = "flag_spherical_8.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"light_blue"
+			"red"
+			"dark_teal"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_essharian_mandate"
+		gender = female
+		portrait = "rep6"
+		texture = 3
+		attachment = 0
+		clothes = 0
+		ruler_title = "PRESCRIPTED_ruler_title_essharian_mandate"
+		ruler_title_female = "PRESCRIPTED_ruler_title_essharian_mandate"
+		heir_title = "PRESCRIPTED_heir_title_essharian_mandate"
+		heir_title_female = "PRESCRIPTED_heir_title_essharian_mandate"
+		trait = "trait_ruler_charismatic"
+		leader_class = official
+	}
+}
+
+# Vaekharan Council - Arthropoid fanatic purifiers, xenophobe spiritualist
+vaekharan_council = {
+	name = "EMPIRE_DESIGN_vaekharan_council"
+	adjective = "PRESCRIPTED_adjective_vaekharan_council"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_vaekharan_council"
+
+	species = {
+		class = "ART"
+		portrait = "art9"
+		name = "PRESCRIPTED_species_name_vaekharan_council"
+		plural = "PRESCRIPTED_species_plural_vaekharan_council"
+		adjective = "PRESCRIPTED_species_adjective_vaekharan_council"
+		name_list = "ART4"
+		gender = indeterminable
+		trait = "trait_organic"
+		trait = "trait_cave_dweller"
+		trait = "trait_industrious"
+		trait = "trait_intelligent"
+		trait = "trait_rapid_breeders"
+		trait = "trait_nonadaptive"
+		trait = "trait_repugnant"
+	}
+
+	room = "default_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_fanatic_purifiers" "civic_efficient_bureaucracy" "civic_aristocratic_elite" }
+	government = gov_purification_committee
+
+	ethic = "ethic_fanatic_xenophobe"
+	ethic = "ethic_spiritualist"
+
+	origin = "origin_subterranean"
+
+	planet_name = "PRESCRIPTED_planet_name_vaekharan_council"
+	planet_class = "pc_arid"
+	system_name = "PRESCRIPTED_system_name_vaekharan_council"
+
+	graphical_culture = "necroid_01"
+	city_graphical_culture = "mammalian_01"
+
+	empire_flag = {
+		icon = {
+			category = "imperial"
+			file = "imperial_08.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "inverted_v.dds"
+		}
+		colors = {
+			"light_orange"
+			"black"
+			"red"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_vaekharan_council"
+		gender = indeterminable
+		portrait = "art9"
+		texture = 5
+		attachment = 0
+		clothes = 3
+		ruler_title = "PRESCRIPTED_ruler_title_vaekharan_council"
+		trait = "trait_ruler_charismatic"
+		leader_class = official
+	}
+}
+
+# Zhael Choir - Fungoid hive mind, gestalt consciousness
+zhael_choir = {
+	name = "EMPIRE_DESIGN_zhael_choir"
+	adjective = "PRESCRIPTED_adjective_zhael_choir"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_zhael_choir"
+
+	species = {
+		class = "FUN"
+		portrait = "fun15"
+		name = "PRESCRIPTED_species_name_zhael_choir"
+		plural = "PRESCRIPTED_species_plural_zhael_choir"
+		adjective = "PRESCRIPTED_species_adjective_zhael_choir"
+		name_list = "FUN4"
+		gender = indeterminable
+		trait = "trait_organic"
+		trait = "trait_hive_mind"
+		trait = "trait_communal"
+		trait = "trait_docile"
+		trait = "trait_natural_sociologists"
+		trait = "trait_sedentary"
+		trait = "trait_weak"
+	}
+
+	room = "default_room"
+
+	authority = "auth_hive_mind"
+	civics = { "civic_hive_empath" "civic_hive_natural_neural_network" "civic_hive_divided_attention" }
+	government = gov_hive_mind
+
+	ethic = "ethic_gestalt_consciousness"
+
+	origin = "origin_progenitor_hive"
+
+	planet_name = "PRESCRIPTED_planet_name_zhael_choir"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_zhael_choir"
+
+	graphical_culture = "molluscoid_01"
+	city_graphical_culture = "molluscoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "spherical"
+			file = "flag_spherical_15.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "circle.dds"
+		}
+		colors = {
+			"ochre_brown"
+			"black"
+			"red"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_zhael_choir"
+		gender = indeterminable
+		portrait = "fun15"
+		texture = 0
+		attachment = 0
+		clothes = 0
+		ruler_title = "PRESCRIPTED_ruler_title_zhael_choir"
+		trait = "trait_ruler_charismatic"
+		leader_class = official
+	}
+}
+
+# Athari Concord - Molluscoid democratic xenophobe materialist, shattered ring
+athari_concord = {
+	name = "EMPIRE_DESIGN_athari_concord"
+	adjective = "PRESCRIPTED_adjective_athari_concord"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_athari_concord"
+
+	species = {
+		class = "MOL"
+		portrait = "mol7"
+		name = "PRESCRIPTED_species_name_athari_concord"
+		plural = "PRESCRIPTED_species_plural_athari_concord"
+		adjective = "PRESCRIPTED_species_adjective_athari_concord"
+		name_list = "FUN1"
+		gender = indeterminable
+		trait = "trait_organic"
+		trait = "trait_intelligent"
+		trait = "trait_venerable"
+		trait = "trait_sedentary"
+		trait = "trait_slow_breeders"
+		trait = "trait_weak"
+	}
+
+	room = "default_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_inwards_perfection" "civic_memory_vault" "civic_relentless_industrialists" }
+	government = gov_direct_democracy
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_shattered_ring"
+
+	planet_name = "PRESCRIPTED_planet_name_athari_concord"
+	planet_class = "pc_continental"
+	system_name = "PRESCRIPTED_system_name_athari_concord"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "fungoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "aquatic"
+			file = "aquatic_01.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_2.dds"
+		}
+		colors = {
+			"shadow_teal"
+			"shadow_teal"
+			"grey"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_athari_concord"
+		gender = indeterminable
+		portrait = "mol7"
+		texture = 1
+		attachment = 0
+		clothes = 0
+		ruler_title = "PRESCRIPTED_ruler_title_athari_concord"
+		trait = "trait_ruler_logistic_understanding"
+		leader_class = official
+	}
+}
+
+# Selkari Confederation - Mammalian oligarchy, egalitarian xenophobe militarist, fear of the dark
+selkari_confederation = {
+	name = "EMPIRE_DESIGN_selkari_confederation"
+	adjective = "PRESCRIPTED_adjective_selkari_confederation"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_selkari_confederation"
+
+	species = {
+		class = "MAM"
+		portrait = "mam2"
+		name = "PRESCRIPTED_species_name_selkari_confederation"
+		plural = "PRESCRIPTED_species_plural_selkari_confederation"
+		adjective = "PRESCRIPTED_species_adjective_selkari_confederation"
+		name_list = "HUM2"
+		trait = "trait_organic"
+		trait = "trait_intelligent"
+		trait = "trait_humanoid_existential_iteroparity"
+		trait = "trait_decadent"
+		trait = "trait_unruly"
+		trait = "trait_natural_physicists"
+	}
+
+	room = "personality_migrating_flock_room"
+
+	authority = "auth_oligarchic"
+	civics = { "civic_shadow_council" "civic_pleasure_seekers" "civic_police_state" }
+	government = gov_military_junta
+
+	ethic = "ethic_egalitarian"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+
+	origin = "origin_fear_of_the_dark"
+
+	planet_name = "PRESCRIPTED_planet_name_selkari_confederation"
+	planet_class = "pc_tundra"
+	system_name = "PRESCRIPTED_system_name_selkari_confederation"
+	initializer = "fear_of_the_dark_system"
+
+	graphical_culture = "humanoid_01"
+	city_graphical_culture = "mammalian_01"
+
+	empire_flag = {
+		icon = {
+			category = "imperial"
+			file = "imperial_12.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "horizontal_stripe.dds"
+		}
+		colors = {
+			"burgundy"
+			"satin_burgundy"
+			"black"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_selkari_confederation"
+		gender = female
+		portrait = "mam2"
+		texture = 0
+		attachment = 0
+		clothes = 4
+		ruler_title = "PRESCRIPTED_ruler_title_selkari_confederation"
+		ruler_title_female = "PRESCRIPTED_ruler_title_selkari_confederation"
+		trait = "leader_trait_spycraft"
+		leader_class = official
+	}
+}
+
+# Eridian Republic - Lithoid democratic xenophile pacifist materialist, 40 Eridani system
+eridian_republic = {
+	name = "EMPIRE_DESIGN_eridian_republic"
+	adjective = "PRESCRIPTED_adjective_eridian_republic"
+	spawn_enabled = always
+	ignore_portrait_duplication = yes
+
+	ship_prefix = "PRESCRIPTED_ship_prefix_eridian_republic"
+
+	species = {
+		class = "LITHOID"
+		portrait = "lith3"
+		name = "PRESCRIPTED_species_name_eridian_republic"
+		plural = "PRESCRIPTED_species_plural_eridian_republic"
+		adjective = "PRESCRIPTED_species_adjective_eridian_republic"
+		name_list = "FUN3"
+		trait = "trait_lithoid"
+		trait = "trait_intelligent"
+		trait = "trait_lithoid_scintillating"
+		trait = "trait_natural_engineers"
+		trait = "trait_humanoid_psychological_infertility"
+		trait = "trait_sedentary"
+	}
+
+	room = "default_room"
+
+	authority = "auth_democratic"
+	civics = { "civic_technocracy" "civic_crafters" "civic_astra_invicta_spawns_in_40_eridani" }
+	government = gov_rational_consensus
+
+	ethic = "ethic_xenophile"
+	ethic = "ethic_pacifist"
+	ethic = "ethic_materialist"
+
+	origin = "origin_default"
+
+	planet_name = "PRESCRIPTED_planet_name_eridian_republic"
+	planet_class = "pc_arid"
+	system_name = "PRESCRIPTED_system_name_eridian_republic"
+	initializer = "astra_invicta_40_eridani_initializer"
+
+	graphical_culture = "arthropoid_01"
+	city_graphical_culture = "plantoid_01"
+
+	empire_flag = {
+		icon = {
+			category = "spherical"
+			file = "flag_spherical_2.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_15.dds"
+		}
+		colors = {
+			"shadow_blue"
+			"shadow_blue"
+			"black"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_eridian_republic"
+		gender = female
+		portrait = "lith3"
+		texture = 2
+		attachment = 0
+		clothes = 0
+		trait = "leader_trait_principled"
+		leader_class = official
+	}
+}

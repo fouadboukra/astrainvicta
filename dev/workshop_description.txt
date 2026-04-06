@@ -7,6 +7,11 @@ This is an [b]open alpha[/b]. Many values are not yet finalized, several planned
 [hr]
 
 [img]https://i.imgur.com/I1mrMlF.png[/img]
+Stellaris is one of the greatest 4X games ever made. It is also, at times, a deeply immersion-breaking experience — one where Space Fauna roams the stars, psychic dimensions bleed into your senate, and every system is packed with planets like a cosmic yard sale. [b]Astra Invicta[/b] is a long-term project to change that.
+
+The goal is to transform Stellaris into a [b]grounded, hard sci-fi experience[/b] — one that respects the actual science where possible, that treats politics and civilization-building with more seriousness and depth, and that gives roleplayers the immersive sandbox they have always deserved. This is not a balance patch. The long-term vision is a [b]full total conversion[/b] that eventually touches every major game system and gives it a fresh coat of paint rooted in scientific plausibility and narrative richness.
+
+Right now, Astra Invicta is taking its first steps. But they are deliberate ones.
 
 
 [img]https://i.imgur.com/lfP2cOa.png[/img]
@@ -75,5 +80,6 @@ Join the Discord to share feedback, report bugs, and follow development:
 
 [img]https://i.imgur.com/5CASD8X.png[/img]
 [b]AlgerianGeneral[/b] — Design, Implementation, Lore
+[b]LNSS[/b] — The Sol Sector mod was used as a basis for the current map
 
 [i]Astra Invicta is a fan modification for Stellaris. All rights to Stellaris belong to Paradox Interactive.[/i]

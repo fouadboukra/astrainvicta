@@ -1,0 +1,71 @@
+@distance = 50
+@base_moon_distance = 10
+@jumps = 3
+
+### Wolf 1061
+astra_invicta_wolf_1061_initializer = {
+	name = "Wolf 1061"
+	class = astra_invicta_red_dwarf_unary
+	flags = { ss_init_unique }			
+	usage = misc_system_init			
+	usage_odds = {						
+		base = 0
+	}
+
+	max_instances = 1
+
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 260
+	}	
+
+	planet = {
+		name = "Wolf 1061"
+		count = 1
+		class = pc_m_star
+		orbit_distance = 1
+		size = 30
+		has_ring = no				
+	}
+
+	planet = {
+		name = "Wolf 1061 b"
+		class = pc_barren
+		orbit_distance = 60		
+		size = 18
+	}
+
+	planet = {
+		name = "Wolf 1061 c"
+		class = pc_ocean
+		orbit_distance = 80	
+		starting_planet = yes		
+		size = 24
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+	planet = {
+		name = "Wolf 1061 d"
+		class = pc_frozen
+		orbit_distance = 80		
+		size = 18
+
+		planet = {
+			name = "Wolf 1061 d a"
+			class = pc_frozen
+			orbit_distance = 30		
+			size = 10
+		}	
+		
+		planet = {
+			name = "Wolf 1061 d b"
+			class = pc_frozen
+			orbit_distance = 15		
+			size = 6
+		}			
+
+	}
+}
+

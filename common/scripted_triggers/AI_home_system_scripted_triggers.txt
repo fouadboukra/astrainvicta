@@ -1,0 +1,90 @@
+astra_invicta_spawns_in_sol = {
+	OR = {
+		has_civic = civic_astra_invicta_spawns_in_sol
+		has_country_flag = cf_astra_invicta_spawns_in_sol
+	}
+}
+
+astra_invicta_spawns_in_alpha_centauri = {
+	OR = {
+		has_civic = civic_astra_invicta_spawns_in_alpha_centauri
+		has_country_flag = cf_astra_invicta_spawns_in_alpha_centauri
+	}
+}
+
+astra_invicta_spawns_in_luytens_star = {
+	OR = {
+		has_civic = civic_astra_invicta_spawns_in_luytens_star
+		has_country_flag = cf_astra_invicta_spawns_in_luytens_star
+	}
+}
+
+astra_invicta_spawns_in_eta_cassiopeiae = {
+	OR = {
+		has_civic = civic_astra_invicta_spawns_in_eta_cassiopeiae
+		has_country_flag = cf_astra_invicta_spawns_in_eta_cassiopeiae
+	}
+}
+
+astra_invicta_spawns_in_tau_ceti = {
+	OR = {
+		has_civic = civic_astra_invicta_spawns_in_tau_ceti
+		has_country_flag = cf_astra_invicta_spawns_in_tau_ceti
+	}
+}
+
+astra_invicta_spawns_in_beta_comae_berenices = {
+	OR = {
+		has_civic = civic_astra_invicta_spawns_in_beta_comae_berenices
+		has_country_flag = cf_astra_invicta_spawns_in_beta_comae_berenices
+	}
+}
+
+astra_invicta_spawns_in_gliese_667 = {
+	OR = {
+		has_civic = civic_astra_invicta_spawns_in_gliese_667
+		has_country_flag = cf_astra_invicta_spawns_in_gliese_667
+	}
+}
+
+astra_invicta_spawns_in_40_eridani = {
+	OR = {
+		has_civic = civic_astra_invicta_spawns_in_40_eridani
+		has_country_flag = cf_astra_invicta_spawns_in_40_eridani
+	}
+}
+
+# astra_invicta_spawns_in_82_g_eridani = {
+# 	OR = {
+# 		has_civic = civic_astra_invicta_spawns_in_82_g_eridani
+# 		has_country_flag = cf_astra_invicta_spawns_in_82_g_eridani
+# 	}
+# }
+
+# astra_invicta_spawns_in_delta_pavonis = {
+# 	OR = {
+# 		has_civic = civic_astra_invicta_spawns_in_delta_pavonis
+# 		has_country_flag = cf_astra_invicta_spawns_in_delta_pavonis
+# 	}
+# }
+
+# astra_invicta_spawns_in_teegardens_star = {
+# 	OR = {
+# 		has_civic = civic_astra_invicta_spawns_in_teegardens_star
+# 		has_country_flag = cf_astra_invicta_spawns_in_teegarden_star
+# 	}
+# }
+
+# astra_invicta_spawns_in_wolf_1061 = {
+# 	OR = {
+# 		has_civic = civic_astra_invicta_spawns_in_teegardens_star
+# 		has_country_flag = cf_astra_invicta_spawns_in_teegarden_star
+# 	}
+# }
+
+# astra_invicta_spawns_in_ross_128 = {
+# 	OR = {
+# 		has_civic = civic_astra_invicta_spawns_in_ross_128
+# 		has_country_flag = cf_astra_invicta_spawns_in_ross_128
+# 	}
+# }

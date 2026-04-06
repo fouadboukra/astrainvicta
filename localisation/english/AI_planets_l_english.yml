@@ -1,0 +1,13 @@
+﻿l_english:
+ ### Sol System Planet/Moon Localisation
+ # Mars moons
+ NAME_Phobos:0 "Phobos"
+ NAME_Deimos:0 "Deimos"
+ # Jupiter moons (Europa already vanilla, listed for completeness)
+ NAME_Europa:0 "Europa"
+ # Saturn moons
+ NAME_Enceladus:0 "Enceladus"
+ # Uranus moons
+ NAME_Miranda:0 "Miranda"
+ # Kuiper Belt / Scattered Disc
+ NAME_136199_Eris:0 "Eris"
