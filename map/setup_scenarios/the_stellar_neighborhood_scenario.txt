@@ -849,10 +849,10 @@ static_galaxy_scenario = {
 		id = "189" name = "Gliese 831" position = { x = 133 y = 142 }
 		initializer = astra_invicta_red_dwarf_unary_init 
 		}			
-	system = { 
-		id = "190" name = "NN 4274" position = { x = 123 y = 143 } 
-		initializer = astra_invicta_red_dwarf_unary_init
-		}	
+	# system = {
+	# 	id = 190 name = "GJ 1214" position = { x = 169 y = 343 }
+	# 	initializer = astra_invicta_red_dwarf_unary_init
+	# }
 	system = { 
 		id = "191" name = "FK Aquarii" position = { x = 142 y = 183 } 
 		initializer = astra_invicta_red_dwarf_binary_init
@@ -1042,10 +1042,13 @@ static_galaxy_scenario = {
 		id = "233" name = "HD 40307" position = { x = -337 y = -7 }
 		initializer = astra_invicta_orange_dwarf_unary_init
 		}
+	# GJ 1214 — M4.5 V red dwarf, ~47.8 ly, Ophiuchus
+	# Single star; 1 confirmed exoplanet (GJ 1214 b: mini-Neptune, 8.4 Earth masses, 1.58-day orbit)
+	# Scientifically notable: first super-Earth with detected atmosphere; thick aerosol/haze layers	
 	system = {
 		id = "234" name = "GJ 1214" position = { x = 168 y = 343 }
 		initializer = astra_invicta_red_dwarf_unary_init
-		}
+	}
 	system = {
 		id = "235" name = "Gliese 163" position = { x = -391 y = -50 }
 		initializer = astra_invicta_red_dwarf_unary_init
@@ -1316,7 +1319,182 @@ static_galaxy_scenario = {
 		id = "301" name = "Gliese 740" position = { x = 183 y = 228 }
 		initializer = astra_invicta_red_dwarf_unary_init
 		}
+# --- Expansion batch 3: Notable missing stars 20–50 ly ---
+# Galactic center direction (small x, large positive y)
 
+	# Muphrid (Eta Boötis) — G0IV subgiant, 37.0 ly, Boötes
+	# Named optical companion to Arcturus; ~4× solar luminosity; slight subgiant
+	# l ≈ 5.1°
+	system = {
+		id = "302" name = "Muphrid" position = { x = 26 y = 295 }
+		initializer = astra_invicta_yellow_dwarf_unary_init
+		}
+
+	# HD 172051 — G5V solar analog, 42.4 ly, Sagittarius
+	# Quiet solar twin toward galactic center
+	# l ≈ 12.7°
+	system = {
+		id = "303" name = "HD 172051" position = { x = 75 y = 331 }
+		initializer = astra_invicta_yellow_dwarf_unary_init
+		}
+
+	# Gamma Serpentis — F6V, 36.3 ly, Serpens
+	# Named bright star; slightly hotter and more luminous than the Sun
+	# l ≈ 27.6°
+	system = {
+		id = "304" name = "Gamma Serpentis" position = { x = 135 y = 257 }
+		initializer = astra_invicta_yellow_white_dwarf_unary_init
+		}
+
+	# Gliese 726 — K5V, 46.1 ly, Serpens Cauda
+	# l ≈ 29.2°
+	system = {
+		id = "305" name = "Gliese 726" position = { x = 180 y = 322 }
+		initializer = astra_invicta_orange_dwarf_unary_init
+		}
+
+	# Lambda Serpentis — G0V, 38.3 ly, Serpens
+	# Confirmed exoplanet (RV detection); probable solar sibling candidate
+	# l ≈ 15.7°  — NOTE: ~64 units from Arcturus, fine
+	system = {
+		id = "306" name = "Lambda Serpentis" position = { x = 83 y = 295 }
+		initializer = astra_invicta_yellow_dwarf_unary_init
+		}
+
+	# 31 Aquilae — G8IV subgiant, 49.4 ly, Aquila
+	# Named evolved solar-type star
+	# l ≈ 47.3°
+	system = {
+		id = "307" name = "31 Aquilae" position = { x = 290 y = 269 }
+		initializer = astra_invicta_yellow_dwarf_unary_init
+		}
+
+	# Zeta Herculis — F9IV+G7V binary, 35.0 ly, Hercules
+	# Resolved orbital binary; period ~34 yr; slightly evolved primary
+	# l ≈ 52.6°
+	system = {
+		id = "308" name = "Zeta Herculis" position = { x = 222 y = 170 }
+		initializer = astra_invicta_yellow_dwarf_binary_init
+		}
+
+	# 72 Herculis — G0V solar analog, 46.9 ly, Hercules
+	# Named solar twin; unusually quiet magnetically
+	# l ≈ 56.0°
+	system = {
+		id = "309" name = "72 Herculis" position = { x = 311 y = 210 }
+		initializer = astra_invicta_yellow_dwarf_unary_init
+		}
+
+	# HD 176051 — G0V+K1V binary, 48.9 ly
+	# 1 confirmed exoplanet via astrometry; wide binary
+	# l ≈ 63.4°
+	system = {
+		id = "310" name = "HD 176051" position = { x = 350 y = 175 }
+		initializer = astra_invicta_yellow_dwarf_binary_init
+		}
+
+	# CM Draconis — M4.5V+M4.5V eclipsing binary, 47.1 ly, Draco
+	# Historically used to search for circumbinary planets via transit timing variations
+	# l ≈ 86.5°
+	system = {
+		id = "311" name = "CM Draconis" position = { x = 376 y = 23 }
+		initializer = astra_invicta_red_dwarf_binary_init
+		}
+
+	# 26 Draconis — F9V+K3V+M1V trinary, 45.9 ly, Draco
+	# l ≈ 91.0°
+	system = {
+		id = "312" name = "26 Draconis" position = { x = 368 y = -6 }
+		initializer = astra_invicta_yellow_dwarf_trinary_init
+		}
+
+	# 19 Draconis — F8V, 49.2 ly, Draco
+	# Named bright star; slightly hotter than the Sun
+	# l ≈ 95.6°
+	system = {
+		id = "313" name = "19 Draconis" position = { x = 392 y = -38 }
+		initializer = astra_invicta_yellow_white_dwarf_unary_init
+		}
+
+	# Iota Pegasi — F5V+G8V binary, 38.3 ly, Pegasus
+	# Named binary; well-separated pair, both solar-type
+	# l ≈ 82.3°
+	system = {
+		id = "314" name = "Iota Pegasi" position = { x = 304 y = 41 }
+		initializer = astra_invicta_yellow_white_dwarf_binary_init
+		}
+
+	# HIP 79431 (Sharjah) — M3V, 47.0 ly
+	# IAU-named; 1 confirmed gas giant in inner orbit — rare for an M dwarf
+	# l ≈ 355.1° — NOTE: ~17 units from Hip 86961 (id 154); adjust if needed
+	system = {
+		id = "315" name = "HIP 79431" position = { x = -30 y = 375 }
+		initializer = astra_invicta_red_dwarf_unary_init
+		}
+
+	# Porrima (Gamma Virginis) — F0V+F0V near-twin binary, 38.7 ly, Virgo
+	# Identical twin pair; famous resolved binary; orbital period ~168 yr
+	# l ≈ 297.8°; very high galactic latitude (b ≈ +61°)
+	system = {
+		id = "316" name = "Porrima" position = { x = -274 y = 145 }
+		initializer = astra_invicta_yellow_white_dwarf_binary_init
+		}
+
+	# HD 69830 — G8V solar analog, 41.0 ly, Puppis
+	# 3 confirmed Neptune-mass planets; prominent warm debris disk
+	# l ≈ 234.5°
+	system = {
+		id = "317" name = "HD 69830" position = { x = -267 y = -191 }
+		initializer = astra_invicta_yellow_dwarf_unary_init
+		}
+
+	# 58 Eridani — G1.5V solar analog, 43.4 ly, Eridanus
+	# l ≈ 215.3°
+	system = {
+		id = "318" name = "58 Eridani" position = { x = -201 y = -283 }
+		initializer = astra_invicta_yellow_dwarf_unary_init
+		}
+
+	# 11 Leonis Minoris — G8V+M5V binary, 36.5 ly, Leo Minor
+	# G-type primary with distant M dwarf companion; toward galactic anticenter
+	# l ≈ 188.4°
+	system = {
+		id = "319" name = "11 Leonis Minoris" position = { x = -43 y = -289 }
+		initializer = astra_invicta_yellow_dwarf_binary_init
+		}
+
+	# Lambda Aurigae — G1V solar analog, 41.2 ly, Auriga
+	# IAU-named (Al Hurr); probable Pleiades moving group member; near-solar twin
+	# l ≈ 167.8°
+	system = {
+		id = "320" name = "Lambda Aurigae" position = { x = 70 y = -322 }
+		initializer = astra_invicta_yellow_dwarf_unary_init
+		}
+
+	# Gliese 179 — M4V red dwarf, 40.1 ly, Orion
+	# 1 confirmed Jupiter-mass planet (b) + second candidate (c)
+	# l ≈ 192.2°
+	system = {
+		id = "321" name = "Gliese 179" position = { x = -68 y = -314 }
+		initializer = astra_invicta_red_dwarf_unary_init
+		}
+
+	# Castor (Alpha Geminorum) — A1V+Am sextuple system, 49.15 ly, Gemini
+	# Three gravitationally bound visual pairs: Aa+Ab (A1V+M), Ba+Bb (Am+M1), Ca+Cb (M+M)
+	# One of the most complex nearby stellar systems; toward galactic anticenter
+	# l ≈ 187.4° — NOTE: ~15 units from Gliese 195 (id 277) due to projection; adjust if needed
+	system = {
+		id = "322" name = "Castor" position = { x = -51 y = -390 }
+		initializer = astra_invicta_white_dwarf_binary_init # A-type sextuple; custom init recommended
+		}
+
+	# AB Doradus — K0V+M5+M5+M8 quadruple, 49.5 ly, Dorado
+	# Very young (~50 Myr); benchmark for pre-main-sequence stellar activity and rotation
+	# l ≈ 275.3°; far southern sky
+	system = {
+		id = "323" name = "AB Doradus" position = { x = -395 y = 37 }
+		initializer = astra_invicta_orange_dwarf_binary_init # K0V primary; quadruple — custom init recommended
+		}
 
 }
  

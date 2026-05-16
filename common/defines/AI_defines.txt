@@ -1,5 +1,28 @@
 NGameplay = {
 	GOVERNMENT_CIVIC_POINTS_BASE = 3
+    START_YEAR = 2300
+	PLANET_HEALTH_REGEN					= 0.02		# 0.05 previously, slowing it down
+}
+NShip = {
+	SHIP_SPEED_SCALE					= 0.025		# 0.045 previously
+    HYPERDRIVE_INTERSTELLAR_TRAVEL_SPEED = 0.5      # 1.0 previously
+}
+NAI = {
+	AI_WAR_PREPARATION_MIN_MONTHS = 12 			# Minimum time AI will prepare for war, used to be 12
+	AI_WAR_PREPARATION_MAX_MONTHS = 48 			# Maximum time AI will prepare for war, used to be 30
+
+	WAR_DEFENSE_OWN_PLANET_PRIO = 2			# Priority on defending own planets in a controlled system, used to be 1.5
+	WAR_DEFENSE_OWN_PLANET_ENEMY_CONTROL_PRIO = 6 # Priority on defending own planets in an enemy controlled system, used to be 5
+
+	THREAT_DECAY = -0.1							# Each month, used to be -0.25, Hard sci-fi civilizations don't forget. A massacre or a betrayal stays in the institutional memory of an empire for decades. This change also means players who play aggressively will face longer-term diplomatic consequences, which feels more grounded.
+
+
+	AI_MIN_HABITABILITY_TO_COLONIZE = 0.5	# AI will avoid colonizing planets with habitability lower than this. used to be 0.35
+
+    ENEMY_FLEET_POWER_MULT = 1.4					# AI will need the fleet power of the enemy multiplied by this value to become offensive in an offensive war, used to be 1.2
+
+	AI_AGGRESSIVENESS_BASE = 35			# Base chance AI will declare a war (multiplied by personality aggressiveness score), used to be 25
+
 }
 
 NGraphics = {

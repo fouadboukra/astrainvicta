@@ -1,0 +1,579 @@
+##############################################
+# ASTRA INVICTA — SPECIES TRAITS
+# File: common/traits/04_astra_invicta_species_traits.txt
+#
+# Naming convention: trait_ai_[name]
+# Icon path (default fallback): gfx/interface/icons/traits/trait_ai_[name].dds
+#
+# Design principle: each trait represents a structural biological or cognitive
+# difference with genuine tradeoffs — not a price paid for a bonus, but an
+# actual alternate biology. Mechanically grounded in hard sci-fi literature.
+#
+# Organized into four categories:
+#   1. SENSORY        — sightless, echolocation
+#   2. NEUROLOGICAL   — distributed neural, eidetic memory, eusocial cognition, gestalt memory
+#   3. METABOLIC      — obligate carnivore, obligate herbivore, obligate symbiont, radiation tolerant
+#   4. LIFESPAN       — negligible senescence
+##############################################
+
+
+##############################################
+# 1. SENSORY TRAITS
+##############################################
+
+# SIGHTLESS (-2 pts)
+# A species that evolved without functional eyes, or lost vision under
+# geological or ecological pressure (cave systems, deep ocean, dense canopy).
+# Visual communication, surveillance, and environmental reading are absent.
+# The deficit creates genuine gaps in any field dependent on visual information.
+#
+# This trait is designed to pair with Echolocation — together they represent
+# a complete sensory remap rather than a pure deficit. Blind + Echolocating
+# is the intended biological package; Sightless alone is a meaningful handicap.
+#
+# Hard sci-fi anchor: Peter Watts, Blindsight — the radical reconfiguration
+# of sensory architecture and its cognitive downstream effects.
+
+trait_ai_sightless = {
+    cost = -2
+    category = normal
+
+    species_potential_add = {
+        can_add_negative_organic_traits = yes
+    }
+
+    # No species_possible_remove block: follows vanilla pattern for negative traits.
+    # Removal requires standard gene modding access (can_remove_harmful_genetic_traits).
+
+    allowed_archetypes = { BIOLOGICAL }
+    tags = { organic negative sensory leader }
+
+    modifier = {
+        species_leader_exp_gain = -0.10              # visual environmental cues are absent; leaders learn more slowly from physical worlds
+        influential_jobs_bonus_workforce_mult = -0.15 # visual communication is absent; diplomatic and social influence with sighted species is impaired
+        intel_encryption_add = -1                    # covert visual reconnaissance is impossible; signals security suffers
+    }
+
+    slave_cost = {
+        energy = -750
+    }
+
+    ai_weight = {
+        weight = 0
+    }
+}
+
+
+# ECHOLOCATION (+1 pt)
+# Active acoustic or electromagnetic bio-sensing — a biological sensor suite
+# that complements or replaces visual processing. On planetary surfaces: sonar,
+# vibration detection, chemical gradient mapping. Abstracted to interstellar
+# scale: exceptional active-signal processing gives advantages in sensor range
+# and fine-grained signal analysis.
+#
+# Does NOT oppose Sightless. A blind species with echolocation is a coherent
+# biological package: the loss of one sense drove the evolution of another.
+# A sighted species with echolocation is equally valid (bats, dolphins).
+#
+# Hard sci-fi anchor: the Zhael Choir's acoustic-primary perception (Astra Invicta);
+# cephalopod electromagnetic sensing extrapolated to sapient scale.
+
+trait_ai_echolocation = {
+    cost = 1
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    allowed_archetypes = { BIOLOGICAL }
+    tags = { organic positive sensory leader }
+
+    modifier = {
+        ship_sensor_range_add = 1                    # exceptional active-signal processing translates to superior fleet sensor calibration
+        intel_decryption_add = 1                     # fine-grained signal analysis is a code-breaking aptitude
+        intel_encryption_add = 1                     # acoustic/signal-based encryption methods are second nature
+    }
+
+    slave_cost = {
+        energy = 500
+    }
+}
+
+
+##############################################
+# 2. NEUROLOGICAL TRAITS
+##############################################
+
+# DISTRIBUTED NEURAL ARCHITECTURE (+2 pts)
+# Neural tissue distributed throughout the body rather than concentrated
+# in a cephalic brain. No single wound is lethal — individual body segments
+# retain partial function after catastrophic injury. Pops are extraordinarily
+# difficult to incapacitate in ground combat.
+#
+# The tradeoff: centralized executive reasoning is slower when neural computation
+# is distributed across the body. Complex specialist cognition requires inter-node
+# communication that a centralized brain handles more efficiently.
+#
+# Hard sci-fi anchor: cephalopod peripheral nervous systems (two-thirds of
+# octopus neurons are in the arms, not the brain); Peter Watts' treatment
+# of distributed sensory-cognitive architectures in Blindsight/Echopraxia.
+
+trait_ai_distributed_neural = {
+    cost = 2
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    opposites = { "trait_nerve_stapled" }            # nerve-stapling requires a central node; this architecture has none
+
+    allowed_archetypes = { BIOLOGICAL }
+    tags = { organic positive army pop_output }
+
+    modifier = {
+        army_damage_mult = 0.15                      # distributed biology makes soldiers extremely hard to stop
+        army_defense_damage_mult = 0.20              # defensive resilience: eliminating one node does not collapse the soldier
+        researcher_jobs_bonus_workforce_mult = -0.05 # executive cognition is slower when processing is distributed; complex analysis suffers
+    }
+
+    slave_cost = {
+        energy = 1000
+    }
+}
+
+
+# EIDETIC MEMORY (+2 pts)
+# Near-perfect sensory encoding. Every interaction, text, and observation
+# is preserved in high-fidelity recall. Exceptional data analysts. Poor
+# intuitive leapers. A library that cannot free-associate.
+#
+# The tradeoff: cognitive architecture optimized for retention sacrifices
+# plasticity. Leaders develop strong analytical frameworks but struggle with
+# truly novel problems. This manifests as an additional negative leader trait
+# — the inflexibility that comes with perfect recall of prior patterns.
+#
+# Mutually exclusive with Gestalt Memory: both are memory enhancement paths,
+# but they represent opposite approaches (individual retention vs. inherited
+# generational knowledge) and cannot coexist.
+#
+# Hard sci-fi anchor: the cognitive trade-off between analytical precision
+# and creative lateral thinking — a recurring theme in Greg Egan's Diaspora
+# and Alastair Reynolds' characterization of Conjoiners.
+
+trait_ai_eidetic_memory = {
+    cost = 2
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    opposites = { "trait_nerve_stapled" "trait_ai_gestalt_memory" }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+    tags = { organic positive pop_output research leader }
+
+    modifier = {
+        researcher_jobs_bonus_workforce_mult = 0.10  # exceptional recall is a direct research asset
+        species_leader_exp_gain = 0.15               # leaders absorb and retain experience at elevated rate
+        negative_leader_traits_species = 1           # cognitive rigidity: eidetic minds tend toward inflexibility — one extra negative leader trait
+    }
+
+    slave_cost = {
+        energy = 1000
+    }
+}
+
+
+# EUSOCIAL COGNITION (+2 pts)
+# Not a hive mind. Full individual sapience — but the cognitive architecture
+# evolved for role-group identity rather than individual-self identity.
+# Psychologically grounded in collective function. The individual finds meaning
+# in their role, not in personal narrative. Finds individualist ethics
+# philosophically alien rather than wrong.
+#
+# Distinct from Hive-Minded (which eliminates individuality entirely).
+# This species has individuals. Those individuals default to collective purpose.
+#
+# Mutually exclusive with Solitary (impossible psychological combination)
+# and Deviants (deviance requires a self-concept to deviate from).
+#
+# Hard sci-fi anchor: eusocial insect neurology extrapolated to sapient scale —
+# the cognitive architecture of an ant colony that gained sapience without
+# losing its fundamental organizational psychology.
+
+trait_ai_eusocial_cognition = {
+    cost = 2
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    opposites = { "trait_solitary" "trait_deviants" "trait_hive_mind" }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+    tags = { organic positive pop_output unity upkeep individual }
+
+    modifier = {
+        bureaucrat_jobs_bonus_workforce_mult = 0.15     # unity production: collective identity reinforces institutions
+        planet_pops_consumer_goods_upkeep_mult = -0.10  # collective needs are efficiently met; individual luxury is irrelevant
+        pop_government_ethic_attraction = 0.15          # strong conformist cognitive bias reinforces the ruling ethical framework
+    }
+
+    slave_cost = {
+        energy = 1000
+    }
+}
+
+
+# GESTALT MEMORY (+2 pts)
+# Structured epigenetic or chemical memory transfer during reproduction.
+# Offspring are born with partial access to parental learned experience.
+# Each generation starts slightly ahead of where the previous one began.
+# The species does not need to rederive what its ancestors learned.
+#
+# The tradeoff: the memory-transfer process is metabolically expensive and
+# integrated into reproduction itself, slightly slowing the reproductive cycle.
+#
+# Opposite of Eidetic Memory: where eidetics preserve individual experience
+# with perfect fidelity, gestalt memory preserves collective-generational
+# knowledge at the cost of individual precision. They cannot coexist.
+#
+# Hard sci-fi anchor: epigenetic memory research (real-world frontier —
+# mice have been shown to inherit fear-conditioned responses across generations);
+# Robert Forward's Cheela in Dragon's Egg, whose biological knowledge
+# inheritance across nuclear-timescale generations is the species' defining trait.
+
+trait_ai_gestalt_memory = {
+    cost = 2
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    opposites = { "trait_nerve_stapled" "trait_ai_eidetic_memory" }
+
+    allowed_archetypes = { BIOLOGICAL LITHOID }
+    tags = { organic positive pop_output research pop_growth }
+
+    modifier = {
+        researcher_jobs_bonus_workforce_mult = 0.10  # rederivation is unnecessary: knowledge accumulates across generations
+        species_leader_exp_gain = 0.10               # leaders draw on inherited institutional memory from birth
+        logistic_growth_mult = -0.05                 # reproduction involves memory-transfer overhead; marginally slower
+    }
+
+    slave_cost = {
+        energy = 1000
+    }
+}
+
+
+##############################################
+# 3. METABOLIC AND BIOLOGICAL TRAITS
+##############################################
+
+# OBLIGATE CARNIVORE (-1 pt)
+# Strict meat metabolism. Protein processing is efficient; plant matter
+# cannot be meaningfully digested. The predatory evolutionary path produces
+# physically capable biology, but places the species at the top of the food
+# chain — and the trophic pyramid is calorie-expensive. For every unit of
+# food energy at the prey level, roughly one-tenth reaches the predator.
+#
+# Mutually exclusive with Obligate Herbivore.
+#
+# This is a negative trait because the food upkeep cost dominates;
+# the combat bonus is modest and does not compensate at scale.
+
+trait_ai_obligate_carnivore = {
+    cost = -1
+    category = normal
+
+    species_potential_add = {
+        can_add_negative_organic_traits = yes
+    }
+
+    opposites = { "trait_ai_obligate_herbivore" }
+
+    allowed_archetypes = { BIOLOGICAL }
+    tags = { organic negative upkeep food army }
+
+    modifier = {
+        planet_pops_food_upkeep_mult = 0.20          # the trophic pyramid is expensive: 10:1 caloric conversion ratio
+        army_damage_mult = 0.10                      # predatory biology confers meaningful combat advantage
+        planet_pops_consumer_goods_upkeep_mult = -0.05  # simple material needs; comfort is evolutionarily irrelevant
+    }
+
+    slave_cost = {
+        energy = -500
+    }
+
+    ai_weight = {
+        weight = 0
+    }
+}
+
+
+# OBLIGATE HERBIVORE (+1 pt)
+# Strictly plant-based metabolism. Efficient food conversion: primary producers
+# are calorie-dense relative to prey, and agricultural land produces more food
+# per unit area than pasture. The prey-species evolutionary path produced
+# heightened social bonding and communal behavior but diminished individual
+# aggression and predatory capability.
+#
+# Mutually exclusive with Obligate Carnivore.
+
+trait_ai_obligate_herbivore = {
+    cost = 1
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    opposites = { "trait_ai_obligate_carnivore" }
+
+    allowed_archetypes = { BIOLOGICAL }
+    tags = { organic positive upkeep food army amenities }
+
+    modifier = {
+        planet_pops_food_upkeep_mult = -0.15         # plant metabolism is calorie-efficient; less food required per pop
+        army_damage_mult = -0.15                     # prey-species biology: not evolved for direct predatory combat
+        pop_amenities_usage_mult = -0.05             # social prey species are communally easier to satisfy; amenity needs are lower
+    }
+
+    slave_cost = {
+        energy = 500
+    }
+}
+
+
+# OBLIGATE SYMBIONT (+1 pt)
+# Co-evolved with a suite of partner organisms: gut symbionts, external
+# microbiome, commensal companions. The immune and metabolic systems
+# function below capacity without these biological partners.
+#
+# Thrives on living worlds where symbiont communities are available.
+# Struggles on sterile, dead, or artificial worlds where those partners
+# cannot survive. The habitability penalty on barren and artificial
+# environments reflects the progressive failure of biological systems
+# that their absent partners would normally maintain.
+#
+# Hard sci-fi anchor: the ubiquity of obligate symbiosis in Earth biology —
+# mitochondria, gut microbiome, mycorrhizal networks — extrapolated to a
+# species-level dependency.
+
+trait_ai_obligate_symbiont = {
+    cost = 1
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    allowed_archetypes = { BIOLOGICAL }
+    tags = { organic positive pop_growth habitability upkeep }
+
+    modifier = {
+        logistic_growth_mult = 0.15                  # symbiotic biology accelerates population development on viable worlds
+        planet_pops_food_upkeep_mult = 0.05          # symbiont communities require a marginal share of the food supply
+    }
+
+    # Reduced habitability on sterile and artificial worlds where symbiont
+    # partners cannot establish. This is a growth habitability modifier —
+    # it affects the effective habitability used in pop growth calculations.
+    triggered_planet_growth_habitability_modifier = {
+        potential = {
+            exists = planet
+            planet = {
+                OR = {
+                    is_planet_class = pc_barren
+                    is_planet_class = pc_barren_cold
+                    is_planet_class = pc_nuked
+                    is_planet_class = pc_habitat
+                }
+            }
+        }
+        pop_environment_tolerance = -0.10            # symbiont partners are absent; biological systems underperform
+    }
+
+    slave_cost = {
+        energy = 500
+    }
+}
+
+
+# RADIATION TOLERANT (+1 pt)
+# Evolved near a flare star or under a magnetosphere too thin to filter
+# high-energy radiation. DNA-repair enzyme efficiency is exceptional —
+# the product of billions of years of high-mutagenic-pressure selection.
+# This is not immunity. It is robust damage correction running faster
+# than damage accumulates.
+#
+# Provides meaningful advantages on irradiated worlds where other species
+# find habitability severely compromised.
+#
+# Mutually exclusive with Radiotrophic: that is lithoid-specific energy
+# metabolism (feeding on radiation); this is biological hardening in
+# organic tissue. They represent different solutions to the same pressure.
+#
+# Hard sci-fi anchor: real-world radioresistant organisms (Deinococcus
+# radiodurans, tardigrades) extrapolated to sapient biology; the radiation
+# tolerance implications explored throughout the Revelation Space universe.
+
+trait_ai_radiation_tolerant = {
+    cost = 1
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    opposites = { "trait_radiotrophic" "trait_plantoid_radiotrophic" }
+
+    allowed_archetypes = { BIOLOGICAL }                  # lithoids have radiotrophic; this is the biological-organic equivalent
+    tags = { organic positive habitability army }
+
+    modifier = {
+        pc_nuked_habitability = 0.15                 # irradiated worlds are meaningfully less hostile
+        army_defense_damage_mult = 0.05              # biological cellular resilience extends marginally to combat durability
+    }
+
+    # Additional growth bonus on irradiated worlds: this species doesn't merely
+    # tolerate the radiation environment — it grows faster there than elsewhere,
+    # because competitors are absent.
+    triggered_planet_growth_habitability_modifier = {
+        potential = {
+            exists = planet
+            planet = { is_planet_class = pc_nuked }
+        }
+        logistic_growth_mult = 0.10                  # thrives where others cannot survive
+    }
+
+    slave_cost = {
+        energy = 500
+    }
+}
+
+
+##############################################
+# 4. LIFESPAN TRAITS
+##############################################
+
+# NEGLIGIBLE SENESCENCE (+4 pts)
+# Cellular repair mechanisms outpace accumulation of damage. Leaders do not
+# age. There is no natural lifespan ceiling for this species — individuals
+# die from injury, disease, or accident, not from time.
+#
+# The cost of immortality is significant and biological:
+#
+# 1. Reproductive drive is evolutionarily suppressed. A species with no natural
+#    death has no selective pressure toward rapid reproduction. Population growth
+#    is slow — not because individuals can't reproduce, but because they're not
+#    driven to. (logistic_growth_mult penalty)
+#
+# 2. Maintaining biological systems indefinitely requires ongoing resource
+#    investment. Real-world negligible senescence organisms (lobsters, hydra,
+#    naked mole rats) invest heavily in cellular maintenance. At civilizational
+#    scale, this manifests as elevated material upkeep per pop.
+#    (consumer goods upkeep increase)
+#
+# 3. Leaders who do not age accumulate experience and institutional knowledge
+#    without the disruption of death, giving them exceptional long-term morale
+#    and effectiveness. The ruling class does not face succession crises.
+#    (ruler category happiness bonus)
+#
+# Mutually exclusive with all lifespan-modifying traits (venerable, enduring,
+# fleeting) — negligible senescence supersedes all of them.
+#
+# Hard sci-fi anchor: the biology of real-world negligible senescence organisms;
+# Alastair Reynolds' Conjoiners and their extended functional lifespans;
+# Greg Egan's treatment of biological immortality in Diaspora and Schild's Ladder.
+
+trait_ai_negligible_senescence = {
+    cost = 4
+    category = normal
+
+    species_possible_add = {
+        can_add_genetic_traits = yes
+    }
+    species_possible_remove = {
+        can_remove_beneficial_genetic_traits = yes
+    }
+    species_possible_merge_remove = {
+        always = yes
+    }
+
+    opposites = {
+        "trait_venerable"
+        "trait_enduring"
+        "trait_fleeting"
+        "trait_fleeting_lithoid"
+    }
+
+    allowed_archetypes = { BIOLOGICAL }
+    tags = { organic positive leader pop_growth upkeep }
+
+    immortal_leaders = yes                           # leaders of this species do not die of age
+
+    modifier = {
+        planet_pops_consumer_goods_upkeep_mult = 0.20   # maintaining biological systems indefinitely is materially expensive
+        logistic_growth_mult = -0.20                    # reproductive drive is evolutionarily suppressed; population growth is slow
+        pop_cat_ruler_happiness = 0.10                  # a ruling class that does not age has structural stability and high morale
+    }
+
+    slave_cost = {
+        energy = 2000
+    }
+}
