@@ -149,7 +149,7 @@ humans2 = {
 kvarian_league = {
 	name = "EMPIRE_DESIGN_kvarian_league"
 	adjective = "PRESCRIPTED_adjective_kvarian_league"
-	spawn_enabled = always
+	spawn_enabled = yes
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_kvarian_league"
@@ -222,7 +222,7 @@ kvarian_league = {
 essharian_mandate = {
 	name = "EMPIRE_DESIGN_essharian_mandate"
 	adjective = "PRESCRIPTED_adjective_essharian_mandate"
-	spawn_enabled = always
+	spawn_enabled = yes
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_essharian_mandate"
@@ -298,7 +298,7 @@ essharian_mandate = {
 vaekharan_council = {
 	name = "EMPIRE_DESIGN_vaekharan_council"
 	adjective = "PRESCRIPTED_adjective_vaekharan_council"
-	spawn_enabled = always
+	spawn_enabled = yes
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_vaekharan_council"
@@ -372,7 +372,7 @@ vaekharan_council = {
 zhael_choir = {
 	name = "EMPIRE_DESIGN_zhael_choir"
 	adjective = "PRESCRIPTED_adjective_zhael_choir"
-	spawn_enabled = always
+	spawn_enabled = yes
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_zhael_choir"
@@ -445,7 +445,7 @@ zhael_choir = {
 athari_concord = {
 	name = "EMPIRE_DESIGN_athari_concord"
 	adjective = "PRESCRIPTED_adjective_athari_concord"
-	spawn_enabled = always
+	spawn_enabled = yes
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_athari_concord"
@@ -519,7 +519,7 @@ athari_concord = {
 selkari_confederation = {
 	name = "EMPIRE_DESIGN_selkari_confederation"
 	adjective = "PRESCRIPTED_adjective_selkari_confederation"
-	spawn_enabled = always
+	spawn_enabled = yes
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_selkari_confederation"
@@ -594,7 +594,7 @@ selkari_confederation = {
 eridian_republic = {
 	name = "EMPIRE_DESIGN_eridian_republic"
 	adjective = "PRESCRIPTED_adjective_eridian_republic"
-	spawn_enabled = always
+	spawn_enabled = yes
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_eridian_republic"
